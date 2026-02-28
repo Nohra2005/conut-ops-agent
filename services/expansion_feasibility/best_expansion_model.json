@@ -1,0 +1,35 @@
+{
+  "run_id": "8c7fdcc1407c48c6a8c953f17a65d3d3",
+  "model_name": "SVM",
+  "params": {
+    "C": "1.0",
+    "kernel": "linear",
+    "probability": "True",
+    "random_state": "42"
+  },
+  "weighted_f1": 0.7333,
+  "accuracy": 0.75,
+  "trained_on": "2026-02-28T18:29:56.779917",
+  "n_branches": 4,
+  "feature_names": [
+    "last_util_pct",
+    "avg_util_pct",
+    "streak_above_80",
+    "streak_above_60",
+    "pct_months_above_80",
+    "pct_months_above_60",
+    "slope_normalized",
+    "r_squared",
+    "mom_pct",
+    "n_months",
+    "customer_count",
+    "repeat_rate_pct",
+    "avg_order_value",
+    "avg_orders_per_customer"
+  ],
+  "label_names": {
+    "0": "DO_NOT_EXPAND",
+    "1": "MONITOR",
+    "2": "EXPAND"
+  }
+}

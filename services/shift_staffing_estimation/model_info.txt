@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Last trained : 2026-02-28 18:31
+=======
+Last trained : 2026-02-28 18:21
+>>>>>>> b20491e52c3cf3d3058ebed2a105d774b1568eea
 Training rows: 87
 Branches     : ['Conut - Tyre', 'Conut Jnah', 'Main Street Coffee']
 Best model   : Ridge
