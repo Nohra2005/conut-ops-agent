@@ -1,6 +1,6 @@
-Last trained : 2026-02-28 14:55
+Last trained : 2026-02-28 18:31
 Training rows: 87
 Branches     : ['Conut - Tyre', 'Conut Jnah', 'Main Street Coffee']
 Best model   : Ridge
 Best MAE     : 0.714
-Champion ver : 3
+Champion ver : 6

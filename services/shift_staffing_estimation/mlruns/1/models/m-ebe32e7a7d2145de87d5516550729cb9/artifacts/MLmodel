@@ -1,0 +1,29 @@
+artifact_path: file:C:/Users/User/OneDrive - American University of Beirut/Desktop/conut-ops-agent/services/shift_staffing_estimation/mlruns/1/models/m-ebe32e7a7d2145de87d5516550729cb9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+metadata:
+  le_classes:
+  - Conut - Tyre
+  - Conut Jnah
+  - Main Street Coffee
+  model_type: RandomForest
+mlflow_version: 3.10.0
+model_id: m-ebe32e7a7d2145de87d5516550729cb9
+model_size_bytes: 812753
+model_uuid: m-ebe32e7a7d2145de87d5516550729cb9
+prompts: null
+run_id: e1bd6c052ef34812b2c76ac8a200cc2d
+utc_time_created: '2026-02-28 16:31:17.678259'

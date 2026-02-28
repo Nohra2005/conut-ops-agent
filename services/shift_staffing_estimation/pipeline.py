@@ -89,6 +89,12 @@ def parse_attendance(filepaths: list) -> dict:
     date_re  = re.compile(r"^\d{2}-[A-Za-z]{3}-\d{2}$")
 
     for filepath in filepaths:
+        filepath = filepath.strip()
+        # Safety check to prevent directory permission errors
+        if not Path(filepath).is_file():
+            print(f"  ⚠ Skipping invalid file or directory: '{filepath}'")
+            continue
+
         current_emp, current_branch = None, None
         with open(filepath, encoding="utf-8-sig", newline="") as f:
             for line in f:
@@ -124,6 +130,13 @@ def parse_attendance(filepaths: list) -> dict:
 # ─────────────────────────────────────────────────────────────────────────────
 def parse_inventory(filepath: str) -> dict:
     inventory = defaultdict(float)
+    filepath = filepath.strip()
+    
+    # Safety check
+    if not Path(filepath).is_file():
+        print(f"  ⚠ Cannot find inventory file at: '{filepath}'")
+        return inventory
+
     with open(filepath, encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f):
             date   = row.get("date", "").strip()
