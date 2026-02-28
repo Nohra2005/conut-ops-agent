@@ -59,6 +59,13 @@ def run_preprocessing(data_dir, output_dir):
     branch_totals = m_weights.groupby('branch')['revenue'].sum().reset_index(name='annual_rev')
     m_weights = pd.merge(m_weights, branch_totals, on='branch')
     m_weights['monthly_weight'] = m_weights['revenue'] / m_weights['annual_rev']
+    branch_avg = m_weights.groupby('branch')['revenue'].transform('mean')
+    m_weights = m_weights[m_weights['revenue'] >= branch_avg * 0.1] 
+    
+    # Fill missing months with the branch's average weight
+    all_months = list(calendar.month_name)[1:]
+    m_weights = m_weights.groupby('branch').apply(
+    lambda g: g.set_index('month').reindex(all_months).fillna(g['monthly_weight'].mean()).reset_index()).reset_index(drop=True)
 
     # --- 3. dow seasonality (file 461) ---
     path_461 = os.path.join(data_dir, "REP_S_00461.csv")
@@ -120,8 +127,11 @@ def run_preprocessing(data_dir, output_dir):
         print("No existing dataset found. Creating fresh master file...")
         new_data.to_csv(output_file, index=False)
         print(f"Created master_daily_inventory.csv with {len(new_data)} records.")
-
-if __name__ == "__main__":
+        
+        
+def __init__(self, model_dir):
+    if not os.path.exists(os.path.join(model_dir, "xgb_inventory_model.json")):
+        raise FileNotFoundError("Model not found. Run retrain_forecast.py first.")
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     DATA_FOLDER = os.path.normpath(os.path.join(BASE_DIR, "..", "..", "data"))
     OUTPUT_FOLDER = BASE_DIR
