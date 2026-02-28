@@ -3,15 +3,9 @@ import os
 import sys
 
 def run_pipeline():
-    # Dynamic path resolution
-    # BASE_DIR is .../conut-ops-agent/pipeline
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # ROOT_DIR is .../conut-ops-agent
-    root_dir = os.path.normpath(os.path.join(current_dir, ".."))
-    
-    # Path to the forecasting scripts
-    forecast_dir = os.path.join(root_dir, "services", "forecasting")
+    # Dynamic path resolution to find the forecasting folder
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    forecast_dir = os.path.join(base_dir, "services", "forecasting")
     
     # Define the scripts in order
     pipeline_scripts = [
@@ -20,39 +14,32 @@ def run_pipeline():
         "forecast_service.py"
     ]
     
-    print("="*40)
+    print("="*30)
     print("STARTING RETRAINING PIPELINE")
-    print(f"Target Directory: {forecast_dir}")
-    print("="*40)
+    print("="*30)
     
     for script in pipeline_scripts:
         script_path = os.path.join(forecast_dir, script)
-        
-        # Check if script exists before running
-        if not os.path.exists(script_path):
-            print(f"\n!!! ERROR: Cannot find {script} at {script_path}")
-            continue
-
         print(f"\n>>> Executing: {script}")
         
         try:
             # Run the script using the current python executable
-            subprocess.run(
+            result = subprocess.run(
                 [sys.executable, script_path],
                 check=True,
                 text=True,
-                capture_output=False 
+                capture_output=False # Set to True if you want to hide internal logs
             )
             print(f"--- {script} completed successfully ---")
         except subprocess.CalledProcessError as e:
             print(f"\n!!! ERROR: {script} failed.")
             print(f"Reason: {e}")
-            return 
+            return # Stop the pipeline if one step fails
 
-    print("\n" + "="*40)
+    print("\n" + "="*30)
     print("PIPELINE SUCCESSFUL")
-    print("Forecasting model and assets updated.")
-    print("="*40)
+    print("All models and charts updated.")
+    print("="*30)
 
 if __name__ == "__main__":
     run_pipeline()
