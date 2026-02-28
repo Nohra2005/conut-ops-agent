@@ -2,12 +2,6 @@
   "cv_folds": 4,
   "cv_mae_mean": 0.02139,
   "cv_mae_std": 0.00564,
-  "cv_mae_scores": [
-    0.03055,
-    0.01515,
-    0.01978,
-    0.02007
-  ],
-  "trained_at": "2026-02-28T14:31:36",
+  "trained_at": "2026-02-28T17:32:54.430161",
   "best_params": null
 }
