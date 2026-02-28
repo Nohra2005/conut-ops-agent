@@ -1,0 +1,29 @@
+artifact_path: file:///C:/Users/royba/Downloads/conut-ops-agent/Shift_Staffing_Estimation/mlruns/1/models/m-a2295690c8d8425ba20711a36397783b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+    skops_trusted_types: null
+metadata:
+  le_classes:
+  - Conut - Tyre
+  - Conut Jnah
+  - Main Street Coffee
+  model_type: GradientBoosting
+mlflow_version: 3.10.0
+model_id: m-a2295690c8d8425ba20711a36397783b
+model_size_bytes: 445604
+model_uuid: m-a2295690c8d8425ba20711a36397783b
+prompts: null
+run_id: fdb6bc41af4d478b926db7241ef1cc6f
+utc_time_created: '2026-02-28 12:55:12.305576'
