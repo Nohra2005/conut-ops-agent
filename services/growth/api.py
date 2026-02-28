@@ -9,7 +9,7 @@ def health():
 
 @app.get("/growth/crosssell")
 def crosssell():
-    """Returns the 83% drink gap insight + best bundles + revenue opportunity."""
+    """Returns the drink gap insight + best bundles + revenue opportunity."""
     return get_crosssell_opportunity()
 
 @app.get("/growth/benchmarks")
