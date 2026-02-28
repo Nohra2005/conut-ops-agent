@@ -1,0 +1,18 @@
+{
+  "last_updated": "2026-02-28T15:49:56.410930",
+  "data_months_available": 5,
+  "thresholds": {
+    "P1_SATURATION_THRESHOLD": 0.8,
+    "P1_AMBER_THRESHOLD": 0.6,
+    "P1_MIN_CONSECUTIVE": 2,
+    "P2_R2_MIN_GREEN": 0.7,
+    "P2_R2_MIN_AMBER": 0.4,
+    "P2_MIN_MONTHS": 3,
+    "P3_MIN_CUSTOMERS_GREEN": 150,
+    "P3_MIN_CUSTOMERS_AMBER": 50,
+    "P3_REPEAT_RATE_GREEN": 0.15,
+    "P3_REPEAT_RATE_AMBER": 0.05,
+    "CLOSURE_MAX_LAST_UTIL": 0.2,
+    "CLOSURE_MAX_MOM_CHANGE": -0.5
+  }
+}
