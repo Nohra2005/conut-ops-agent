@@ -2,7 +2,7 @@
 retrain.py  —  Combo Pricing Model Retraining Script
 ═════════════════════════════════════════════════════
   python retrain.py              # retrain with default data files
-  python retrain.py --tune       # retrain + hyperparameter search
+  python retrain.py --tune       # retrain + multi-model hyperparameter search (RF, GB, ET, Ridge)
   python retrain.py --dry-run    # validate data only
   python retrain.py --force      # replace even if new model is worse
 """
@@ -12,8 +12,11 @@ import numpy as np, pandas as pd, joblib
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from datetime import datetime
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, ExtraTreesRegressor
+from sklearn.linear_model import Ridge
 from sklearn.model_selection import GridSearchCV, cross_val_score, learning_curve
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
 import mlflow
 import mlflow.sklearn
 
@@ -69,14 +72,54 @@ def train(X, y, params=None):
     model = RandomForestRegressor(**params); model.fit(X, y)
     print(f"      ✓  Training complete"); return model
 
-def tune(X, y):
-    print(f"\n[2/5] Hyperparameter tuning...")
-    param_grid = {"n_estimators": [50,100,200], "max_depth": [None,5,10], "min_samples_leaf": [1,2,5]}
-    gs = GridSearchCV(RandomForestRegressor(random_state=42), param_grid,
-                      cv=min(5,len(X)), scoring="neg_mean_absolute_error", n_jobs=-1, verbose=1)
-    gs.fit(X, y)
-    print(f"      ✓  Best params: {gs.best_params_}  MAE: {-gs.best_score_:.5f}")
-    return gs.best_estimator_, gs.best_params_
+MODEL_CANDIDATES = [
+    (
+        "RandomForest",
+        RandomForestRegressor(random_state=42),
+        {"n_estimators": [50, 100, 200], "max_depth": [None, 5, 10], "min_samples_leaf": [1, 2, 5]},
+    ),
+    (
+        "GradientBoosting",
+        GradientBoostingRegressor(random_state=42),
+        {"n_estimators": [50, 100, 200], "max_depth": [3, 5, 7], "learning_rate": [0.05, 0.1, 0.2]},
+    ),
+    (
+        "ExtraTrees",
+        ExtraTreesRegressor(random_state=42),
+        {"n_estimators": [50, 100, 200], "max_depth": [None, 5, 10], "min_samples_leaf": [1, 2, 5]},
+    ),
+    (
+        "Ridge",
+        Pipeline([("scaler", StandardScaler()), ("ridge", Ridge())]),
+        {"ridge__alpha": [0.01, 0.1, 1.0, 10.0, 100.0]},
+    ),
+]
+
+def tune_all_models(X, y):
+    print(f"\n[2/5] Multi-model hyperparameter search ({len(MODEL_CANDIDATES)} candidates)...")
+    cv = min(5, len(X))
+    best_name, best_estimator, best_params, best_score = None, None, None, float("inf")
+
+    results = []
+    for name, estimator, param_grid in MODEL_CANDIDATES:
+        print(f"      → {name}...", end=" ", flush=True)
+        gs = GridSearchCV(estimator, param_grid, cv=cv,
+                          scoring="neg_mean_absolute_error", n_jobs=-1)
+        gs.fit(X, y)
+        mae = -gs.best_score_
+        results.append((name, mae, gs.best_params_))
+        print(f"MAE {mae:.5f}  params: {gs.best_params_}")
+        if mae < best_score:
+            best_score = mae
+            best_name, best_estimator, best_params = name, gs.best_estimator_, gs.best_params_
+
+    print(f"\n      ┌─ Model comparison ({'─'*40})")
+    for name, mae, params in sorted(results, key=lambda r: r[1]):
+        marker = "◀ BEST" if name == best_name else ""
+        print(f"      │  {name:<20}  MAE {mae:.5f}  {marker}")
+    print(f"      └{'─'*46}")
+    print(f"      ✓  Winner: {best_name}  MAE: {best_score:.5f}")
+    return best_estimator, best_name, best_params
 
 def evaluate(model, X, y):
     n_splits = min(5, len(X))
@@ -117,6 +160,7 @@ def save_model(model, metrics, best_params, force):
     backup_current_model()
     joblib.dump(model, MODEL_PATH)
     metrics["best_params"] = best_params
+    metrics["model_name"]  = getattr(model, "__class__", type(model)).__name__
     with open(METRICS_PATH, "w") as f: json.dump(metrics, f, indent=2)
     print(f"      ✓  Saved → {MODEL_PATH}"); return True
 
@@ -136,11 +180,27 @@ def save_learning_curve(model, X, y):
     print(f"      ✓  Saved → {out}")
 
 def save_feature_importance(model, feature_names):
-    imp = model.feature_importances_; idx = np.argsort(imp)
-    fig, ax = plt.subplots(figsize=(7,4)); _style(fig, ax)
+    # Unwrap Pipeline to get the final estimator
+    estimator = model.steps[-1][1] if hasattr(model, "steps") else model
+    if not hasattr(estimator, "feature_importances_"):
+        # Linear model — use absolute coefficients instead
+        if hasattr(estimator, "coef_"):
+            imp = np.abs(estimator.coef_)
+            chart_title = "Feature Coefficients (abs)"
+            xlabel = "Absolute Coefficient"
+        else:
+            print("      ⚠  Model has no importances or coefs — skipping chart.")
+            return
+    else:
+        imp = estimator.feature_importances_
+        chart_title = "Feature Importance"
+        xlabel = "Importance Score"
+
+    idx = np.argsort(imp)
+    fig, ax = plt.subplots(figsize=(7, 4)); _style(fig, ax)
     ax.barh([feature_names[i] for i in idx], imp[idx], color=GOLD, edgecolor="none")
-    ax.set_title("Feature Importance", fontsize=11, fontweight="bold")
-    ax.set_xlabel("Importance Score"); plt.tight_layout()
+    ax.set_title(chart_title, fontsize=11, fontweight="bold")
+    ax.set_xlabel(xlabel); plt.tight_layout()
     out = os.path.join(MODEL_DIR, "feature_importance.png")
     plt.savefig(out, dpi=130, bbox_inches="tight"); plt.close()
     print(f"      ✓  Saved → {out}")
@@ -179,8 +239,10 @@ def main():
         mlflow.log_param("feature_names", X.columns.tolist())
 
         best_params = None
+        model_name = "RandomForest"
         if args.tune:
-            model, best_params = tune(X, y)
+            model, model_name, best_params = tune_all_models(X, y)
+            mlflow.log_param("winning_model", model_name)
             mlflow.log_params(best_params)
         else:
             default_params = {"n_estimators": 100, "random_state": 42}
