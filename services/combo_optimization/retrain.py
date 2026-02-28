@@ -14,6 +14,8 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV, cross_val_score, learning_curve
+import mlflow
+import mlflow.sklearn
 
 BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR  = os.path.join(BASE_DIR, "models")
@@ -161,14 +163,49 @@ def main():
 
     if args.dry_run: print("\n  --dry-run: data looks good. Exiting."); sys.exit(0)
 
-    best_params = None
-    if args.tune: model, best_params = tune(X, y)
-    else: model = train(X, y)
+    mlflow.set_experiment("combo")
 
-    metrics = evaluate(model, X, y)
-    saved   = save_model(model, metrics, best_params, force=args.force)
-    save_learning_curve(model, X, y)
-    save_feature_importance(model, X.columns.tolist())
+    with mlflow.start_run():
+        mlflow.set_tags({
+            "trained_at": datetime.now().isoformat(),
+            "prices_path": args.prices,
+            "combos_path": args.data,
+            "tuned": str(args.tune),
+            "forced": str(args.force),
+        })
+
+        mlflow.log_param("n_samples", len(X))
+        mlflow.log_param("n_features", X.shape[1])
+        mlflow.log_param("feature_names", X.columns.tolist())
+
+        best_params = None
+        if args.tune:
+            model, best_params = tune(X, y)
+            mlflow.log_params(best_params)
+        else:
+            default_params = {"n_estimators": 100, "random_state": 42}
+            model = train(X, y, default_params)
+            mlflow.log_params(default_params)
+
+        metrics = evaluate(model, X, y)
+        mlflow.log_metric("cv_mae_mean", metrics["cv_mae_mean"])
+        mlflow.log_metric("cv_mae_std",  metrics["cv_mae_std"])
+        mlflow.log_metric("cv_folds",    metrics["cv_folds"])
+
+        saved = save_model(model, metrics, best_params, force=args.force)
+        mlflow.log_param("model_deployed", saved)
+
+        lc_path = os.path.join(MODEL_DIR, "learning_curve.png")
+        fi_path = os.path.join(MODEL_DIR, "feature_importance.png")
+        save_learning_curve(model, X, y)
+        save_feature_importance(model, X.columns.tolist())
+
+        mlflow.log_artifact(lc_path, artifact_path="charts")
+        mlflow.log_artifact(fi_path, artifact_path="charts")
+        if os.path.exists(METRICS_PATH):
+            mlflow.log_artifact(METRICS_PATH, artifact_path="metrics")
+
+        mlflow.sklearn.log_model(model, artifact_path="model")
 
     print("\n" + "═"*60)
     print("  ✓  Done. Model deployed." if saved else "  ✗  Done. Model NOT replaced (use --force).")
