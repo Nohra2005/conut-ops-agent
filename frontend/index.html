@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conut — Chief of Operations</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:       #0A0A0A;
+    --surface:  #111111;
+    --surface2: #1A1A1A;
+    --border:   #2A2A2A;
+    --gold:     #C9A84C;
+    --gold2:    #E8C96A;
+    --cream:    #F5F0E8;
+    --muted:    #666666;
+    --green:    #4CAF82;
+    --amber:    #E8A020;
+    --red:      #E84545;
+    --text:     #E8E8E8;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── GRAIN OVERLAY ── */
+  body::before {
+    content:'';
+    position:fixed; inset:0; pointer-events:none; z-index:999;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    opacity: 0.4;
+  }
+
+  /* ── HEADER ── */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 48px 28px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+  }
+  header::after {
+    content:'';
+    position:absolute; bottom:-1px; left:48px;
+    width:80px; height:2px; background:var(--gold);
+  }
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    color: var(--cream);
+  }
+  .logo span { color: var(--gold); }
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .status-dot {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 8px var(--green);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%,100% { opacity:1; } 50% { opacity:0.4; }
+  }
+  .refresh-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 8px 16px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .refresh-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+  /* ── NAV TABS ── */
+  nav {
+    display: flex;
+    gap: 0;
+    padding: 0 48px;
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+  }
+  nav::-webkit-scrollbar { display:none; }
+  .tab {
+    padding: 18px 28px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: all 0.2s;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--gold); border-bottom-color: var(--gold); }
+  .tab-port {
+    font-size: 9px;
+    background: var(--surface2);
+    padding: 2px 6px;
+    border-radius: 2px;
+    color: var(--muted);
+  }
+  .tab.active .tab-port { color: var(--gold); background: rgba(201,168,76,0.1); }
+
+  /* ── MAIN ── */
+  main { padding: 40px 48px; max-width: 1400px; }
+
+  .section { display: none; animation: fadeIn 0.3s ease; }
+  .section.active { display: block; }
+  @keyframes fadeIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+
+  /* ── SECTION HEADER ── */
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 36px;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--cream);
+    line-height: 1.1;
+  }
+  .section-title small {
+    display: block;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 6px;
+  }
+  .section-action {
+    display: flex;
+    gap: 12px;
+  }
+
+  /* ── CARDS GRID ── */
+  .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 32px; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 24px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: #3A3A3A; }
+  .card::before {
+    content:'';
+    position:absolute; top:0; left:0;
+    width:3px; height:100%;
+    background: var(--gold);
+    opacity: 0.4;
+  }
+  .card.green::before { background: var(--green); opacity:0.7; }
+  .card.amber::before { background: var(--amber); opacity:0.7; }
+  .card.red::before   { background: var(--red);   opacity:0.7; }
+
+  .card-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+  .card-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--cream);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .card-value.sm { font-size: 22px; }
+  .card-sub {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  /* ── TABLE ── */
+  .table-wrap {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  .table-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  table { width: 100%; border-collapse: collapse; }
+  th {
+    padding: 12px 24px;
+    text-align: left;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+    font-weight: 400;
+  }
+  td {
+    padding: 14px 24px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+    vertical-align: middle;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+
+  /* ── BADGES ── */
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-radius: 2px;
+  }
+  .badge-green  { background: rgba(76,175,130,0.15); color: var(--green); }
+  .badge-amber  { background: rgba(232,160,32,0.15); color: var(--amber); }
+  .badge-red    { background: rgba(232,69,69,0.15);  color: var(--red);   }
+  .badge-gold   { background: rgba(201,168,76,0.15); color: var(--gold);  }
+  .badge-muted  { background: rgba(255,255,255,0.05); color: var(--muted); }
+
+  /* ── FORECAST FORM ── */
+  .form-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .form-group label {
+    display: block;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .form-group select,
+  .form-group input {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 10px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    outline: none;
+    transition: border-color 0.2s;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  .form-group select:focus,
+  .form-group input:focus { border-color: var(--gold); }
+  .form-group select option { background: var(--surface2); }
+
+  .btn {
+    background: var(--gold);
+    color: #0A0A0A;
+    border: none;
+    padding: 12px 28px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s;
+  }
+  .btn:hover { background: var(--gold2); }
+  .btn:disabled { background: var(--border); color: var(--muted); cursor: not-allowed; }
+  .btn-ghost {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+  }
+  .btn-ghost:hover { border-color: var(--gold); color: var(--gold); background: transparent; }
+
+  /* ── RESULT BOX ── */
+  .result-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--gold);
+    padding: 20px 24px;
+    margin-top: 20px;
+    display: none;
+  }
+  .result-box.show { display: block; animation: fadeIn 0.3s ease; }
+  .result-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .result-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ── DAILY BREAKDOWN ── */
+  .breakdown-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    margin-top: 20px;
+  }
+  .breakdown-day {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    padding: 12px 8px;
+    text-align: center;
+  }
+  .breakdown-day .day-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .breakdown-day .day-val {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: var(--gold);
+  }
+  .breakdown-day .day-date {
+    font-size: 10px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+
+  /* ── EXPANSION PILLARS ── */
+  .pillars-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+  .pillar {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 24px;
+    position: relative;
+  }
+  .pillar-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    font-weight: 900;
+    color: var(--border);
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    line-height: 1;
+  }
+  .pillar-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+  .pillar-score {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .pillar-score.green { color: var(--green); }
+  .pillar-score.amber { color: var(--amber); }
+  .pillar-score.red   { color: var(--red); }
+  .pillar-detail { font-size: 12px; color: var(--muted); line-height: 1.6; }
+
+  /* ── BRANCH SELECTOR ── */
+  .branch-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+  }
+  .branch-tab {
+    padding: 8px 18px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+  }
+  .branch-tab:hover { border-color: var(--gold); color: var(--gold); }
+  .branch-tab.active { background: var(--gold); color: #0A0A0A; border-color: var(--gold); }
+
+  /* ── LOADING ── */
+  .loading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 40px 0;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+  .spinner {
+    width: 16px; height: 16px;
+    border: 2px solid var(--border);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform:rotate(360deg); } }
+
+  /* ── ERROR ── */
+  .error-box {
+    background: rgba(232,69,69,0.05);
+    border: 1px solid rgba(232,69,69,0.2);
+    border-left: 3px solid var(--red);
+    padding: 16px 20px;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--red);
+    margin: 16px 0;
+  }
+
+  /* ── COMBO CARDS ── */
+  .combo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+  .combo-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 20px;
+    transition: border-color 0.2s;
+  }
+  .combo-card:hover { border-color: var(--gold); }
+  .combo-rank {
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .combo-items {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cream);
+    margin-bottom: 16px;
+    line-height: 1.4;
+  }
+  .combo-items .plus { color: var(--gold); margin: 0 6px; }
+  .combo-metrics {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+  .combo-metric { flex: 1; }
+  .combo-metric-val {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: var(--gold);
+  }
+  .combo-metric-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .combo-interp {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.6;
+    border-top: 1px solid var(--border);
+    padding-top: 14px;
+  }
+
+  /* ── VERDICT BANNER ── */
+  .verdict-banner {
+    padding: 20px 24px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid var(--border);
+  }
+  .verdict-banner.EXPAND          { border-left: 4px solid var(--green); background: rgba(76,175,130,0.05); }
+  .verdict-banner.MONITOR         { border-left: 4px solid var(--amber); background: rgba(232,160,32,0.05); }
+  .verdict-banner.DO_NOT_EXPAND   { border-left: 4px solid var(--red);   background: rgba(232,69,69,0.05); }
+  .verdict-banner.CONSIDER_CLOSURE{ border-left: 4px solid var(--red);   background: rgba(232,69,69,0.08); }
+  .verdict-banner.MONITOR_CLOSELY { border-left: 4px solid var(--amber); background: rgba(232,160,32,0.05); }
+  .verdict-label {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .verdict-rec { font-size: 13px; color: var(--muted); line-height: 1.6; flex: 1; }
+
+  /* ── GROWTH CARDS ── */
+  .growth-insight {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--gold);
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+  .growth-insight h3 {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+
+  /* ── TWO COL ── */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 900px) {
+    .two-col, .pillars-grid, .breakdown-grid { grid-template-columns: 1fr; }
+    main { padding: 24px 20px; }
+    header, nav { padding-left: 20px; padding-right: 20px; }
+    header::after { left: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo"><span>Conut</span> Operations</div>
+  <div class="header-right">
+    <div class="status-dot">
+      <div class="dot"></div>
+      <span>Live</span>
+    </div>
+    <button class="refresh-btn" onclick="refreshAll()">↺ Refresh</button>
+  </div>
+</header>
+
+<nav>
+  <button class="tab active" onclick="showTab('forecasting')">
+    Forecasting <span class="tab-port">:8001</span>
+  </button>
+  <button class="tab" onclick="showTab('growth')">
+    Growth Strategy <span class="tab-port">:8002</span>
+  </button>
+  <button class="tab" onclick="showTab('combos')">
+    Combo Optimization <span class="tab-port">:8003</span>
+  </button>
+  <button class="tab" onclick="showTab('expansion')">
+    Expansion <span class="tab-port">:8004</span>
+  </button>
+  <button class="tab" onclick="showTab('staffing')">
+    Shift Staffing <span class="tab-port">:8005</span>
+  </button>
+</nav>
+
+<main>
+
+<div id="tab-forecasting" class="section active">
+  <div class="section-header">
+    <div class="section-title">
+      <small>Service · Forecasting</small>
+      Inventory Forecast
+    </div>
+  </div>
+
+  <div class="table-wrap" style="margin-bottom:24px;">
+    <div class="table-header">Single Day Prediction</div>
+    <div style="padding:24px;">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Branch</label>
+          <select id="f-branch">
+            <option>Conut</option>
+            <option>Conut - Tyre</option>
+            <option>Conut Jnah</option>
+            <option>Main Street Coffee</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Item</label>
+          <select id="f-item">
+            <option>FULL FAT MILK</option>
+            <option>CLASSIC CHIMNEY</option>
+            <option>NUTELLA SPREAD CONUT</option>
+            <option>CAFFE LATTE</option>
+            <option>SINGLE ESPRESSO</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Date</label>
+          <input type="date" id="f-date">
+        </div>
+      </div>
+      <button class="btn" onclick="forecastSingle()">Predict</button>
+      <div id="f-single-result" class="result-box">
+        <div class="result-label">Predicted Units</div>
+        <div class="result-value" id="f-single-val">—</div>
+        <div class="result-label" id="f-single-sub"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <div class="table-header">Weekly Range Prediction</div>
+    <div style="padding:24px;">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Branch</label>
+          <select id="fr-branch">
+            <option>Conut</option>
+            <option>Conut - Tyre</option>
+            <option>Conut Jnah</option>
+            <option>Main Street Coffee</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Item</label>
+          <input type="text" id="fr-item" value="FULL FAT MILK" placeholder="e.g. FULL FAT MILK">
+        </div>
+        <div class="form-group">
+          <label>Start Date</label>
+          <input type="date" id="fr-start">
+        </div>
+        <div class="form-group">
+          <label>End Date</label>
+          <input type="date" id="fr-end">
+        </div>
+      </div>
+      <button class="btn" onclick="forecastRange()">Predict Range</button>
+      <div id="fr-result" class="result-box">
+        <div class="result-label">Total for Period</div>
+        <div class="result-value" id="fr-total">—</div>
+        <div id="fr-breakdown" class="breakdown-grid"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="tab-growth" class="section">
+  <div class="section-header">
+    <div class="section-title">
+      <small>Service · Growth</small>
+      Coffee & Milkshake Growth
+    </div>
+    <button class="btn btn-ghost" onclick="loadGrowth()">↺ Reload</button>
+  </div>
+  <div id="growth-content"><div class="loading"><div class="spinner"></div>Loading...</div></div>
+</div>
+
+<div id="tab-combos" class="section">
+  <div class="section-header">
+    <div class="section-title">
+      <small>Service · Combo Optimization</small>
+      Combo Recommendations
+    </div>
+    <button class="btn btn-ghost" onclick="loadCombos()">↺ Reload</button>
+  </div>
+  <div id="combos-content"><div class="loading"><div class="spinner"></div>Loading...</div></div>
+</div>
+
+<div id="tab-expansion" class="section">
+  <div class="section-header">
+    <div class="section-title">
+      <small>Service · Expansion</small>
+      Expansion Feasibility
+    </div>
+    <button class="btn btn-ghost" onclick="loadExpansion()">↺ Reload</button>
+  </div>
+  <div class="branch-tabs" id="expansion-branch-tabs"></div>
+  <div id="expansion-content"><div class="loading"><div class="spinner"></div>Loading...</div></div>
+</div>
+
+<div id="tab-staffing" class="section">
+  <div class="section-header">
+    <div class="section-title">
+      <small>Service · Staffing</small>
+      Shift Staffing Prediction
+    </div>
+  </div>
+  <div class="table-wrap">
+    <div class="table-header">Predict Employees Needed</div>
+    <div style="padding:24px;">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Branch</label>
+          <select id="s-branch">
+            <option>Conut Jnah</option>
+            <option>Conut Hamra</option>
+            <option>Conut Bliss</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Projected Items</label>
+          <input type="number" id="s-demand" value="120">
+        </div>
+        <div class="form-group">
+          <label>Date</label>
+          <input type="date" id="s-date">
+        </div>
+      </div>
+      <button class="btn" onclick="predictStaffing()">Predict Staffing</button>
+      <div id="s-result" class="result-box">
+        <div class="result-label">Employees Needed</div>
+        <div class="result-value" id="s-val">—</div>
+        <div class="result-label" id="s-sub"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<script>
+const PORTS = {
+  forecasting: 'http://localhost:8001',
+  growth:      'http://localhost:8002',
+  combos:      'http://localhost:8003',
+  expansion:   'http://localhost:8004',
+  staffing:    'http://localhost:8005'
+};
+
+// ── Tab switching ──────────────────────────────────────────
+let loadedTabs = { forecasting: false, growth: false, combos: false, expansion: false, staffing: false };
+
+function showTab(name) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  document.querySelectorAll('.tab').forEach(t => {
+    if (t.textContent.toLowerCase().includes(name.replace('-',' '))) t.classList.add('active');
+  });
+  if (!loadedTabs[name]) {
+    loadedTabs[name] = true;
+    if (name === 'growth')     loadGrowth();
+    if (name === 'combos')     loadCombos();
+    if (name === 'expansion')  loadExpansion();
+  }
+}
+
+function refreshAll() {
+  loadedTabs = { forecasting: true, growth: false, combos: false, expansion: false, staffing: false };
+  const active = document.querySelector('.tab.active').textContent.toLowerCase();
+  if (active.includes('growth'))    loadGrowth();
+  if (active.includes('combo'))     loadCombos();
+  if (active.includes('expansion')) loadExpansion();
+}
+
+// ── API helpers ────────────────────────────────────────────
+async function api(port, path) {
+  const res = await fetch(PORTS[port] + path);
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+  return res.json();
+}
+
+async function apiPost(port, path, body) {
+  const res = await fetch(PORTS[port] + path, {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(body)
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(()=>({detail: res.statusText}));
+    throw new Error(err.detail || res.statusText);
+  }
+  return res.json();
+}
+
+function showError(containerId, msg) {
+  document.getElementById(containerId).innerHTML =
+    `<div class="error-box">⚠ Could not reach API — ${msg}<br><br>
+    Make sure the service is running: <code>python run.py</code></div>`;
+}
+
+// ── Set default dates ──────────────────────────────────────
+(function() {
+  const today = new Date();
+  const fmt = d => d.toISOString().slice(0,10);
+  document.getElementById('f-date').value = fmt(today);
+  document.getElementById('fr-start').value = fmt(today);
+  document.getElementById('s-date').value = fmt(today);
+  const end = new Date(today); end.setDate(end.getDate()+6);
+  document.getElementById('fr-end').value = fmt(end);
+})();
+
+// ── FORECASTING ────────────────────────────────────────────
+async function forecastSingle() {
+  const branch = document.getElementById('f-branch').value;
+  const item   = document.getElementById('f-item').value;
+  const date   = document.getElementById('f-date').value;
+  const box    = document.getElementById('f-single-result');
+  const val    = document.getElementById('f-single-val');
+  const sub    = document.getElementById('f-single-sub');
+  val.textContent = '...'; box.classList.add('show');
+  try {
+    const data = await apiPost('forecasting', '/forecast/single', {branch, item, date});
+    val.textContent = data.predicted_units;
+    sub.textContent = `${item} · ${branch} · ${date}`;
+  } catch(e) {
+    val.textContent = 'Error';
+    sub.textContent = e.message;
+  }
+}
+
+async function forecastRange() {
+  const branch     = document.getElementById('fr-branch').value;
+  const item       = document.getElementById('fr-item').value;
+  const start_date = document.getElementById('fr-start').value;
+  const end_date   = document.getElementById('fr-end').value;
+  const box        = document.getElementById('fr-result');
+  const totalEl    = document.getElementById('fr-total');
+  const grid       = document.getElementById('fr-breakdown');
+  totalEl.textContent = '...'; box.classList.add('show');
+  try {
+    const data = await apiPost('forecasting', '/forecast/range', {branch, item, start_date, end_date});
+    totalEl.textContent = data.total_units + ' units';
+    const days = Object.entries(data.daily_breakdown);
+    const dayNames = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+    grid.innerHTML = days.map(([d, v]) => {
+      const name = dayNames[new Date(d).getDay()];
+      return `<div class="breakdown-day">
+        <div class="day-name">${name}</div>
+        <div class="day-val">${v}</div>
+        <div class="day-date">${d.slice(5)}</div>
+      </div>`;
+    }).join('');
+  } catch(e) {
+    totalEl.textContent = 'Error: ' + e.message;
+  }
+}
+
+// ── STAFFING ──────────────────────────────────────────────
+async function predictStaffing() {
+  const branch = document.getElementById('s-branch').value;
+  const demand = document.getElementById('s-demand').value;
+  const date   = document.getElementById('s-date').value;
+  const box    = document.getElementById('s-result');
+  const val    = document.getElementById('s-val');
+  const sub    = document.getElementById('s-sub');
+  
+  val.textContent = '...'; box.classList.add('show');
+  
+  try {
+    const params = new URLSearchParams({ branch, demand, date });
+    const data = await api('staffing', `/staffing/predict?${params.toString()}`);
+    val.textContent = data.predicted_employees_needed + ' people';
+    sub.textContent = `Model version: ${data.model_version} · Projected items: ${data.demand_items}`;
+  } catch(e) {
+    val.textContent = 'Error';
+    sub.textContent = e.message;
+  }
+}
+
+// ── GROWTH ─────────────────────────────────────────────────
+async function loadGrowth() {
+  document.getElementById('growth-content').innerHTML =
+    '<div class="loading"><div class="spinner"></div>Loading growth data...</div>';
+  try {
+    const data = await api('growth', '/growth/full-strategy');
+    renderGrowth(data);
+  } catch(e) {
+    showError('growth-content', e.message);
+  }
+}
+
+function renderGrowth(data) {
+  // 1. Updated variable names to match your exact JSON output
+  const cs = data.crosssell_opportunity || {};
+  const bmObj = data.branch_benchmarks || {};
+  const hiObj = data.high_value_items || {};
+
+  let html = '';
+
+  // ── CROSS-SELL INSIGHT ──
+  if (cs.insight) {
+    html += `<div class="growth-insight">
+      <h3>Cross-Sell Opportunity</h3>
+      <div class="cards-grid">
+        <div class="card amber">
+          <div class="card-label">Food Orders Without Drink</div>
+          <div class="card-value">${cs.gap_pct || '—'}%</div>
+          <div class="card-sub">${cs.insight || ''}</div>
+        </div>
+        ${(cs.best_bundles||[]).slice(0,2).map(b => `
+        <div class="card">
+          <div class="card-label">Top Bundle</div>
+          <div class="card-value sm">${b.drink}</div>
+          <div class="card-sub">Appears with food ${b.times_ordered_with_food} times</div>
+        </div>`).join('')}
+      </div>
+      ${cs.revenue_opportunity ? `
+      <div style="margin-top:20px;">
+        <div class="card-label" style="margin-bottom:12px;">Revenue Projections (Drink Upsell)</div>
+        <div class="cards-grid">
+          ${Object.entries(cs.revenue_opportunity).map(([k,v]) => `
+          <div class="card green">
+            <div class="card-label">${k.replace('_', ' ').toUpperCase()}</div>
+            <div class="card-value sm">${(v.projected_extra_revenue_LBP/1000000).toFixed(1)}M LBP</div>
+            <div class="card-sub">${v.orders_converted} orders converted</div>
+          </div>`).join('')}
+        </div>
+      </div>` : ''}
+    </div>`;
+  }
+
+  // ── BRANCH BENCHMARKS ──
+  const categories = Object.keys(bmObj);
+  if (categories.length > 0) {
+    let tableRows = '';
+    
+    // Loop through COFFEE, FRAPPE, SHAKE
+    categories.forEach(cat => {
+      const topBranch = bmObj[cat].top_branch;
+      const gaps = bmObj[cat].gaps || {};
+      
+      Object.entries(gaps).forEach(([branch, gapData]) => {
+        tableRows += `<tr>
+          <td><strong>${branch}</strong></td>
+          <td>${cat}</td>
+          <td><span class="badge ${gapData.gap_pct_behind_top > 50 ? 'badge-red' : 'badge-amber'}">${gapData.gap_pct_behind_top}% behind ${topBranch}</span></td>
+          <td style="font-size:12px;color:var(--muted)">${(gapData.missing_items||[]).slice(0,2).join(', ') || '—'}</td>
+          <td><span class="badge ${gapData.gap_pct_behind_top > 70 ? 'badge-red' : 'badge-amber'}">
+            ${gapData.gap_pct_behind_top > 70 ? 'Urgent' : 'Monitor'}
+          </span></td>
+        </tr>`;
+      });
+    });
+
+    html += `<div class="growth-insight">
+      <h3>Branch Benchmarks vs. Top Performer</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th>Branch</th><th>Category</th><th>Gap vs Top</th><th>Missing Items</th><th>Status</th>
+          </tr></thead>
+          <tbody>
+            ${tableRows}
+          </tbody>
+        </table>
+      </div>
+    </div>`;
+  }
+
+  // ── HIGH VALUE ITEMS ──
+  // Flatten the object of arrays into one single list and sort by revenue
+  let hiFlat = [];
+  Object.keys(hiObj).forEach(cat => {
+    hiFlat = hiFlat.concat(hiObj[cat]);
+  });
+  hiFlat.sort((a, b) => b.revenue_per_unit - a.revenue_per_unit);
+
+  if (hiFlat.length > 0) {
+    html += `<div class="growth-insight">
+      <h3>High Value Items to Promote</h3>
+      <div class="cards-grid">
+        ${hiFlat.slice(0,6).map((item, i) => `
+        <div class="card">
+          <div class="card-label">Rank #${i+1} · ${item.branch}</div>
+          <div class="card-value sm">${item.item}</div>
+          <div class="card-sub">${(item.revenue_per_unit/1000).toFixed(0)}K LBP per unit</div>
+        </div>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  if (!html) html = '<div class="error-box">No data returned. Ensure growth service has run its pipeline.</div>';
+  document.getElementById('growth-content').innerHTML = html;
+}
+
+// ── COMBOS ─────────────────────────────────────────────────
+async function loadCombos() {
+  document.getElementById('combos-content').innerHTML =
+    '<div class="loading"><div class="spinner"></div>Loading combo data...</div>';
+  try {
+    const [report, pricing] = await Promise.allSettled([
+      api('combos', '/combos/full-report'),
+    ]);
+    if (report.status === 'rejected') throw new Error(report.reason.message);
+    renderCombos(report.value);
+  } catch(e) {
+    showError('combos-content', e.message);
+  }
+}
+
+function renderCombos(data) {
+  const summary = data.summary || {};
+  const combos  = data.top_combos || [];
+  const items   = data.top_items  || [];
+  const pricing = data.pricing;
+
+  let html = `
+    <div class="cards-grid" style="margin-bottom:32px;">
+      <div class="card">
+        <div class="card-label">Total Baskets Analyzed</div>
+        <div class="card-value">${summary.total_baskets || '—'}</div>
+        <div class="card-sub">Customer purchase sessions</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Unique Products</div>
+        <div class="card-value">${summary.unique_products || '—'}</div>
+        <div class="card-sub">Avg basket: ${summary.avg_basket_size || '—'} items</div>
+      </div>
+      <div class="card gold">
+        <div class="card-label">Combos Found</div>
+        <div class="card-value">${summary.unique_combos_found || '—'}</div>
+        <div class="card-sub">Strong purchase associations</div>
+      </div>
+    </div>`;
+
+  if (combos.length) {
+    html += `<div class="table-header" style="padding:0 0 16px;">
+      <span style="font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);">
+        Top Combo Recommendations — ranked by Lift
+      </span>
+    </div>
+    <div class="combo-grid">`;
+
+    html += combos.map((c, i) => {
+      const combo = c.combo || [];
+      const pricingItem = Array.isArray(pricing) ?
+        pricing.find(p => p['Combo Name'] && combo.every(item => p['Combo Name'].includes(item))) : null;
+      return `<div class="combo-card">
+        <div class="combo-rank">Rank #${c.rank}</div>
+        <div class="combo-items">${combo.map((item,i) =>
+          i < combo.length-1 ? item + '<span class="plus">+</span>' : item
+        ).join('')}</div>
+        <div class="combo-metrics">
+          <div class="combo-metric">
+            <div class="combo-metric-val">${c.lift}x</div>
+            <div class="combo-metric-label">Lift</div>
+          </div>
+          <div class="combo-metric">
+            <div class="combo-metric-val">${c.confidence_pct}%</div>
+            <div class="combo-metric-label">Confidence</div>
+          </div>
+          <div class="combo-metric">
+            <div class="combo-metric-val">${c.n_customers}</div>
+            <div class="combo-metric-label">Customers</div>
+          </div>
+          ${pricingItem ? `<div class="combo-metric">
+            <div class="combo-metric-val">${pricingItem.ai_suggested_discount}</div>
+            <div class="combo-metric-label">Discount</div>
+          </div>` : ''}
+        </div>
+        <div class="combo-interp">${c.interpretation || ''}</div>
+      </div>`;
+    }).join('');
+    html += '</div>';
+  }
+
+  document.getElementById('combos-content').innerHTML = html;
+}
+
+// ── EXPANSION ──────────────────────────────────────────────
+let expansionData = [];
+let activeBranch  = null;
+
+async function loadExpansion() {
+  document.getElementById('expansion-content').innerHTML =
+    '<div class="loading"><div class="spinner"></div>Loading expansion scores...</div>';
+  try {
+    const data = await api('expansion', '/expansion/full-report');
+    expansionData = data.results || [];
+    renderExpansionTabs();
+    if (expansionData.length) selectExpansionBranch(expansionData[0].branch);
+  } catch(e) {
+    showError('expansion-content', e.message);
+  }
+}
+
+function renderExpansionTabs() {
+  const tabsEl = document.getElementById('expansion-branch-tabs');
+  tabsEl.innerHTML = expansionData.map(r => `
+    <button class="branch-tab ${r.branch === activeBranch ? 'active' : ''}"
+      onclick="selectExpansionBranch('${r.branch}')">
+      ${r.branch}
+    </button>`).join('');
+}
+
+function selectExpansionBranch(branch) {
+  activeBranch = branch;
+  renderExpansionTabs();
+  const r = expansionData.find(x => x.branch === branch);
+  if (!r) return;
+  renderExpansionBranch(r);
+}
+
+function verdictClass(v) {
+  return v.replace(/\s+/g, '_').replace(/[^A-Z_]/g,'');
+}
+
+function pillarColor(score) {
+  if (score === 'green') return 'var(--green)';
+  if (score === 'amber') return 'var(--amber)';
+  return 'var(--red)';
+}
+
+function renderExpansionBranch(r) {
+  const vc = verdictClass(r.overall);
+  const closure = r.closure_check || {};
+  const p1 = r.pillar_1_volume || {};
+  const p2 = r.pillar_2_trajectory || {};
+  const p3 = r.pillar_3_delivery || {};
+
+  let html = `
+    <div class="verdict-banner ${vc}">
+      <div>
+        <div style="font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;text-transform:uppercase;">Overall Verdict</div>
+        <div class="verdict-label" style="color:${
+          r.overall === 'EXPAND' ? 'var(--green)' :
+          r.overall === 'CONSIDER CLOSURE' ? 'var(--red)' :
+          r.overall.includes('DO NOT') ? 'var(--red)' : 'var(--amber)'
+        }">${r.overall}</div>
+      </div>
+      <div class="verdict-rec">${r.recommendation}</div>
+    </div>`;
+
+  // Closure check
+  if (closure.signals_fired && closure.signals_fired.length > 0) {
+    html += `<div class="error-box" style="margin-bottom:24px;">
+      ⚠ Closure signals active (${closure.signals_fired.length}/3): ${closure.signals_fired.join(' · ')}
+    </div>`;
+  }
+
+  // Pillars
+  html += `<div class="pillars-grid">
+    <div class="pillar">
+      <div class="pillar-num">1</div>
+      <div class="pillar-title">Sustained Volume</div>
+      <div class="pillar-score ${p1.score}">${(p1.score||'').toUpperCase()}</div>
+      <div class="pillar-detail">${p1.detail || '—'}</div>
+    </div>
+    <div class="pillar">
+      <div class="pillar-num">2</div>
+      <div class="pillar-title">Growth Trajectory</div>
+      <div class="pillar-score ${p2.score}">${(p2.score||'').toUpperCase()}</div>
+      <div class="pillar-detail">${p2.detail || '—'}</div>
+      ${p2.slope ? `<div style="margin-top:10px;font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);">Slope: ${p2.slope > 0 ? '+' : ''}${(p2.slope/1e6).toFixed(1)}M/mo · R²=${p2.r_squared}</div>` : ''}
+    </div>
+    <div class="pillar">
+      <div class="pillar-num">3</div>
+      <div class="pillar-title">Delivery Density</div>
+      <div class="pillar-score ${p3.score}">${(p3.score||'').toUpperCase()}</div>
+      <div class="pillar-detail">${p3.detail || '—'}</div>
+      <div style="margin-top:10px;font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);">
+        ${p3.customer_count} customers · ${p3.repeat_rate_pct}% repeat
+      </div>
+    </div>
+  </div>`;
+
+  // Monthly breakdown
+  if (p1.monthly_utilizations && p1.monthly_utilizations.length) {
+    html += `<div class="table-wrap">
+      <div class="table-header">Monthly Sales vs ATH</div>
+      <table>
+        <thead><tr>
+          <th>Month</th><th>Sales</th><th>Utilization</th><th>≥ 80% ATH</th><th>≥ 60% ATH</th>
+        </tr></thead>
+        <tbody>
+        ${p1.monthly_utilizations.map(m => `<tr>
+          <td><strong>${m.month}</strong></td>
+          <td style="font-family:'DM Mono',monospace">${m.total_scaled.toLocaleString()}</td>
+          <td>
+            <span class="badge ${m.utilization_pct >= 80 ? 'badge-green' : m.utilization_pct >= 60 ? 'badge-amber' : 'badge-red'}">
+              ${m.utilization_pct}%
+            </span>
+          </td>
+          <td>${m.above_80 ? '✓' : '—'}</td>
+          <td>${m.above_60 ? '✓' : '—'}</td>
+        </tr>`).join('')}
+        </tbody>
+      </table>
+    </div>`;
+  }
+
+  document.getElementById('expansion-content').innerHTML = html;
+}
+</script>
+</body>
+</html>
