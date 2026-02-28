@@ -1,0 +1,1627 @@
+[
+    {
+        "item_name":"WATER",
+        "unit_price":79459.45,
+        "quantity_sold":4954.0
+    },
+    {
+        "item_name":"NUTELLA SPREAD CHIMNEY.",
+        "unit_price":0.0,
+        "quantity_sold":4783.0
+    },
+    {
+        "item_name":"NUTELLA SPREAD CONUT.",
+        "unit_price":0.0,
+        "quantity_sold":4274.0
+    },
+    {
+        "item_name":"STRAWBERRY , (R)",
+        "unit_price":0.0,
+        "quantity_sold":3851.0
+    },
+    {
+        "item_name":"STRAWBERRY,(R)",
+        "unit_price":0.0,
+        "quantity_sold":3837.0
+    },
+    {
+        "item_name":"NUTELLA SAUCE . (R)",
+        "unit_price":0.0,
+        "quantity_sold":3720.0
+    },
+    {
+        "item_name":"CHIMNEY THE ONE",
+        "unit_price":1251486.48,
+        "quantity_sold":3199.0
+    },
+    {
+        "item_name":"BROWNIES , (R)",
+        "unit_price":0.0,
+        "quantity_sold":2635.0
+    },
+    {
+        "item_name":"CONUT THE ONE",
+        "unit_price":893918.92,
+        "quantity_sold":2361.0
+    },
+    {
+        "item_name":"NUTELLA SAUCE,(R)",
+        "unit_price":0.0,
+        "quantity_sold":2340.0
+    },
+    {
+        "item_name":"CARAMEL SAUCE, (R)",
+        "unit_price":0.0,
+        "quantity_sold":1992.0
+    },
+    {
+        "item_name":"REGULAR.",
+        "unit_price":0.0,
+        "quantity_sold":1984.0
+    },
+    {
+        "item_name":"CARAMEL SAUCE , (R)",
+        "unit_price":0.0,
+        "quantity_sold":1791.0
+    },
+    {
+        "item_name":"NUTELLA SPREAD MINI.",
+        "unit_price":0.0,
+        "quantity_sold":1752.0
+    },
+    {
+        "item_name":"FULL FAT MILK",
+        "unit_price":0.0,
+        "quantity_sold":1574.0
+    },
+    {
+        "item_name":"BROWNIES . (R)",
+        "unit_price":0.0,
+        "quantity_sold":1523.0
+    },
+    {
+        "item_name":"NUTELLA SAUCE ,(R)",
+        "unit_price":0.0,
+        "quantity_sold":1436.0
+    },
+    {
+        "item_name":"CONUT THE ORIGINAL",
+        "unit_price":864783.79,
+        "quantity_sold":1431.0
+    },
+    {
+        "item_name":"STRAWBERRY .(R)",
+        "unit_price":0.0,
+        "quantity_sold":1335.0
+    },
+    {
+        "item_name":"HOT",
+        "unit_price":0.0,
+        "quantity_sold":1183.0
+    },
+    {
+        "item_name":"CONUT TRIPLE CHOCOLATE",
+        "unit_price":924378.38,
+        "quantity_sold":1103.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE SPREAD CONUT.",
+        "unit_price":0.0,
+        "quantity_sold":1064.0
+    },
+    {
+        "item_name":"CLASSIC CHIMNEY",
+        "unit_price":595945.95,
+        "quantity_sold":1014.0
+    },
+    {
+        "item_name":"NO SPREAD..",
+        "unit_price":0.0,
+        "quantity_sold":1002.0
+    },
+    {
+        "item_name":"BROWNIES,(R)",
+        "unit_price":0.0,
+        "quantity_sold":990.0
+    },
+    {
+        "item_name":"ADD ICE CREAM",
+        "unit_price":476756.75,
+        "quantity_sold":952.0
+    },
+    {
+        "item_name":"TAKE AWAY",
+        "unit_price":0.0,
+        "quantity_sold":936.0
+    },
+    {
+        "item_name":"ICE CREAM BOWL",
+        "unit_price":595945.95,
+        "quantity_sold":904.0
+    },
+    {
+        "item_name":"PRESSED",
+        "unit_price":0.0,
+        "quantity_sold":874.0
+    },
+    {
+        "item_name":"ICE CREAM ON THE SIDE",
+        "unit_price":0.0,
+        "quantity_sold":847.0
+    },
+    {
+        "item_name":"MINI THE ONE",
+        "unit_price":507216.22,
+        "quantity_sold":842.0
+    },
+    {
+        "item_name":"NO SPREAD,,",
+        "unit_price":0.0,
+        "quantity_sold":816.0
+    },
+    {
+        "item_name":"ICE CREAM ON TOP",
+        "unit_price":0.0,
+        "quantity_sold":814.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE SPREAD CHIMNEY.",
+        "unit_price":0.0,
+        "quantity_sold":811.0
+    },
+    {
+        "item_name":"CHIMNEY TRIPLE CHOCOLATE",
+        "unit_price":1311081.0800000001,
+        "quantity_sold":799.0
+    },
+    {
+        "item_name":"CHIMNEY THE ORIGINAL",
+        "unit_price":1191891.8899999999,
+        "quantity_sold":709.0
+    },
+    {
+        "item_name":"CONUT PISTACHIO",
+        "unit_price":1013108.11,
+        "quantity_sold":682.0
+    },
+    {
+        "item_name":"CONUT BERRY MIX",
+        "unit_price":893918.92,
+        "quantity_sold":680.0
+    },
+    {
+        "item_name":"MINI THE ORIGINAL",
+        "unit_price":476756.75,
+        "quantity_sold":634.0
+    },
+    {
+        "item_name":"CARAMEL SAUCE  ,(R)",
+        "unit_price":0.0,
+        "quantity_sold":610.0
+    },
+    {
+        "item_name":"CHIMNEY PISTACHIO",
+        "unit_price":1430270.27,
+        "quantity_sold":600.0
+    },
+    {
+        "item_name":"DELIVERY CHARGE",
+        "unit_price":238378.38,
+        "quantity_sold":590.0
+    },
+    {
+        "item_name":"PISTACHIO TOPPING",
+        "unit_price":0.0,
+        "quantity_sold":567.0
+    },
+    {
+        "item_name":"CRUSHED LOTUS , (R)",
+        "unit_price":0.0,
+        "quantity_sold":555.0
+    },
+    {
+        "item_name":"NO WHIPPED CREAM",
+        "unit_price":0.0,
+        "quantity_sold":554.0
+    },
+    {
+        "item_name":"STRAWBERRY.",
+        "unit_price":178783.78,
+        "quantity_sold":508.0
+    },
+    {
+        "item_name":"WHIPPED CREAM  ,",
+        "unit_price":0.0,
+        "quantity_sold":453.0
+    },
+    {
+        "item_name":"MINI TRIPLE CHOCOLATE",
+        "unit_price":536351.34,
+        "quantity_sold":444.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE SPREAD MINI.",
+        "unit_price":0.0,
+        "quantity_sold":429.0
+    },
+    {
+        "item_name":"CONUT BOSTON CHEESECAKE",
+        "unit_price":924378.38,
+        "quantity_sold":393.0
+    },
+    {
+        "item_name":"SINGLE ESPRESSO",
+        "unit_price":238378.38,
+        "quantity_sold":381.0
+    },
+    {
+        "item_name":"PISTACHIO TOPPING,",
+        "unit_price":0.0,
+        "quantity_sold":372.0
+    },
+    {
+        "item_name":"NO TOPPINGS.",
+        "unit_price":0.0,
+        "quantity_sold":366.0
+    },
+    {
+        "item_name":"CRUSHED LOTUS .(R)",
+        "unit_price":0.0,
+        "quantity_sold":361.0
+    },
+    {
+        "item_name":"[NO DRESSING]",
+        "unit_price":0.0,
+        "quantity_sold":355.0
+    },
+    {
+        "item_name":"CHIMNEY BERRY MIX",
+        "unit_price":1251486.48,
+        "quantity_sold":346.0
+    },
+    {
+        "item_name":"MINI BERRY MIX",
+        "unit_price":507216.22,
+        "quantity_sold":333.0
+    },
+    {
+        "item_name":"TIRAMISU CONUT",
+        "unit_price":953513.52,
+        "quantity_sold":301.0
+    },
+    {
+        "item_name":"TIRAMISU CHIMNEY",
+        "unit_price":1311081.0800000001,
+        "quantity_sold":299.0
+    },
+    {
+        "item_name":"WHIPPED CREAM...",
+        "unit_price":0.0,
+        "quantity_sold":298.0
+    },
+    {
+        "item_name":"CHIMNEY BOSTON CHEESECAKE",
+        "unit_price":1311081.0800000001,
+        "quantity_sold":295.0
+    },
+    {
+        "item_name":"MINI PISTACHIO",
+        "unit_price":626405.41,
+        "quantity_sold":292.0
+    },
+    {
+        "item_name":"ICED",
+        "unit_price":0.0,
+        "quantity_sold":291.0
+    },
+    {
+        "item_name":"DOUBLE ESPRESSO",
+        "unit_price":328432.43,
+        "quantity_sold":285.0
+    },
+    {
+        "item_name":"NO SPREAD,.",
+        "unit_price":0.0,
+        "quantity_sold":284.0
+    },
+    {
+        "item_name":"CAFFE LATTE",
+        "unit_price":417162.16,
+        "quantity_sold":282.0
+    },
+    {
+        "item_name":"CONUT BITES",
+        "unit_price":655540.55,
+        "quantity_sold":263.0
+    },
+    {
+        "item_name":"WHIPPED CREAM  .",
+        "unit_price":0.0,
+        "quantity_sold":256.0
+    },
+    {
+        "item_name":"PISTACHIO TOPPING.",
+        "unit_price":0.0,
+        "quantity_sold":244.0
+    },
+    {
+        "item_name":"NO TOPPINGS",
+        "unit_price":0.0,
+        "quantity_sold":243.0
+    },
+    {
+        "item_name":"BLUEBERRIES, (P)",
+        "unit_price":30459.46,
+        "quantity_sold":242.0
+    },
+    {
+        "item_name":"PISTACHIO SAUCE . (P)",
+        "unit_price":30459.46,
+        "quantity_sold":236.0
+    },
+    {
+        "item_name":"NO SPREAD .",
+        "unit_price":0.0,
+        "quantity_sold":234.0
+    },
+    {
+        "item_name":"NUTELLA DIP.(R)",
+        "unit_price":0.0,
+        "quantity_sold":226.0
+    },
+    {
+        "item_name":"PISTACHIO SAUCE ,(P)",
+        "unit_price":59594.59,
+        "quantity_sold":219.0
+    },
+    {
+        "item_name":"WHIPPED CREAM   ,",
+        "unit_price":0.0,
+        "quantity_sold":218.0
+    },
+    {
+        "item_name":"LOTUS SPREAD CHIMNEY.",
+        "unit_price":0.0,
+        "quantity_sold":210.0
+    },
+    {
+        "item_name":"CRUSHED LOTUS,(R)",
+        "unit_price":0.0,
+        "quantity_sold":208.0
+    },
+    {
+        "item_name":"NO SPREAD",
+        "unit_price":0.0,
+        "quantity_sold":205.0
+    },
+    {
+        "item_name":"NUTELLA SAUCE.",
+        "unit_price":178783.78,
+        "quantity_sold":202.0
+    },
+    {
+        "item_name":"MINI BOSTON CHEESECAKE",
+        "unit_price":536351.34,
+        "quantity_sold":199.0
+    },
+    {
+        "item_name":"CRUSHED OREO, (R)",
+        "unit_price":0.0,
+        "quantity_sold":194.0
+    },
+    {
+        "item_name":"THE SHARING BOX.",
+        "unit_price":1668648.6599999999,
+        "quantity_sold":193.0
+    },
+    {
+        "item_name":"THE ONE MINI",
+        "unit_price":0.0,
+        "quantity_sold":192.0
+    },
+    {
+        "item_name":"TRIPLE CHOCOLATE MINI",
+        "unit_price":0.0,
+        "quantity_sold":192.0
+    },
+    {
+        "item_name":"BOSTON CHEESECAKE MINI",
+        "unit_price":0.0,
+        "quantity_sold":192.0
+    },
+    {
+        "item_name":"PISTACHIO MINI",
+        "unit_price":0.0,
+        "quantity_sold":191.0
+    },
+    {
+        "item_name":"[CHOCOLATE DRESSING]",
+        "unit_price":0.0,
+        "quantity_sold":189.0
+    },
+    {
+        "item_name":"CAFFE AMERICANO",
+        "unit_price":302086.83,
+        "quantity_sold":188.0
+    },
+    {
+        "item_name":"CAPPUCCINO",
+        "unit_price":417162.16,
+        "quantity_sold":178.0
+    },
+    {
+        "item_name":"[CARAMEL DRESSING]",
+        "unit_price":0.0,
+        "quantity_sold":178.0
+    },
+    {
+        "item_name":"MARSHMALLOWS , (R)",
+        "unit_price":0.0,
+        "quantity_sold":170.0
+    },
+    {
+        "item_name":"TIRAMISU MINI CONUT",
+        "unit_price":595945.95,
+        "quantity_sold":169.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE SAUCE .(R)",
+        "unit_price":0.0,
+        "quantity_sold":169.0
+    },
+    {
+        "item_name":"CARAMEL FRAPPE",
+        "unit_price":536351.34,
+        "quantity_sold":156.0
+    },
+    {
+        "item_name":"SWITCH TO ICE CREAM",
+        "unit_price":357567.56,
+        "quantity_sold":147.0
+    },
+    {
+        "item_name":"SPRINKLES , (R)",
+        "unit_price":0.0,
+        "quantity_sold":146.0
+    },
+    {
+        "item_name":"LOTUS SAUCE , (R)",
+        "unit_price":0.0,
+        "quantity_sold":141.0
+    },
+    {
+        "item_name":"REGULAR",
+        "unit_price":0.0,
+        "quantity_sold":140.0
+    },
+    {
+        "item_name":"GUMMY BEARS . (R)",
+        "unit_price":0.0,
+        "quantity_sold":137.0
+    },
+    {
+        "item_name":"HOT CHOCOLATE COMBO",
+        "unit_price":662162.16,
+        "quantity_sold":135.0
+    },
+    {
+        "item_name":"OREO MILKSHAKE",
+        "unit_price":715135.14,
+        "quantity_sold":134.0
+    },
+    {
+        "item_name":"RASPBERRIES, (P)",
+        "unit_price":30459.46,
+        "quantity_sold":131.0
+    },
+    {
+        "item_name":"BLUEBERRIES.",
+        "unit_price":238378.38,
+        "quantity_sold":130.0
+    },
+    {
+        "item_name":"LOTUS SPREAD CONUT.",
+        "unit_price":0.0,
+        "quantity_sold":122.0
+    },
+    {
+        "item_name":"HOT CHOCOLATE",
+        "unit_price":476756.75,
+        "quantity_sold":120.0
+    },
+    {
+        "item_name":"AMERICAN COFFEE",
+        "unit_price":357567.56,
+        "quantity_sold":119.0
+    },
+    {
+        "item_name":"BROWNIES.",
+        "unit_price":178783.78,
+        "quantity_sold":116.0
+    },
+    {
+        "item_name":"CARAMEL MACHIATO",
+        "unit_price":536351.34,
+        "quantity_sold":114.0
+    },
+    {
+        "item_name":"BLUEBERRIES , (P)",
+        "unit_price":59594.59,
+        "quantity_sold":112.0
+    },
+    {
+        "item_name":"VANILLA MILKSHAKE",
+        "unit_price":536351.34,
+        "quantity_sold":110.0
+    },
+    {
+        "item_name":"STRAWBERRIES (R)",
+        "unit_price":90054.05,
+        "quantity_sold":102.0
+    },
+    {
+        "item_name":"LOTUS SAUCE,(R)",
+        "unit_price":0.0,
+        "quantity_sold":100.0
+    },
+    {
+        "item_name":"SKIMMED MILK.",
+        "unit_price":0.0,
+        "quantity_sold":99.0
+    },
+    {
+        "item_name":"CRUSHED OREO.",
+        "unit_price":178783.78,
+        "quantity_sold":90.0
+    },
+    {
+        "item_name":"SWITCH TO ICE CREAM,",
+        "unit_price":238378.38,
+        "quantity_sold":89.0
+    },
+    {
+        "item_name":"NO SPREAD.",
+        "unit_price":0.0,
+        "quantity_sold":89.0
+    },
+    {
+        "item_name":"NO TOPPINGS ,",
+        "unit_price":0.0,
+        "quantity_sold":85.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE CHIPS, (P)",
+        "unit_price":30459.46,
+        "quantity_sold":84.0
+    },
+    {
+        "item_name":"NO MARSHMALLLOWS",
+        "unit_price":0.0,
+        "quantity_sold":83.0
+    },
+    {
+        "item_name":"BOSTON CHEESECAKE CONUT",
+        "unit_price":0.0,
+        "quantity_sold":83.0
+    },
+    {
+        "item_name":"RASPBERRIES.",
+        "unit_price":238378.38,
+        "quantity_sold":83.0
+    },
+    {
+        "item_name":"PISTACHIO CONUT",
+        "unit_price":0.0,
+        "quantity_sold":83.0
+    },
+    {
+        "item_name":"CONUT COMBO",
+        "unit_price":2741351.3399999999,
+        "quantity_sold":83.0
+    },
+    {
+        "item_name":"CRUSHED OREO .(R)",
+        "unit_price":0.0,
+        "quantity_sold":83.0
+    },
+    {
+        "item_name":"THE ONE CONUT",
+        "unit_price":0.0,
+        "quantity_sold":83.0
+    },
+    {
+        "item_name":"TRIPLE CHOCOLATE CONUT",
+        "unit_price":0.0,
+        "quantity_sold":83.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE SAUCE , (R)",
+        "unit_price":0.0,
+        "quantity_sold":81.0
+    },
+    {
+        "item_name":"STRAWBERRY MILKSHAKE",
+        "unit_price":715135.14,
+        "quantity_sold":78.0
+    },
+    {
+        "item_name":"DECAF",
+        "unit_price":0.0,
+        "quantity_sold":77.0
+    },
+    {
+        "item_name":"MANGO PASSION",
+        "unit_price":417162.16,
+        "quantity_sold":76.0
+    },
+    {
+        "item_name":"PEACH ICED TEA",
+        "unit_price":417162.16,
+        "quantity_sold":75.0
+    },
+    {
+        "item_name":"LACTOSE FREE MILK.",
+        "unit_price":0.0,
+        "quantity_sold":75.0
+    },
+    {
+        "item_name":"VIA SPARKLING WATER",
+        "unit_price":178783.78,
+        "quantity_sold":70.0
+    },
+    {
+        "item_name":"NUTELLA SPREAD CONUT",
+        "unit_price":90054.05,
+        "quantity_sold":69.0
+    },
+    {
+        "item_name":"CAFE MOCHA",
+        "unit_price":507216.22,
+        "quantity_sold":67.0
+    },
+    {
+        "item_name":"NUTELLA SPREAD CHIMNEY",
+        "unit_price":178783.78,
+        "quantity_sold":67.0
+    },
+    {
+        "item_name":"GRANOLA BERRIES, (P)",
+        "unit_price":30459.46,
+        "quantity_sold":65.0
+    },
+    {
+        "item_name":"LOTUS SPREAD CHIMNEY",
+        "unit_price":178783.78,
+        "quantity_sold":65.0
+    },
+    {
+        "item_name":"NO CINNAMON",
+        "unit_price":0.0,
+        "quantity_sold":64.0
+    },
+    {
+        "item_name":"CRUSHED LOTUS.",
+        "unit_price":178783.78,
+        "quantity_sold":64.0
+    },
+    {
+        "item_name":"MOCHA FRAPPE",
+        "unit_price":536351.34,
+        "quantity_sold":64.0
+    },
+    {
+        "item_name":"RASPBERRIES ,(P)",
+        "unit_price":59594.59,
+        "quantity_sold":61.0
+    },
+    {
+        "item_name":"CRISPY CREPE . (R)",
+        "unit_price":0.0,
+        "quantity_sold":58.0
+    },
+    {
+        "item_name":"PISTACHIO SAUCE,(P)",
+        "unit_price":29934.3,
+        "quantity_sold":58.0
+    },
+    {
+        "item_name":"PISTACHIO SPREAD CHIMNEY.",
+        "unit_price":59594.59,
+        "quantity_sold":55.0
+    },
+    {
+        "item_name":"CINNAMON SUGAR RINGS",
+        "unit_price":417162.16,
+        "quantity_sold":54.0
+    },
+    {
+        "item_name":"MARSHMALLOWS.",
+        "unit_price":178783.78,
+        "quantity_sold":54.0
+    },
+    {
+        "item_name":"BLUEBERRIES (P)",
+        "unit_price":119189.19,
+        "quantity_sold":52.0
+    },
+    {
+        "item_name":"THE ONE CHIMNEY",
+        "unit_price":0.0,
+        "quantity_sold":49.0
+    },
+    {
+        "item_name":"CHIMNEY COMBO.",
+        "unit_price":3933243.2599999998,
+        "quantity_sold":49.0
+    },
+    {
+        "item_name":"TRIPLE CHOCOLATE CHIMNEY",
+        "unit_price":0.0,
+        "quantity_sold":49.0
+    },
+    {
+        "item_name":"PISTACHIO CHIMNEY",
+        "unit_price":0.0,
+        "quantity_sold":49.0
+    },
+    {
+        "item_name":"BOSTON CHEESECAKE CHIMNEY",
+        "unit_price":0.0,
+        "quantity_sold":49.0
+    },
+    {
+        "item_name":"PISTACHIO SAUCE.",
+        "unit_price":238378.38,
+        "quantity_sold":47.0
+    },
+    {
+        "item_name":"[STRAWBERRY DRESSING]",
+        "unit_price":0.0,
+        "quantity_sold":45.0
+    },
+    {
+        "item_name":"LOTUS SAUCE.",
+        "unit_price":178783.78,
+        "quantity_sold":43.0
+    },
+    {
+        "item_name":"switch to ice cream.",
+        "unit_price":357567.56,
+        "quantity_sold":43.0
+    },
+    {
+        "item_name":"RASPBERRIES (P)",
+        "unit_price":119189.19,
+        "quantity_sold":42.0
+    },
+    {
+        "item_name":"FRUIT LOOPS . (R)",
+        "unit_price":0.0,
+        "quantity_sold":40.0
+    },
+    {
+        "item_name":"CARAMEL MOCHA FRAPPE",
+        "unit_price":536351.34,
+        "quantity_sold":39.0
+    },
+    {
+        "item_name":"GUMMY BEARS.",
+        "unit_price":178783.78,
+        "quantity_sold":38.0
+    },
+    {
+        "item_name":"WHITE MOCHA",
+        "unit_price":507216.22,
+        "quantity_sold":37.0
+    },
+    {
+        "item_name":"LOTUS SPREAD MINI.",
+        "unit_price":0.0,
+        "quantity_sold":37.0
+    },
+    {
+        "item_name":"TOASTED MARSHMALLOWS",
+        "unit_price":119189.19,
+        "quantity_sold":37.0
+    },
+    {
+        "item_name":"DOUBLE CHOCOLATE MILKSHAKE",
+        "unit_price":774729.73,
+        "quantity_sold":36.0
+    },
+    {
+        "item_name":"WHIPPED CREAM . (P)",
+        "unit_price":30459.46,
+        "quantity_sold":36.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE SAUCE , (R)",
+        "unit_price":0.0,
+        "quantity_sold":33.0
+    },
+    {
+        "item_name":"CRUSHED OREO ,(R)",
+        "unit_price":0.0,
+        "quantity_sold":33.0
+    },
+    {
+        "item_name":"CARAMEL  SAUCE,",
+        "unit_price":90054.05,
+        "quantity_sold":32.0
+    },
+    {
+        "item_name":"NUTELLA SAUCE (R)",
+        "unit_price":90054.05,
+        "quantity_sold":31.0
+    },
+    {
+        "item_name":"LOTUS SAUCE .(R)",
+        "unit_price":0.0,
+        "quantity_sold":31.0
+    },
+    {
+        "item_name":"SALTED CARAMEL MILKSHAKE",
+        "unit_price":774729.73,
+        "quantity_sold":30.0
+    },
+    {
+        "item_name":"SPRINKLES,(R)",
+        "unit_price":0.0,
+        "quantity_sold":30.0
+    },
+    {
+        "item_name":"BROWNIES (R)",
+        "unit_price":90054.05,
+        "quantity_sold":30.0
+    },
+    {
+        "item_name":"WILD BERRIES",
+        "unit_price":417162.16,
+        "quantity_sold":30.0
+    },
+    {
+        "item_name":"MARSHMALLOWS (R)",
+        "unit_price":90054.05,
+        "quantity_sold":30.0
+    },
+    {
+        "item_name":"SPRINKLES (R)",
+        "unit_price":90054.05,
+        "quantity_sold":29.0
+    },
+    {
+        "item_name":"TOFFEE NUT FRAPPE",
+        "unit_price":536351.34,
+        "quantity_sold":29.0
+    },
+    {
+        "item_name":"MILK OPTIONS",
+        "unit_price":0.0,
+        "quantity_sold":29.0
+    },
+    {
+        "item_name":"[SALTED CARAMEL DRESSING]",
+        "unit_price":0.0,
+        "quantity_sold":29.0
+    },
+    {
+        "item_name":"PEANUT BUTTER CUP , (P)",
+        "unit_price":30459.46,
+        "quantity_sold":28.0
+    },
+    {
+        "item_name":"MARSHMALLOWS .(R)",
+        "unit_price":0.0,
+        "quantity_sold":28.0
+    },
+    {
+        "item_name":"WHITE MOCHA FRAPPE",
+        "unit_price":536351.34,
+        "quantity_sold":28.0
+    },
+    {
+        "item_name":"RASPBERRY ICED TEA",
+        "unit_price":417162.16,
+        "quantity_sold":28.0
+    },
+    {
+        "item_name":"MARSHMALLOWS,(R)",
+        "unit_price":0.0,
+        "quantity_sold":28.0
+    },
+    {
+        "item_name":"SWEETENED CREAM",
+        "unit_price":90054.05,
+        "quantity_sold":27.0
+    },
+    {
+        "item_name":"WHIPPED  CREAM.",
+        "unit_price":238378.38,
+        "quantity_sold":27.0
+    },
+    {
+        "item_name":"PISTACHIO MILKSHAKE",
+        "unit_price":893918.92,
+        "quantity_sold":26.0
+    },
+    {
+        "item_name":"MELON PASSION",
+        "unit_price":417162.16,
+        "quantity_sold":26.0
+    },
+    {
+        "item_name":"VANILLA SYRUP",
+        "unit_price":90054.05,
+        "quantity_sold":25.0
+    },
+    {
+        "item_name":"WHIPPED CREAM,",
+        "unit_price":59594.59,
+        "quantity_sold":24.0
+    },
+    {
+        "item_name":"RASPBERRY JAM , (P)",
+        "unit_price":30459.46,
+        "quantity_sold":24.0
+    },
+    {
+        "item_name":"FLAT WHITE",
+        "unit_price":388027.02,
+        "quantity_sold":24.0
+    },
+    {
+        "item_name":"SPRINKLES.",
+        "unit_price":178783.78,
+        "quantity_sold":24.0
+    },
+    {
+        "item_name":"BLUEBERRIES .(P)",
+        "unit_price":29190.31,
+        "quantity_sold":24.0
+    },
+    {
+        "item_name":"EXTRA ESPRESSO SHOT",
+        "unit_price":90054.05,
+        "quantity_sold":23.0
+    },
+    {
+        "item_name":"LOTUS DIP.(R)",
+        "unit_price":0.0,
+        "quantity_sold":23.0
+    },
+    {
+        "item_name":"LOTUS SPREAD CONUT",
+        "unit_price":90054.05,
+        "quantity_sold":23.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE CHIPS.",
+        "unit_price":238378.38,
+        "quantity_sold":22.0
+    },
+    {
+        "item_name":"PASSION FRUITS SAUCE ,(P)",
+        "unit_price":30459.46,
+        "quantity_sold":22.0
+    },
+    {
+        "item_name":"GUMMY BEARS (R)",
+        "unit_price":90054.05,
+        "quantity_sold":22.0
+    },
+    {
+        "item_name":"HOT MILK",
+        "unit_price":178783.78,
+        "quantity_sold":22.0
+    },
+    {
+        "item_name":"NUTELLA DIP (R)",
+        "unit_price":119189.19,
+        "quantity_sold":21.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE SPREAD CHIMNEY",
+        "unit_price":178783.78,
+        "quantity_sold":21.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE SAUCE,(R)",
+        "unit_price":0.0,
+        "quantity_sold":21.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE SAUCE.",
+        "unit_price":178783.78,
+        "quantity_sold":21.0
+    },
+    {
+        "item_name":"SALTED CARAMEL FRAPPE",
+        "unit_price":536351.34,
+        "quantity_sold":21.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE DIP.(R)",
+        "unit_price":0.0,
+        "quantity_sold":20.0
+    },
+    {
+        "item_name":"SALTED CARAMEL SAUCE . (R)",
+        "unit_price":0.0,
+        "quantity_sold":20.0
+    },
+    {
+        "item_name":"ICED SHAKEN ESPRESSO",
+        "unit_price":507216.22,
+        "quantity_sold":19.0
+    },
+    {
+        "item_name":"CHOCOLATE CHIPS RINGS",
+        "unit_price":476756.75,
+        "quantity_sold":19.0
+    },
+    {
+        "item_name":"GREEN TEA",
+        "unit_price":297972.97,
+        "quantity_sold":19.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE CHIPS ,(P)",
+        "unit_price":59594.59,
+        "quantity_sold":18.0
+    },
+    {
+        "item_name":"ESPRESSO FRAPPE",
+        "unit_price":447621.62,
+        "quantity_sold":18.0
+    },
+    {
+        "item_name":"CARAMEL DIP.(R)",
+        "unit_price":0.0,
+        "quantity_sold":17.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE SAUCE, (R)",
+        "unit_price":90054.05,
+        "quantity_sold":17.0
+    },
+    {
+        "item_name":"MATCHA FRAPPE",
+        "unit_price":626405.41,
+        "quantity_sold":17.0
+    },
+    {
+        "item_name":"PISTACHIO SPREAD CONUT.",
+        "unit_price":30459.46,
+        "quantity_sold":16.0
+    },
+    {
+        "item_name":"ICED CHOCOLATE",
+        "unit_price":447621.61,
+        "quantity_sold":16.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE DIP.(R)",
+        "unit_price":0.0,
+        "quantity_sold":16.0
+    },
+    {
+        "item_name":"VANILLA FRAPPE",
+        "unit_price":536351.34,
+        "quantity_sold":15.0
+    },
+    {
+        "item_name":"MATCHA LATTE",
+        "unit_price":595945.95,
+        "quantity_sold":15.0
+    },
+    {
+        "item_name":"GUMMY BEARS,(R)",
+        "unit_price":0.0,
+        "quantity_sold":15.0
+    },
+    {
+        "item_name":"GUMMY BEARS ,(R)",
+        "unit_price":0.0,
+        "quantity_sold":15.0
+    },
+    {
+        "item_name":"PISTACHIO DIP (P)",
+        "unit_price":238378.38,
+        "quantity_sold":14.0
+    },
+    {
+        "item_name":"WHIPPED CREAM ,(P)",
+        "unit_price":30459.46,
+        "quantity_sold":14.0
+    },
+    {
+        "item_name":"WHIPPED CREAM",
+        "unit_price":119189.19,
+        "quantity_sold":14.0
+    },
+    {
+        "item_name":"CARAMEL SAUCE.",
+        "unit_price":178783.78,
+        "quantity_sold":14.0
+    },
+    {
+        "item_name":"CRUSHED OREO (R)",
+        "unit_price":90054.05,
+        "quantity_sold":14.0
+    },
+    {
+        "item_name":"SPRINKLES .(R)",
+        "unit_price":0.0,
+        "quantity_sold":14.0
+    },
+    {
+        "item_name":"SEND CUTLERY",
+        "unit_price":0.0,
+        "quantity_sold":14.0
+    },
+    {
+        "item_name":"CHOCOLATE SAUCE",
+        "unit_price":90054.05,
+        "quantity_sold":14.0
+    },
+    {
+        "item_name":"CHERRY JAM, (P)",
+        "unit_price":30459.46,
+        "quantity_sold":14.0
+    },
+    {
+        "item_name":"SALTED CARAMEL DIP.(R)",
+        "unit_price":0.0,
+        "quantity_sold":13.0
+    },
+    {
+        "item_name":"WHIPPED  CREAM (P)",
+        "unit_price":119189.19,
+        "quantity_sold":13.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE CHIPS .(P)",
+        "unit_price":30459.46,
+        "quantity_sold":13.0
+    },
+    {
+        "item_name":"HAZELNUT MOCHA FRAPPE",
+        "unit_price":536351.34,
+        "quantity_sold":13.0
+    },
+    {
+        "item_name":"CRISPY CREPE.",
+        "unit_price":178783.78,
+        "quantity_sold":12.0
+    },
+    {
+        "item_name":"PEANUT BUTTER CUPS,(P)",
+        "unit_price":59594.59,
+        "quantity_sold":12.0
+    },
+    {
+        "item_name":"PEPPERMINT TEA",
+        "unit_price":297972.97,
+        "quantity_sold":12.0
+    },
+    {
+        "item_name":"FRUIT LOOPS.",
+        "unit_price":178783.78,
+        "quantity_sold":12.0
+    },
+    {
+        "item_name":"CRUSHED LOTUS (R)",
+        "unit_price":90054.05,
+        "quantity_sold":12.0
+    },
+    {
+        "item_name":"RASPBERRIES .(P)",
+        "unit_price":30459.46,
+        "quantity_sold":11.0
+    },
+    {
+        "item_name":"AFFOGATO",
+        "unit_price":536351.34,
+        "quantity_sold":11.0
+    },
+    {
+        "item_name":"FRUIT LOOPS (R)",
+        "unit_price":90054.05,
+        "quantity_sold":11.0
+    },
+    {
+        "item_name":"LOTUS SAUCE (R)",
+        "unit_price":90054.05,
+        "quantity_sold":11.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE CHIPS (P)",
+        "unit_price":119189.19,
+        "quantity_sold":11.0
+    },
+    {
+        "item_name":"HAZELNUT SYRUP",
+        "unit_price":90054.05,
+        "quantity_sold":11.0
+    },
+    {
+        "item_name":"NUTELLA SPREAD MINI",
+        "unit_price":59594.59,
+        "quantity_sold":11.0
+    },
+    {
+        "item_name":"EARL GREY",
+        "unit_price":297972.97,
+        "quantity_sold":10.0
+    },
+    {
+        "item_name":"PISTACHIO SPREAD CHIMNEY",
+        "unit_price":238378.38,
+        "quantity_sold":10.0
+    },
+    {
+        "item_name":"PISTACHIO DIP.(P)",
+        "unit_price":119189.19,
+        "quantity_sold":10.0
+    },
+    {
+        "item_name":"FRUIT LOOPS,(R)",
+        "unit_price":0.0,
+        "quantity_sold":10.0
+    },
+    {
+        "item_name":"RASPBERRY JAM,(P)",
+        "unit_price":59594.59,
+        "quantity_sold":9.0
+    },
+    {
+        "item_name":"PISTACHIO SAUCE (P)",
+        "unit_price":119189.19,
+        "quantity_sold":9.0
+    },
+    {
+        "item_name":"MATCHA MILKSHAKE",
+        "unit_price":893918.92,
+        "quantity_sold":9.0
+    },
+    {
+        "item_name":"PISTACHIO SPREAD MINI.",
+        "unit_price":30459.46,
+        "quantity_sold":9.0
+    },
+    {
+        "item_name":"LOTUS DIP (R)",
+        "unit_price":119189.19,
+        "quantity_sold":9.0
+    },
+    {
+        "item_name":"WILD BERRIES PASSION",
+        "unit_price":417162.16,
+        "quantity_sold":9.0
+    },
+    {
+        "item_name":"CRISPY CREPE,(R)",
+        "unit_price":0.0,
+        "quantity_sold":9.0
+    },
+    {
+        "item_name":"HAZELNUT FRAPPE",
+        "unit_price":536351.34,
+        "quantity_sold":9.0
+    },
+    {
+        "item_name":"ESPRESSO MACCHIATO",
+        "unit_price":328432.43,
+        "quantity_sold":9.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE SAUCE  ,(R)",
+        "unit_price":0.0,
+        "quantity_sold":8.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE SAUCE .(R)",
+        "unit_price":0.0,
+        "quantity_sold":8.0
+    },
+    {
+        "item_name":"PEANUT BUTTER CUPS.",
+        "unit_price":238378.38,
+        "quantity_sold":8.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE DIP (R)",
+        "unit_price":119189.19,
+        "quantity_sold":8.0
+    },
+    {
+        "item_name":"GRANOLA BERRIES MILKSHAKE",
+        "unit_price":774729.73,
+        "quantity_sold":8.0
+    },
+    {
+        "item_name":"TOFFEE NUT MILKSHAKE",
+        "unit_price":774729.73,
+        "quantity_sold":7.0
+    },
+    {
+        "item_name":"GRANOLA BERRIES.",
+        "unit_price":238378.38,
+        "quantity_sold":7.0
+    },
+    {
+        "item_name":"CRISPY CREPE (R)",
+        "unit_price":90054.05,
+        "quantity_sold":7.0
+    },
+    {
+        "item_name":"CRISPY CREPE ,(R)",
+        "unit_price":0.0,
+        "quantity_sold":7.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE SPREAD CONUT",
+        "unit_price":90054.05,
+        "quantity_sold":7.0
+    },
+    {
+        "item_name":"PEANUT BUTTER CUPS (P)",
+        "unit_price":119189.19,
+        "quantity_sold":7.0
+    },
+    {
+        "item_name":"ENGLISH BREAKFAST",
+        "unit_price":297972.97,
+        "quantity_sold":7.0
+    },
+    {
+        "item_name":"CHERRY JAM DIP (P)",
+        "unit_price":238378.38,
+        "quantity_sold":7.0
+    },
+    {
+        "item_name":"SALTED CARAMEL SAUCE,(R)",
+        "unit_price":0.0,
+        "quantity_sold":6.0
+    },
+    {
+        "item_name":"CARAMEL DIP (R)",
+        "unit_price":119189.19,
+        "quantity_sold":6.0
+    },
+    {
+        "item_name":"FRUIT LOOPS MILKSHAKE",
+        "unit_price":774729.73,
+        "quantity_sold":6.0
+    },
+    {
+        "item_name":"SALTED PRETZELS , (R)",
+        "unit_price":0.0,
+        "quantity_sold":6.0
+    },
+    {
+        "item_name":"FRUIT LOOPS ,(R)",
+        "unit_price":0.0,
+        "quantity_sold":5.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE DIP (R)",
+        "unit_price":119189.19,
+        "quantity_sold":5.0
+    },
+    {
+        "item_name":"CHERRY JAM ,(P)",
+        "unit_price":59594.59,
+        "quantity_sold":5.0
+    },
+    {
+        "item_name":"CHERRY JAM (P)",
+        "unit_price":119189.19,
+        "quantity_sold":5.0
+    },
+    {
+        "item_name":"NO DIP",
+        "unit_price":0.0,
+        "quantity_sold":5.0
+    },
+    {
+        "item_name":"RASPBERRY JAM (P)",
+        "unit_price":119189.19,
+        "quantity_sold":5.0
+    },
+    {
+        "item_name":"DONT SEND CUTLERY",
+        "unit_price":0.0,
+        "quantity_sold":5.0
+    },
+    {
+        "item_name":"DARK CHOCOLATE SAUCE (R)",
+        "unit_price":90054.05,
+        "quantity_sold":4.0
+    },
+    {
+        "item_name":"PISTACHIO LATTE",
+        "unit_price":595945.95,
+        "quantity_sold":4.0
+    },
+    {
+        "item_name":"GRANOLA BERRIES (P)",
+        "unit_price":119189.19,
+        "quantity_sold":4.0
+    },
+    {
+        "item_name":"PISTACHIO SPREAD CONUT",
+        "unit_price":119189.19,
+        "quantity_sold":4.0
+    },
+    {
+        "item_name":"PASSION FRUIT SAUCE,(P)",
+        "unit_price":59594.59,
+        "quantity_sold":4.0
+    },
+    {
+        "item_name":"SALTED PRETZELS.",
+        "unit_price":178783.78,
+        "quantity_sold":4.0
+    },
+    {
+        "item_name":"CHERRY JAM DIP.(P)",
+        "unit_price":119189.19,
+        "quantity_sold":4.0
+    },
+    {
+        "item_name":"CHERRY JAM .(P)",
+        "unit_price":20306.31,
+        "quantity_sold":3.0
+    },
+    {
+        "item_name":"RASPBERRY JAM .(P)",
+        "unit_price":30459.46,
+        "quantity_sold":3.0
+    },
+    {
+        "item_name":"RASPBERRY JAM DIP (P)",
+        "unit_price":238378.38,
+        "quantity_sold":3.0
+    },
+    {
+        "item_name":"SALTED CARAMEL SAUCE.",
+        "unit_price":178783.78,
+        "quantity_sold":3.0
+    },
+    {
+        "item_name":"SALTED CARAMEL SAUCE (R)",
+        "unit_price":90054.05,
+        "quantity_sold":3.0
+    },
+    {
+        "item_name":"RASPBERRY JAM.",
+        "unit_price":238378.38,
+        "quantity_sold":3.0
+    },
+    {
+        "item_name":"SALTED PRETZELS,(R)",
+        "unit_price":0.0,
+        "quantity_sold":3.0
+    },
+    {
+        "item_name":"SALTED CARAMEL SYRUP",
+        "unit_price":90054.05,
+        "quantity_sold":3.0
+    },
+    {
+        "item_name":"PEANUT BUTTER MILKSHAKE",
+        "unit_price":774729.73,
+        "quantity_sold":3.0
+    },
+    {
+        "item_name":"PASSION FRUIT DIP (P)",
+        "unit_price":238378.38,
+        "quantity_sold":3.0
+    },
+    {
+        "item_name":"ARGENTINA",
+        "unit_price":0.0,
+        "quantity_sold":2.0
+    },
+    {
+        "item_name":"PEANUT BUTTER CUP .(P)",
+        "unit_price":30459.46,
+        "quantity_sold":2.0
+    },
+    {
+        "item_name":"PASSION FRUITS SAUCE .(P)",
+        "unit_price":30459.46,
+        "quantity_sold":2.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE FLAVOUR",
+        "unit_price":90054.05,
+        "quantity_sold":2.0
+    },
+    {
+        "item_name":"WHITE CHOCOLATE SAUCE",
+        "unit_price":90054.05,
+        "quantity_sold":2.0
+    },
+    {
+        "item_name":"PASSION FRUIT SAUCE (P)",
+        "unit_price":119189.19,
+        "quantity_sold":2.0
+    },
+    {
+        "item_name":"EXTRA DECAF ESPRESSO SHOT",
+        "unit_price":90054.05,
+        "quantity_sold":2.0
+    },
+    {
+        "item_name":"SALTED CARAMEL SAUCE  .(R)",
+        "unit_price":0.0,
+        "quantity_sold":2.0
+    },
+    {
+        "item_name":"ENGLAND HOLDER",
+        "unit_price":0.0,
+        "quantity_sold":2.0
+    },
+    {
+        "item_name":"STRAWBERRY DRESSING",
+        "unit_price":90054.05,
+        "quantity_sold":2.0
+    },
+    {
+        "item_name":"PASSION FRUITS DIP.(P)",
+        "unit_price":119189.19,
+        "quantity_sold":2.0
+    },
+    {
+        "item_name":"[NO SPREAD]",
+        "unit_price":0.0,
+        "quantity_sold":1.0
+    },
+    {
+        "item_name":"BALKIS LEMONADE",
+        "unit_price":238378.38,
+        "quantity_sold":1.0
+    },
+    {
+        "item_name":"GRANOLA BERRIES .(P)",
+        "unit_price":30459.46,
+        "quantity_sold":1.0
+    },
+    {
+        "item_name":"GRANOLA BERRIES ,(P)",
+        "unit_price":59594.59,
+        "quantity_sold":1.0
+    },
+    {
+        "item_name":"PISTACHIO SPREAD MINI",
+        "unit_price":90054.05,
+        "quantity_sold":1.0
+    },
+    {
+        "item_name":"LOTUS SPREAD MINI",
+        "unit_price":59594.59,
+        "quantity_sold":1.0
+    },
+    {
+        "item_name":"CARAMEL SAUCE (R)",
+        "unit_price":90054.05,
+        "quantity_sold":1.0
+    },
+    {
+        "item_name":"SALTED CARAMEL DIP (R)",
+        "unit_price":119189.19,
+        "quantity_sold":1.0
+    },
+    {
+        "item_name":"SALTED PRETZELS (R)",
+        "unit_price":90054.05,
+        "quantity_sold":1.0
+    },
+    {
+        "item_name":"CHERRY JAM.",
+        "unit_price":238378.38,
+        "quantity_sold":1.0
+    }
+]
