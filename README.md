@@ -100,6 +100,13 @@ You can access the API documentationfor each service by
 http://localhost:800X/docs
 Where X = 1->5
 
+### 6. Access the dashboard
+run startall.py
+cd frontend
+python -m http.server 3000
+go to http//localhost:3000
+Select frontend
+
 
 ### OpenClaw
 We initialized OpenClaw on an EC2 instance on AWS
