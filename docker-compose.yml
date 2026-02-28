@@ -1,0 +1,142 @@
+version: "3.9"
+
+# ══════════════════════════════════════════════════════════════════
+#  Conut Ops Agent — Full Stack
+#  Services:
+#    agent              → port 8000  (AI orchestrator)
+#    forecasting        → port 8001
+#    shift-staffing     → port 8002
+#    combo-optimization → port 8003
+#    expansion          → port 8004
+#    growth             → port 8005
+# ══════════════════════════════════════════════════════════════════
+
+networks:
+  conut-net:
+    driver: bridge
+
+volumes:
+  data-volume:       # shared raw data (CSV files)
+  forecasting-data:  # master_daily_inventory.csv
+  combo-data:        # combo_results.json, ai_combo_pricing_results.csv
+  expansion-data:    # monthly_sales_by_branch.json, customers.json
+  staffing-models:   # mlruns/ model artifacts
+
+services:
+
+  # ────────────────────────────────────────────────────────────────
+  # 1. FORECASTING SERVICE
+  # ────────────────────────────────────────────────────────────────
+  forecasting:
+    build:
+      context: .
+      dockerfile: /services/forecasting/Dockerfile
+    container_name: conut-forecasting
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./data:/data
+      - data-volume:/app/data          # raw CSVs from /data folder
+      - forecasting-data:/app/output   # generated master_daily_inventory.csv
+    networks:
+      - conut-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+  # ────────────────────────────────────────────────────────────────
+  # 2. SHIFT STAFFING ESTIMATION SERVICE
+  # ────────────────────────────────────────────────────────────────
+  shift-staffing:
+    build:
+      context: .
+      dockerfile: /services/shift_staffing_estimation/Dockerfile
+    container_name: conut-shift-staffing
+    ports:
+      - "8002:8002"
+    volumes:
+      - staffing-models:/app/mlruns    # trained model artifacts
+      - data-volume:/app/data
+    networks:
+      - conut-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8002/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+  # ────────────────────────────────────────────────────────────────
+  # 3. COMBO OPTIMIZATION SERVICE
+  # ────────────────────────────────────────────────────────────────
+  combo-optimization:
+    build:
+      context: .
+      dockerfile: /services/combo_optimization/Dockerfile
+    container_name: conut-combo
+    ports:
+      - "8003:8003"
+    volumes:
+      - combo-data:/app/output         # combo_results.json, pricing CSV
+      - data-volume:/app/data
+    networks:
+      - conut-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8003/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+  # ────────────────────────────────────────────────────────────────
+  # 4. EXPANSION FEASIBILITY SERVICE
+  # ────────────────────────────────────────────────────────────────
+  expansion:
+    build:
+      context: .
+      dockerfile: /services/expansion_feasibility/Dockerfile
+    container_name: conut-expansion
+    ports:
+      - "8004:8004"
+    volumes:
+      - expansion-data:/app/output     # monthly_sales_by_branch.json, customers.json
+      - data-volume:/app/data
+    networks:
+      - conut-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8004/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+  # ────────────────────────────────────────────────────────────────
+  # 5. GROWTH STRATEGY SERVICE
+  # ────────────────────────────────────────────────────────────────
+  growth:
+    build:
+      context: .
+      dockerfile: /services/growth/Dockerfile
+    container_name: conut-growth
+    ports:
+      - "8005:8005"
+    volumes:
+      - data-volume:/app/data
+    networks:
+      - conut-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8005/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+ 

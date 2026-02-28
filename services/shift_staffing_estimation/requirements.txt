@@ -1,0 +1,20 @@
+# ── services/shift_staffing_estimation/requirements.txt ────────────
+# Imports found in: pipeline.py (api.py calls pipeline internals)
+# Versions locked to match the trained mlruns/ model artifacts
+
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Data processing
+pandas==2.3.3
+numpy==1.26.4
+
+# ML — must match training environment exactly to load saved models
+scikit-learn==1.2.2
+cloudpickle==2.2.1
+
+# MLflow — model registry & champion alias loading
+mlflow==3.10.0
+lz4==4.3.2
+psutil==5.9.0
+scipy==1.11.4

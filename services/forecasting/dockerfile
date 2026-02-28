@@ -1,0 +1,24 @@
+# ──────────────────────────────────────────────
+#  Conut Forecasting Service  |  Port 8001
+# ──────────────────────────────────────────────
+FROM python:3.11.7-slim
+
+WORKDIR /app
+
+# 1. Install system build tools for C-extensions
+RUN apt-get update && apt-get install -y gcc python3-dev && rm -rf /var/lib/apt/lists/*
+
+# 2. Install dependencies
+COPY services/forecasting/requirements.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 3. Copy service source code
+COPY services/forecasting/ .
+
+# Copy shared data if needed (adjust path as required)
+# COPY data/ ./data/
+
+EXPOSE 8001
+
+# Run preprocessing first, then start the API
+CMD ["sh", "-c", "python preprocessing.py && uvicorn api:app --host 0.0.0.0 --port 8001"]

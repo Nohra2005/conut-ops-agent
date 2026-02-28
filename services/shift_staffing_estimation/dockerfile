@@ -1,0 +1,21 @@
+# ──────────────────────────────────────────────
+#  Conut Shift Staffing Estimation Service  |  Port 8002
+# ──────────────────────────────────────────────
+FROM python:3.11.7-slim
+
+# 1. Set the working directory first
+WORKDIR /app
+
+# 2. Install the missing C compiler and Python headers
+RUN apt-get update && apt-get install -y gcc python3-dev && rm -rf /var/lib/apt/lists/*
+
+# 3. Copy ONLY this service's requirements and install them
+COPY services/shift_staffing_estimation/requirements.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 4. Copy the rest of the service source code (including mlruns/)
+COPY services/shift_staffing_estimation/ .
+
+EXPOSE 8002
+
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8002"]

@@ -1,0 +1,24 @@
+# ──────────────────────────────────────────────
+#  Conut Expansion Feasibility Service  |  Port 8004
+# ──────────────────────────────────────────────
+FROM python:3.11.7-slim
+
+WORKDIR /app
+
+# 1. Install system build tools for C-extensions
+RUN apt-get update && apt-get install -y gcc python3-dev && rm -rf /var/lib/apt/lists/*
+
+# 2. Install dependencies
+COPY services/expansion_feasibility/requirements.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 3. Copy service source code
+COPY services/expansion_feasibility/ .
+
+# The API requires sales.json and customers.json.
+# If not pre-built, run the update pipeline first:
+# CMD ["sh", "-c", "python update_pipeline.py && uvicorn api:app --host 0.0.0.0 --port 8004"]
+
+EXPOSE 8004
+
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8004"]

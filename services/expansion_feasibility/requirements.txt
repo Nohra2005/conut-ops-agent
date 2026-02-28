@@ -1,0 +1,9 @@
+# ── services/expansion_feasibility/requirements.txt ────────────────
+# Imports found in: api.py, expansion_model.py, retrain.py, cleaned_delivery.py
+
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Data processing — expansion_model.py uses numpy for linear regression
+numpy==1.26.4
+pandas==2.3.3

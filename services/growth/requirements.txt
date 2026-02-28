@@ -1,0 +1,9 @@
+# ── services/growth/requirements.txt ───────────────────────────────
+# Imports found in: api.py, growth_service.py, preprocessing.py
+
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Data processing — growth_service.py and preprocessing.py
+pandas==2.3.3
+numpy==1.26.4

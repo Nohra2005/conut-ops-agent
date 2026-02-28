@@ -121,7 +121,7 @@ def run_preprocessing(data_dir, output_dir):
 
 if __name__ == "__main__":
     BASE_DIR      = os.path.dirname(os.path.abspath(__file__))
-    DATA_FOLDER   = os.path.normpath(os.path.join(BASE_DIR, "..", "..", "data"))
+    DATA_FOLDER   = os.path.normpath(os.path.join(BASE_DIR, "..", "..", "data","raw_data"))
     OUTPUT_FOLDER = BASE_DIR
     try:
         run_preprocessing(DATA_FOLDER, OUTPUT_FOLDER)
