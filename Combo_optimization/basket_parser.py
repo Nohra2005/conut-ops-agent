@@ -345,3 +345,4 @@ if __name__ == "__main__":
         json.dump(full_output, f, indent=2, ensure_ascii=False)
 
     print(f"\nFull output (baskets + cancelled log) saved to: {OUTPUT_FILE}")
+

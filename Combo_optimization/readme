@@ -1,0 +1,53 @@
+COMBO GENERATION & PRICING STRATEGY LOGIC
+AI Chief of Operations Agent - Conut Hackathon
+This document outlines the step-by-step reasoning used by the AI Agent to generate, filter, and price combo recommendations using Market Basket Analysis (MBA) and historical pricing data.
+
+STEP 1: Discovering the Pairings (Market Basket Analysis)
+Before pricing anything, the agent looks at historical transaction data to find items that naturally "cluster" together. It uses three key metrics:
+
+SUPPORT: How often does this combo happen overall? (e.g., 4.3% of all orders contain both Water and Chimney The One).
+
+CONFIDENCE: If they buy Item A, what is the probability they buy Item B? (e.g., 66.7% of Water buyers also buy Chimney The One).
+
+LIFT: Is this pairing a coincidence, or a true behavioral link? A Lift > 1.0 means the items are bought together more often than random chance. We only look at combos with a Lift > 1.2 to ensure the relationship is strong.
+
+STEP 2: The Cannibalization Filter (Risk Assessment)
+The biggest mistake in restaurant combos is discounting items that customers were already going to buy at full price. This destroys profit margins without driving new growth.
+
+To prevent this, the Agent uses the "Confidence" metric as a Cannibalization Risk Indicator:
+
+High Confidence (>60%): The customer is already buying these together naturally. (High Cannibalization Risk).
+
+Low Confidence (<20%): Customers rarely pair these items. (Low Cannibalization Risk, High Growth Potential).
+
+STEP 3: Dynamic Discount Sizing (Risk-Based Pricing)
+Instead of applying a flat 15% discount to all combos, the Agent dynamically sizes the discount based on the risk profile established in Step 2:
+
+If Risk is HIGH (Confidence >= 40%): The agent assigns a minimal 5% discount. This acts as a slight "nudge" or psychological reward without sacrificing existing revenue.
+
+If Risk is MEDIUM (Confidence 20% - 39%): The agent assigns a 12% discount.
+
+If Risk is LOW (Confidence < 20%): The agent assigns an aggressive 18% discount to incentivize a completely new purchasing behavior and increase basket size.
+
+STEP 4: The Break-Even Target
+Since we are giving a discount, we lose a small amount of revenue per transaction. The Agent calculates exactly how many MORE units must be sold to "break even" on that lost revenue.
+
+Formula: Target Volume = Current Volume / (1 - Discount Percentage)
+
+Example: If 12 people currently buy the "Triple Chocolate + The One" combo at full price, a 5% discount means we only need to sell 13 combos to make the exact same top-line revenue. Any sale after the 13th is pure revenue growth.
+
+STEP 5: Handling "Zero-Price" Modifiers
+The Agent cross-references the MBA data with cleaned_items_prices.json. It identifies anomalies—such as the "Strawberry + Classic Chimney" combo.
+
+Finding: The Lift is massive (3.25x), but the Strawberry add-on has a unit price of 0.00 (it is a free modifier or pre-included topping).
+
+Action: The Agent knows it cannot discount a $0 item. Instead of a price discount, the recommendation shifts to "Menu Engineering"—advising operations to make Strawberry a prominent 1-click add-on on the digital menu to improve user experience and speed up ordering.
+
+SUMMARY OF THE AGENT'S BUSINESS RULES:
+Only recommend combos with Lift > 1.2.
+
+Never heavily discount items that customers already buy together (Confidence > 40%).
+
+Always calculate the exact unit sales needed to break even before launching the promo.
+
+Separate paid combos from free modifiers (Menu Engineering vs. Promotional Pricing).
