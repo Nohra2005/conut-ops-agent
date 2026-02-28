@@ -13,6 +13,8 @@ def train_forecasting_model(data_path, model_dir):
     # 1. Feature engineering
     print("Engineering date features...")
     df['date'] = pd.to_datetime(df['date'])
+    df = df.sort_values('date') # Crucial for chronological splitting
+    
     df['month'] = df['date'].dt.month
     df['day_of_week'] = df['date'].dt.dayofweek
     df['day_of_month'] = df['date'].dt.day
@@ -25,14 +27,18 @@ def train_forecasting_model(data_path, model_dir):
     df['branch_encoded'] = branch_encoder.fit_transform(df['branch'])
     df['item_encoded'] = item_encoder.fit_transform(df['item_name'])
     
-    # 3. Chronological train/test split (Crucial to prevent data leakage)
-    # Train on Jan-Oct, Test on Nov-Dec
-    print("Splitting data chronologically to prevent leakage...")
-    train_mask = df['date'] < '2026-11-01'
-    test_mask = df['date'] >= '2026-11-01'
+    # 3. Dynamic Chronological Split
+    # We take the unique sorted dates and find the 80% mark
+    print("Calculating dynamic split point...")
+    unique_dates = sorted(df['date'].unique())
+    split_index = int(len(unique_dates) * 0.8)
+    split_date = unique_dates[split_index]
     
-    train_df = df[train_mask]
-    test_df = df[test_mask]
+    print(f"Training on data before: {split_date.date()}")
+    print(f"Testing on data after:  {split_date.date()}")
+    
+    train_df = df[df['date'] < split_date]
+    test_df = df[df['date'] >= split_date]
     
     features = ['branch_encoded', 'item_encoded', 'month', 'day_of_week', 'day_of_month']
     target = 'daily_qty_rounded'
@@ -41,7 +47,7 @@ def train_forecasting_model(data_path, model_dir):
     X_test, y_test = test_df[features], test_df[target]
     
     # 4. Train the XGBoost model
-    print("Training XGBoost regressor...")
+    print("Training cumulative XGBoost regressor...")
     model = xgb.XGBRegressor(
         n_estimators=200,
         learning_rate=0.1,
@@ -50,24 +56,22 @@ def train_forecasting_model(data_path, model_dir):
         objective='reg:squarederror'
     )
     
-    # We use the test set as an evaluation set to monitor for overfitting
     model.fit(
         X_train, y_train,
         eval_set=[(X_train, y_train), (X_test, y_test)],
         verbose=False
     )
     
-    # 5. Evaluate the model on unseen data
-    print("\nEvaluating model on unseen future data (Nov-Dec)...")
+    # 5. Evaluate
+    print("\nEvaluating model on final 20% of timeline...")
     predictions = model.predict(X_test)
     rmse = np.sqrt(mean_squared_error(y_test, predictions))
     mae = mean_absolute_error(y_test, predictions)
     
     print(f"Mean absolute error (MAE): {mae:.2f} units")
     print(f"Root mean squared error (RMSE): {rmse:.2f} units")
-    print("If MAE is low, your model is successfully generalizing without data leakage!\n")
     
-    # 6. Save the model and encoders for the OpenClaw agent
+    # 6. Save the model and encoders
     print("Saving model and encoders...")
     os.makedirs(model_dir, exist_ok=True)
     
@@ -79,7 +83,7 @@ def train_forecasting_model(data_path, model_dir):
     with open(os.path.join(model_dir, "item_encoder.pkl"), "wb") as f:
         pickle.dump(item_encoder, f)
         
-    print(f"Success! Leakage-free model files saved to {model_dir}")
+    print(f"Success! Model files updated in {model_dir}")
 
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))

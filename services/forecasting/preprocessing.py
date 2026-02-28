@@ -36,7 +36,6 @@ def run_preprocessing(data_dir, output_dir):
     anchor.rename(columns={0: 'item_name'}, inplace=True)
     anchor['item_name'] = anchor['item_name'].apply(clean_item_name)
     
-    # group by cleaned names to merge duplicates (e.g. "STRAWBERRY." and "STRAWBERRY")
     anchor = anchor.groupby(['branch', 'item_name'])['qty'].sum().reset_index()
     anchor.rename(columns={'qty': 'annual_qty'}, inplace=True)
 
@@ -95,15 +94,35 @@ def run_preprocessing(data_dir, output_dir):
     final = pd.merge(master_cal, merged, on='month')
     final['daily_qty_rounded'] = (final['annual_qty'] * final['monthly_weight'] * final['norm_w']).round(2)
     
+    new_data = final[['date', 'branch', 'item_name', 'daily_qty_rounded']].copy()
+    new_data['date'] = new_data['date'].dt.strftime('%Y-%m-%d')
+    
+    # --- 5. Append and Deduplicate Logic ---
     output_file = os.path.join(output_dir, "master_daily_inventory.csv")
-    final[['date', 'branch', 'item_name', 'daily_qty_rounded']].to_csv(output_file, index=False)
-    print(f"preprocessing complete. master_daily_inventory.csv generated at {output_file}")
+    
+    if os.path.exists(output_file):
+        print("Existing dataset found. Appending and deduplicating...")
+        existing_df = pd.read_csv(output_file)
+        
+        # Merge old and new
+        combined_df = pd.concat([existing_df, new_data], ignore_index=True)
+        
+        # Deduplicate based on date, branch, and item_name
+        # 'keep=last' ensures if you update data for a date, the latest run wins
+        combined_df = combined_df.drop_duplicates(subset=['date', 'branch', 'item_name'], keep='last')
+        
+        # Sort by date for clean training split later
+        combined_df = combined_df.sort_values(by='date')
+        
+        combined_df.to_csv(output_file, index=False)
+        print(f"Update complete. Dataset now has {len(combined_df)} records.")
+    else:
+        print("No existing dataset found. Creating fresh master file...")
+        new_data.to_csv(output_file, index=False)
+        print(f"Created master_daily_inventory.csv with {len(new_data)} records.")
 
 if __name__ == "__main__":
-    # dynamic path resolution
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    
-    # navigates from services/forecasting to the root data folder
     DATA_FOLDER = os.path.normpath(os.path.join(BASE_DIR, "..", "..", "data"))
     OUTPUT_FOLDER = BASE_DIR
     
