@@ -1,131 +1,125 @@
 import pandas as pd
-import xgboost as xgb
-import pickle
 import os
 from datetime import datetime, timedelta
-import matplotlib.pyplot as plt
 
+
+# UPGRADE PATH: When real daily sales data is available per item,
+# replace predict_single_day() with an XGBoost model trained on 
+# actual transactions. The API interface stays identical.
 class InventoryForecaster:
-    def __init__(self, model_dir):
-        """Loads the trained model and translators into memory."""
-        self.model = xgb.XGBRegressor()
-        self.model.load_model(os.path.join(model_dir, "xgb_inventory_model.json"))
-        
-        with open(os.path.join(model_dir, "branch_encoder.pkl"), "rb") as f:
-            self.branch_encoder = pickle.load(f)
-            
-        with open(os.path.join(model_dir, "item_encoder.pkl"), "rb") as f:
-            self.item_encoder = pickle.load(f)
-            
-    def predict_single_day(self, branch_name, item_name, target_date_str):
-        """Predicts inventory for a single specific date (YYYY-MM-DD)."""
+    def __init__(self, data_dir):
+        """Loads master_daily_inventory.csv into memory once at startup."""
+        self.data_dir = data_dir
+        master_path = os.path.join(data_dir, "master_daily_inventory.csv")
+        if not os.path.exists(master_path):
+            raise FileNotFoundError("master_daily_inventory.csv not found. Run preprocessing.py first.")
+        self.df = pd.read_csv(master_path)
+        self.df['date'] = pd.to_datetime(self.df['date'])
+        # Normalize for case-insensitive lookup
+        self.df['branch_upper'] = self.df['branch'].str.upper().str.strip()
+        self.df['item_upper']   = self.df['item_name'].str.upper().str.strip()
+        print(f"Forecaster loaded: {len(self.df)} rows, "
+              f"{self.df['branch'].nunique()} branches, "
+              f"{self.df['item_name'].nunique()} items.")
+
+    def predict_single_day(self, branch: str, item: str, date_str: str):
+        """Returns predicted qty for a branch/item on a specific date."""
         try:
-            target_date = datetime.strptime(target_date_str, '%Y-%m-%d')
-            
-            # Translate text to numbers
-            branch_encoded = self.branch_encoder.transform([branch_name])[0]
-            item_encoded = self.item_encoder.transform([item_name])[0]
-            
-            # Extract date features the model needs
-            month = target_date.month
-            day_of_week = target_date.weekday()
-            day_of_month = target_date.day
-            
-            # Create the exact feature structure the model expects
-            X_infer = pd.DataFrame(
-                [[branch_encoded, item_encoded, month, day_of_week, day_of_month]], 
-                columns=['branch_encoded', 'item_encoded', 'month', 'day_of_week', 'day_of_month']
+            target = pd.to_datetime(date_str)
+        except Exception:
+            return f"Error: invalid date format '{date_str}'. Use YYYY-MM-DD."
+
+        mask = (
+            (self.df['date'] == target) &
+            (self.df['branch_upper'] == branch.upper().strip()) &
+            (self.df['item_upper']   == item.upper().strip())
+        )
+        rows = self.df[mask]
+
+        if rows.empty:
+            # Date might be outside 2026 — fall back to same DOW + month from nearest year
+            return self._fallback_predict(branch, item, target)
+
+        return round(float(rows.iloc[0]['predicted_qty']), 4)
+
+    def _fallback_predict(self, branch: str, item: str, target: datetime):
+        """
+        If date is outside the precomputed range, find the same
+        month + day-of-week combination and return the average predicted qty.
+        This ensures the service never fails for future dates.
+        """
+        month_name = target.strftime('%B')
+        dow_name   = target.strftime('%A')
+
+        mask = (
+            (self.df['branch_upper'] == branch.upper().strip()) &
+            (self.df['item_upper']   == item.upper().strip()) &
+            (self.df['date'].dt.month_name() == month_name) &
+            (self.df['date'].dt.day_name()   == dow_name)
+        )
+        rows = self.df[mask]
+
+        if rows.empty:
+            # Last resort — average for that branch/item across all dates
+            mask2 = (
+                (self.df['branch_upper'] == branch.upper().strip()) &
+                (self.df['item_upper']   == item.upper().strip())
             )
-            
-            # Make the prediction
-            prediction = self.model.predict(X_infer)[0]
-            
-            # Ensure we don't return negative inventory
-            return max(0.0, round(float(prediction), 2))
-            
-        except ValueError as e:
-            return f"Error: Make sure the branch and item exist in the data. Details: {e}"
-        except Exception as e:
-            return f"Prediction error: {e}"
+            rows = self.df[mask2]
+            if rows.empty:
+                return f"Error: branch '{branch}' or item '{item}' not found in data."
+            return round(float(rows['predicted_qty'].mean()), 4)
 
-    def predict_date_range(self, branch_name, item_name, start_date_str, end_date_str):
-        """Predicts total inventory needed over a span of days (like 'next week')."""
+        return round(float(rows['predicted_qty'].mean()), 4)
+
+    def predict_date_range(self, branch: str, item: str, start_str: str, end_str: str):
+        """Returns total and daily breakdown for a date range."""
         try:
-            start_date = datetime.strptime(start_date_str, '%Y-%m-%d')
-            end_date = datetime.strptime(end_date_str, '%Y-%m-%d')
-            
-            current_date = start_date
-            total_qty = 0.0
-            daily_breakdown = {}
-            
-            # Loop through each day in the range and predict
-            while current_date <= end_date:
-                date_str = current_date.strftime('%Y-%m-%d')
-                qty = self.predict_single_day(branch_name, item_name, date_str)
-                
-                if isinstance(qty, str):  # If it returned an error string
-                    return qty
-                    
-                daily_breakdown[date_str] = qty
-                total_qty += qty
-                current_date += timedelta(days=1)
-                
-            return {
-                "total_requested": round(total_qty, 2),
-                "daily_breakdown": daily_breakdown
-            }
-            
-        except Exception as e:
-            return f"Range prediction error: {e}"
-        
-    def visualize_forecast(self, forecast_data, item_name, branch_name):
-        """Generates a bar chart for the daily breakdown."""
-        dates = list(forecast_data['daily_breakdown'].keys())
-        values = list(forecast_data['daily_breakdown'].values())
-        
-        plt.figure(figsize=(10, 6))
-        bars = plt.bar(dates, values, color='skyblue', edgecolor='navy')
-        
-        # Add labels on top of bars
-        for bar in bars:
-            yval = bar.get_height()
-            plt.text(bar.get_x() + bar.get_width()/2, yval + 0.01, yval, ha='center', va='bottom')
+            start = datetime.strptime(start_str, '%Y-%m-%d')
+            end   = datetime.strptime(end_str,   '%Y-%m-%d')
+        except Exception:
+            return "Error: use YYYY-MM-DD format for dates."
 
-        plt.title(f"Inventory forecast: {item_name} at {branch_name}")
-        plt.xlabel("Date")
-        plt.ylabel("Units needed")
-        plt.xticks(rotation=45)
-        plt.grid(axis='y', linestyle='--', alpha=0.7)
-        plt.tight_layout()
-        
-        # Save the chart as an image for the agent/teammate
-        chart_path = f"forecast_{branch_name.replace(' ', '_')}.png"
-        plt.savefig(chart_path)
-        print(f"\nChart saved successfully as {chart_path}")
-        plt.show()
+        if end < start:
+            return "Error: end_date must be after start_date."
 
-# --- Testing the service ---
+        daily = {}
+        current = start
+        while current <= end:
+            date_str = current.strftime('%Y-%m-%d')
+            qty = self.predict_single_day(branch, item, date_str)
+            if isinstance(qty, str) and qty.startswith("Error"):
+                return qty
+            daily[date_str] = qty
+            current += timedelta(days=1)
+
+        return {
+            "total_predicted": round(sum(daily.values()), 4),
+            "daily_breakdown": daily
+        }
+
+    def list_items(self, branch: str = None):
+        """Returns all available items, optionally filtered by branch."""
+        df = self.df
+        if branch:
+            df = df[df['branch_upper'] == branch.upper().strip()]
+        return sorted(df['item_name'].unique().tolist())
+
+
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    forecaster = InventoryForecaster(script_dir)
-    
-    test_branch = "Conut - Tyre"
-    test_item = "FULL FAT MILK"
-    
-    print("Test 1: Single day (March 12, 2026)")
-    single_result = forecaster.predict_single_day(test_branch, test_item, "2026-03-12")
-    print(f"Prediction: {single_result} units\n")
-    
-    print("Test 2: A full week (March 12 to March 18)")
-    week_result = forecaster.predict_date_range(test_branch, test_item, "2026-03-12", "2026-03-18")
-    print(f"Total needed for the week: {week_result['total_requested']} units")
-    print(f"Daily breakdown: {week_result['daily_breakdown']}")
-    
-    # Test Case: High vs Low Season at Jnah
-    print(f"Jnah March 12: {forecaster.predict_single_day('Conut Jnah', 'NUTELLA SPREAD CONUT', '2026-03-12')}")
-    print(f"Jnah Dec 12:   {forecaster.predict_single_day('Conut Jnah', 'NUTELLA SPREAD CONUT', '2026-12-12')}")
+    f = InventoryForecaster(script_dir)
 
-    # Test Case: Weekend Lift
-    print(f"Tuesday March 10:  {forecaster.predict_single_day('Conut', 'CLASSIC CHIMNEY', '2026-03-10')}")
-    print(f"Saturday March 14: {forecaster.predict_single_day('Conut', 'CLASSIC CHIMNEY', '2026-03-14')}")
-    forecaster.visualize_forecast(week_result, test_item, test_branch)
+    print("\n=== Test 1: Single day ===")
+    print(f.predict_single_day("Conut - Tyre", "FULL FAT MILK", "2026-03-12"))
+
+    print("\n=== Test 2: Full week ===")
+    print(f.predict_date_range("Conut - Tyre", "FULL FAT MILK", "2026-03-12", "2026-03-18"))
+
+    print("\n=== Test 3: Seasonality (March vs December at Jnah) ===")
+    print("March:   ", f.predict_single_day("Conut Jnah", "NUTELLA SPREAD CONUT", "2026-03-12"))
+    print("December:", f.predict_single_day("Conut Jnah", "NUTELLA SPREAD CONUT", "2026-12-12"))
+
+    print("\n=== Test 4: Weekend lift ===")
+    print("Tuesday:  ", f.predict_single_day("Conut", "CLASSIC CHIMNEY", "2026-03-10"))
+    print("Saturday: ", f.predict_single_day("Conut", "CLASSIC CHIMNEY", "2026-03-15"))
