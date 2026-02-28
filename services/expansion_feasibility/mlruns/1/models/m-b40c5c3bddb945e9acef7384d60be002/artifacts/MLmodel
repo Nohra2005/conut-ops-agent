@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/royba/Downloads/conut-ops-agent/services/expansion_feasibility/mlruns/1/models/m-b40c5c3bddb945e9acef7384d60be002/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-b40c5c3bddb945e9acef7384d60be002
+model_size_bytes: 2462
+model_uuid: m-b40c5c3bddb945e9acef7384d60be002
+prompts: null
+run_id: 6d1b0560844a41fbbe9b144042ae9919
+utc_time_created: '2026-02-28 16:29:49.541207'
