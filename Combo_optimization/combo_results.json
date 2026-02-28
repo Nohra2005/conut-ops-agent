@@ -1,0 +1,239 @@
+{
+  "summary": {
+    "total_baskets": 139,
+    "cancelled_orders": 7,
+    "unique_products": 67,
+    "avg_basket_size": 2.46,
+    "min_support_used": 0.04,
+    "min_confidence_used": 0.3,
+    "min_lift_used": 1.2,
+    "frequent_itemsets": 22,
+    "unique_combos_found": 4
+  },
+  "top_items": [
+    {
+      "item": "CHIMNEY THE ONE",
+      "n_customers": 62,
+      "support_pct": 44.6
+    },
+    {
+      "item": "CLASSIC CHIMNEY",
+      "n_customers": 32,
+      "support_pct": 23.0
+    },
+    {
+      "item": "CONUT THE ONE",
+      "n_customers": 22,
+      "support_pct": 15.8
+    },
+    {
+      "item": "CHIMNEY TRIPLE CHOCOLATE",
+      "n_customers": 19,
+      "support_pct": 13.7
+    },
+    {
+      "item": "ADD ICE CREAM",
+      "n_customers": 14,
+      "support_pct": 10.1
+    },
+    {
+      "item": "CONUT TRIPLE CHOCOLATE",
+      "n_customers": 13,
+      "support_pct": 9.4
+    },
+    {
+      "item": "CHIMNEY BERRY MIX",
+      "n_customers": 13,
+      "support_pct": 9.4
+    },
+    {
+      "item": "CHIMNEY THE ORIGINAL",
+      "n_customers": 13,
+      "support_pct": 9.4
+    },
+    {
+      "item": "STRAWBERRY",
+      "n_customers": 12,
+      "support_pct": 8.6
+    },
+    {
+      "item": "WATER",
+      "n_customers": 9,
+      "support_pct": 6.5
+    },
+    {
+      "item": "THE SHARING BOX",
+      "n_customers": 9,
+      "support_pct": 6.5
+    },
+    {
+      "item": "CHIMNEY BOSTON CHEESECAKE",
+      "n_customers": 7,
+      "support_pct": 5.0
+    },
+    {
+      "item": "CONUT PISTACHIO",
+      "n_customers": 6,
+      "support_pct": 4.3
+    },
+    {
+      "item": "CONUT BERRY MIX",
+      "n_customers": 6,
+      "support_pct": 4.3
+    },
+    {
+      "item": "CHIMNEY PISTACHIO",
+      "n_customers": 6,
+      "support_pct": 4.3
+    },
+    {
+      "item": "CONUT BOSTON CHEESECAKE",
+      "n_customers": 6,
+      "support_pct": 4.3
+    },
+    {
+      "item": "MINI BERRY MIX",
+      "n_customers": 5,
+      "support_pct": 3.6
+    },
+    {
+      "item": "CAFFE LATTE",
+      "n_customers": 5,
+      "support_pct": 3.6
+    },
+    {
+      "item": "MINI THE ONE",
+      "n_customers": 5,
+      "support_pct": 3.6
+    },
+    {
+      "item": "SINGLE ESPRESSO",
+      "n_customers": 5,
+      "support_pct": 3.6
+    },
+    {
+      "item": "ICE CREAM BOWL",
+      "n_customers": 4,
+      "support_pct": 2.9
+    },
+    {
+      "item": "CONUT BITES",
+      "n_customers": 4,
+      "support_pct": 2.9
+    },
+    {
+      "item": "CONUT COMBO",
+      "n_customers": 3,
+      "support_pct": 2.2
+    },
+    {
+      "item": "BLUEBERRIES",
+      "n_customers": 3,
+      "support_pct": 2.2
+    },
+    {
+      "item": "BLUEBERRIES , (P)",
+      "n_customers": 3,
+      "support_pct": 2.2
+    },
+    {
+      "item": "MINI TRIPLE CHOCOLATE",
+      "n_customers": 3,
+      "support_pct": 2.2
+    },
+    {
+      "item": "PISTACHIO SAUCE ,(P)",
+      "n_customers": 2,
+      "support_pct": 1.4
+    },
+    {
+      "item": "CARAMEL MACHIATO",
+      "n_customers": 2,
+      "support_pct": 1.4
+    },
+    {
+      "item": "DOUBLE CHOCOLATE MILKSHAKE",
+      "n_customers": 2,
+      "support_pct": 1.4
+    },
+    {
+      "item": "AFFOGATO",
+      "n_customers": 2,
+      "support_pct": 1.4
+    }
+  ],
+  "combo_recommendations": [
+    {
+      "rank": 1,
+      "combo": [
+        "CLASSIC CHIMNEY",
+        "STRAWBERRY"
+      ],
+      "if_buys": [
+        "STRAWBERRY"
+      ],
+      "also_buys": [
+        "CLASSIC CHIMNEY"
+      ],
+      "support_pct": 6.5,
+      "confidence_pct": 75.0,
+      "lift": 3.2578,
+      "n_customers": 9,
+      "interpretation": "9 customers ordered CLASSIC CHIMNEY + STRAWBERRY together. When someone buys STRAWBERRY, there is a 75% chance they also buy CLASSIC CHIMNEY. This is 3.3x more likely than by random chance."
+    },
+    {
+      "rank": 2,
+      "combo": [
+        "CHIMNEY BOSTON CHEESECAKE",
+        "CHIMNEY THE ONE"
+      ],
+      "if_buys": [
+        "CHIMNEY BOSTON CHEESECAKE"
+      ],
+      "also_buys": [
+        "CHIMNEY THE ONE"
+      ],
+      "support_pct": 4.3,
+      "confidence_pct": 85.7,
+      "lift": 1.9217,
+      "n_customers": 6,
+      "interpretation": "6 customers ordered CHIMNEY BOSTON CHEESECAKE + CHIMNEY THE ONE together. When someone buys CHIMNEY BOSTON CHEESECAKE, there is a 86% chance they also buy CHIMNEY THE ONE. This is 1.9x more likely than by random chance."
+    },
+    {
+      "rank": 3,
+      "combo": [
+        "CHIMNEY THE ONE",
+        "WATER"
+      ],
+      "if_buys": [
+        "WATER"
+      ],
+      "also_buys": [
+        "CHIMNEY THE ONE"
+      ],
+      "support_pct": 4.3,
+      "confidence_pct": 66.7,
+      "lift": 1.4946,
+      "n_customers": 6,
+      "interpretation": "6 customers ordered CHIMNEY THE ONE + WATER together. When someone buys WATER, there is a 67% chance they also buy CHIMNEY THE ONE. This is 1.5x more likely than by random chance."
+    },
+    {
+      "rank": 4,
+      "combo": [
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE"
+      ],
+      "if_buys": [
+        "CHIMNEY TRIPLE CHOCOLATE"
+      ],
+      "also_buys": [
+        "CHIMNEY THE ONE"
+      ],
+      "support_pct": 8.6,
+      "confidence_pct": 63.2,
+      "lift": 1.416,
+      "n_customers": 12,
+      "interpretation": "12 customers ordered CHIMNEY THE ONE + CHIMNEY TRIPLE CHOCOLATE together. When someone buys CHIMNEY TRIPLE CHOCOLATE, there is a 63% chance they also buy CHIMNEY THE ONE. This is 1.4x more likely than by random chance."
+    }
+  ]
+}

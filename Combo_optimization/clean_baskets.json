@@ -1,0 +1,2115 @@
+{
+  "baskets": [
+    {
+      "customer_id": "Person_0130",
+      "branch": "Conut - Tyre",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CLASSIC CHIMNEY",
+        "STRAWBERRY"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CLASSIC CHIMNEY": 1.0,
+        "STRAWBERRY": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0131",
+      "branch": "Conut - Tyre",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY",
+        "CONUT THE ONE",
+        "MOCHA FRAPPE",
+        "STRAWBERRY"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 1.0,
+        "CONUT THE ONE": 1.0,
+        "MOCHA FRAPPE": 2.0,
+        "STRAWBERRY": 1.0
+      },
+      "num_items": 4
+    },
+    {
+      "customer_id": "Person_0132",
+      "branch": "Conut - Tyre",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT PISTACHIO",
+        "CONUT TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CONUT PISTACHIO": 1.0,
+        "CONUT TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0134",
+      "branch": "Conut - Tyre",
+      "order_type": "Delivery",
+      "items": [
+        "MINI BERRY MIX",
+        "MINI PISTACHIO"
+      ],
+      "item_quantities": {
+        "MINI BERRY MIX": 1.0,
+        "MINI PISTACHIO": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0135",
+      "branch": "Conut - Tyre",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0136",
+      "branch": "Conut - Tyre",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "WATER"
+      ],
+      "item_quantities": {
+        "WATER": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0137",
+      "branch": "Conut - Tyre",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "ICE CREAM BOWL"
+      ],
+      "item_quantities": {
+        "ICE CREAM BOWL": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0017",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0019",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CLASSIC CHIMNEY": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0020",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "ADD ICE CREAM",
+        "CHIMNEY BERRY MIX",
+        "CHIMNEY BOSTON CHEESECAKE"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 1.0,
+        "CHIMNEY BERRY MIX": 1.0,
+        "CHIMNEY BOSTON CHEESECAKE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0021",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE",
+        "CONUT BITES"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0,
+        "CONUT BITES": 2.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0022",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BERRY MIX",
+        "CONUT THE ONE",
+        "CONUT TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CHIMNEY BERRY MIX": 1.0,
+        "CONUT THE ONE": 1.0,
+        "CONUT TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0023",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "STRAWBERRY"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 2.0,
+        "STRAWBERRY": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0024",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0025",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0026",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE",
+        "STRAWBERRY",
+        "THE SHARING BOX"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0,
+        "STRAWBERRY": 1.0,
+        "THE SHARING BOX": 1.0
+      },
+      "num_items": 4
+    },
+    {
+      "customer_id": "Person_0027",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT BERRY MIX"
+      ],
+      "item_quantities": {
+        "CONUT BERRY MIX": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0028",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0029",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0030",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ORIGINAL",
+        "CONUT BERRY MIX",
+        "CONUT THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ORIGINAL": 1.0,
+        "CONUT BERRY MIX": 1.0,
+        "CONUT THE ONE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0031",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0032",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BOSTON CHEESECAKE",
+        "CHIMNEY THE ONE",
+        "CHIMNEY THE ORIGINAL"
+      ],
+      "item_quantities": {
+        "CHIMNEY BOSTON CHEESECAKE": 1.0,
+        "CHIMNEY THE ONE": 1.0,
+        "CHIMNEY THE ORIGINAL": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0033",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BERRY MIX"
+      ],
+      "item_quantities": {
+        "CHIMNEY BERRY MIX": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0034",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0035",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0036",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0037",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT COMBO",
+        "CONUT THE ONE",
+        "CONUT TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CONUT COMBO": 1.0,
+        "CONUT THE ONE": 2.0,
+        "CONUT TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0038",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0028",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0039",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CAFFE LATTE",
+        "CHIMNEY THE ONE",
+        "MINI THE ONE"
+      ],
+      "item_quantities": {
+        "CAFFE LATTE": 1.0,
+        "CHIMNEY THE ONE": 1.0,
+        "MINI THE ONE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0138",
+      "branch": "Conut Jnah",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "CHIMNEY PISTACHIO",
+        "CHIMNEY THE ONE",
+        "CONUT TRIPLE CHOCOLATE",
+        "SINGLE ESPRESSO",
+        "WATER"
+      ],
+      "item_quantities": {
+        "CHIMNEY PISTACHIO": 1.0,
+        "CHIMNEY THE ONE": 3.0,
+        "CONUT TRIPLE CHOCOLATE": 1.0,
+        "SINGLE ESPRESSO": 2.0,
+        "WATER": 2.0
+      },
+      "num_items": 5
+    },
+    {
+      "customer_id": "Person_0139",
+      "branch": "Conut Jnah",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE",
+        "TOFFEE NUT MILKSHAKE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 2.0,
+        "TOFFEE NUT MILKSHAKE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0140",
+      "branch": "Conut Jnah",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "CHOCOLATE SAUCE",
+        "CLASSIC CHIMNEY",
+        "HOT MILK",
+        "VANILLA SYRUP"
+      ],
+      "item_quantities": {
+        "CHOCOLATE SAUCE": 1.0,
+        "CLASSIC CHIMNEY": 1.0,
+        "HOT MILK": 2.0,
+        "VANILLA SYRUP": 1.0
+      },
+      "num_items": 4
+    },
+    {
+      "customer_id": "Person_0141",
+      "branch": "Conut Jnah",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "CHIMNEY BOSTON CHEESECAKE",
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE",
+        "CLASSIC CHIMNEY",
+        "FRUIT LOOPS MILKSHAKE",
+        "MINI THE ONE",
+        "PISTACHIO SAUCE ,(P)",
+        "WATER"
+      ],
+      "item_quantities": {
+        "CHIMNEY BOSTON CHEESECAKE": 1.0,
+        "CHIMNEY THE ONE": 3.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 2.0,
+        "CLASSIC CHIMNEY": 1.0,
+        "FRUIT LOOPS MILKSHAKE": 1.0,
+        "MINI THE ONE": 1.0,
+        "PISTACHIO SAUCE ,(P)": 1.0,
+        "WATER": 1.0
+      },
+      "num_items": 8
+    },
+    {
+      "customer_id": "Person_0142",
+      "branch": "Conut Jnah",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "BLUEBERRIES",
+        "CAFFE LATTE",
+        "CARAMEL MACHIATO",
+        "CHIMNEY BERRY MIX",
+        "CHIMNEY PISTACHIO",
+        "CHIMNEY THE ONE",
+        "CLASSIC CHIMNEY",
+        "DOUBLE CHOCOLATE MILKSHAKE",
+        "WATER"
+      ],
+      "item_quantities": {
+        "BLUEBERRIES": 3.0,
+        "CAFFE LATTE": 1.0,
+        "CARAMEL MACHIATO": 1.0,
+        "CHIMNEY BERRY MIX": 1.0,
+        "CHIMNEY PISTACHIO": 1.0,
+        "CHIMNEY THE ONE": 5.0,
+        "CLASSIC CHIMNEY": 1.0,
+        "DOUBLE CHOCOLATE MILKSHAKE": 1.0,
+        "WATER": 1.0
+      },
+      "num_items": 9
+    },
+    {
+      "customer_id": "Person_0143",
+      "branch": "Conut Jnah",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "AFFOGATO"
+      ],
+      "item_quantities": {
+        "AFFOGATO": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0144",
+      "branch": "Conut Jnah",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "CAFFE LATTE",
+        "CHIMNEY THE ONE",
+        "WATER"
+      ],
+      "item_quantities": {
+        "CAFFE LATTE": 1.0,
+        "CHIMNEY THE ONE": 3.0,
+        "WATER": 2.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0145",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "MINI BERRY MIX",
+        "MINI THE ONE",
+        "PISTACHIO SPREAD MINI"
+      ],
+      "item_quantities": {
+        "MINI BERRY MIX": 1.0,
+        "MINI THE ONE": 1.0,
+        "PISTACHIO SPREAD MINI": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0147",
+      "branch": "Conut Jnah",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "CHIMNEY THE ONE",
+        "SINGLE ESPRESSO",
+        "TIRAMISU CHIMNEY",
+        "WATER"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 2.0,
+        "SINGLE ESPRESSO": 1.0,
+        "TIRAMISU CHIMNEY": 2.0,
+        "WATER": 1.0
+      },
+      "num_items": 4
+    },
+    {
+      "customer_id": "Person_0148",
+      "branch": "Conut Jnah",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "ADD ICE CREAM",
+        "CAFE MOCHA",
+        "CAFFE LATTE",
+        "CHIMNEY THE ONE",
+        "CONUT TRIPLE CHOCOLATE",
+        "DOUBLE ESPRESSO",
+        "ICED SHAKEN ESPRESSO",
+        "SINGLE ESPRESSO"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 1.0,
+        "CAFE MOCHA": 1.0,
+        "CAFFE LATTE": 1.0,
+        "CHIMNEY THE ONE": 1.0,
+        "CONUT TRIPLE CHOCOLATE": 2.0,
+        "DOUBLE ESPRESSO": 4.0,
+        "ICED SHAKEN ESPRESSO": 1.0,
+        "SINGLE ESPRESSO": 2.0
+      },
+      "num_items": 8
+    },
+    {
+      "customer_id": "Person_0149",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY",
+        "PISTACHIO SPREAD CHIMNEY",
+        "STRAWBERRY"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 2.0,
+        "PISTACHIO SPREAD CHIMNEY": 1.0,
+        "STRAWBERRY": 4.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0150",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "ADD ICE CREAM",
+        "CONUT THE ONE",
+        "CONUT TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 1.0,
+        "CONUT THE ONE": 1.0,
+        "CONUT TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0151",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY",
+        "CONUT THE ONE"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 1.0,
+        "CONUT THE ONE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0152",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "BLUEBERRIES , (P)",
+        "BLUEBERRIES, (P)",
+        "CHIMNEY THE ORIGINAL",
+        "CONUT BOSTON CHEESECAKE",
+        "CONUT THE ONE",
+        "CONUT TRIPLE CHOCOLATE",
+        "RASPBERRIES (P)",
+        "RASPBERRIES"
+      ],
+      "item_quantities": {
+        "BLUEBERRIES , (P)": 1.0,
+        "BLUEBERRIES, (P)": 1.0,
+        "CHIMNEY THE ORIGINAL": 1.0,
+        "CONUT BOSTON CHEESECAKE": 1.0,
+        "CONUT THE ONE": 1.0,
+        "CONUT TRIPLE CHOCOLATE": 1.0,
+        "RASPBERRIES (P)": 1.0,
+        "RASPBERRIES": 1.0
+      },
+      "num_items": 8
+    },
+    {
+      "customer_id": "Person_0153",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0154",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "MINI BOSTON CHEESECAKE",
+        "MINI THE ONE",
+        "TIRAMISU MINI CONUT"
+      ],
+      "item_quantities": {
+        "MINI BOSTON CHEESECAKE": 1.0,
+        "MINI THE ONE": 1.0,
+        "TIRAMISU MINI CONUT": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0155",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT THE ONE"
+      ],
+      "item_quantities": {
+        "CONUT THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0157",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "BLUEBERRIES",
+        "CHIMNEY THE ONE",
+        "PISTACHIO SPREAD CHIMNEY"
+      ],
+      "item_quantities": {
+        "BLUEBERRIES": 1.0,
+        "CHIMNEY THE ONE": 1.0,
+        "PISTACHIO SPREAD CHIMNEY": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0158",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "ADD ICE CREAM",
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 1.0,
+        "CLASSIC CHIMNEY": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0159",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "ADD ICE CREAM",
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 3.0,
+        "CLASSIC CHIMNEY": 3.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0160",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "THE SHARING BOX"
+      ],
+      "item_quantities": {
+        "THE SHARING BOX": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0161",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ORIGINAL",
+        "RASPBERRIES ,(P)"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ORIGINAL": 3.0,
+        "RASPBERRIES ,(P)": 2.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0162",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 5.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0163",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ORIGINAL",
+        "CLASSIC CHIMNEY",
+        "STRAWBERRY"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ORIGINAL": 1.0,
+        "CLASSIC CHIMNEY": 1.0,
+        "STRAWBERRY": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0164",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0165",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0166",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "THE SHARING BOX"
+      ],
+      "item_quantities": {
+        "THE SHARING BOX": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0167",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY PISTACHIO",
+        "CLASSIC CHIMNEY",
+        "PISTACHIO SAUCE",
+        "STRAWBERRY"
+      ],
+      "item_quantities": {
+        "CHIMNEY PISTACHIO": 1.0,
+        "CLASSIC CHIMNEY": 1.0,
+        "PISTACHIO SAUCE": 2.0,
+        "STRAWBERRY": 1.0
+      },
+      "num_items": 4
+    },
+    {
+      "customer_id": "Person_0168",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ORIGINAL"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ORIGINAL": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0169",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "ADD ICE CREAM",
+        "BLUEBERRIES , (P)",
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 4.0,
+        "BLUEBERRIES , (P)": 2.0,
+        "CHIMNEY THE ONE": 2.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 2.0
+      },
+      "num_items": 4
+    },
+    {
+      "customer_id": "Person_0170",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "MINI BERRY MIX"
+      ],
+      "item_quantities": {
+        "MINI BERRY MIX": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0171",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "ADD ICE CREAM",
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE",
+        "STRAWBERRY"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 2.0,
+        "CHIMNEY THE ONE": 1.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0,
+        "STRAWBERRY": 1.0
+      },
+      "num_items": 4
+    },
+    {
+      "customer_id": "Person_0172",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BERRY MIX",
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CHIMNEY BERRY MIX": 1.0,
+        "CLASSIC CHIMNEY": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0173",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CLASSIC CHIMNEY": 2.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0174",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BERRY MIX",
+        "CHIMNEY THE ORIGINAL"
+      ],
+      "item_quantities": {
+        "CHIMNEY BERRY MIX": 1.0,
+        "CHIMNEY THE ORIGINAL": 2.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0175",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0176",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT THE ONE"
+      ],
+      "item_quantities": {
+        "CONUT THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0177",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CINNAMON SUGAR RINGS",
+        "CONUT BOSTON CHEESECAKE",
+        "CONUT TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CINNAMON SUGAR RINGS": 1.0,
+        "CONUT BOSTON CHEESECAKE": 1.0,
+        "CONUT TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0178",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY",
+        "STRAWBERRY"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 1.0,
+        "STRAWBERRY": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0179",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0180",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CINNAMON SUGAR RINGS",
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CINNAMON SUGAR RINGS": 3.0,
+        "CLASSIC CHIMNEY": 2.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0181",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0182",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BERRY MIX",
+        "CONUT COMBO",
+        "CONUT PISTACHIO"
+      ],
+      "item_quantities": {
+        "CHIMNEY BERRY MIX": 2.0,
+        "CONUT COMBO": 2.0,
+        "CONUT PISTACHIO": 4.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0183",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CLASSIC CHIMNEY": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0184",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY PISTACHIO",
+        "CONUT THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY PISTACHIO": 1.0,
+        "CONUT THE ONE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0185",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ORIGINAL",
+        "CONUT THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ORIGINAL": 1.0,
+        "CONUT THE ONE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0186",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CONUT BOSTON CHEESECAKE",
+        "CONUT TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CONUT BOSTON CHEESECAKE": 1.0,
+        "CONUT TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0187",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ORIGINAL",
+        "CLASSIC CHIMNEY",
+        "LOTUS SPREAD CHIMNEY",
+        "STRAWBERRY"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ORIGINAL": 1.0,
+        "CLASSIC CHIMNEY": 1.0,
+        "LOTUS SPREAD CHIMNEY": 1.0,
+        "STRAWBERRY": 1.0
+      },
+      "num_items": 4
+    },
+    {
+      "customer_id": "Person_0188",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0189",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT THE ONE"
+      ],
+      "item_quantities": {
+        "CONUT THE ONE": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0190",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT THE ONE"
+      ],
+      "item_quantities": {
+        "CONUT THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0191",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "ADD ICE CREAM",
+        "CHIMNEY THE ORIGINAL",
+        "CONUT THE ONE"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 1.0,
+        "CHIMNEY THE ORIGINAL": 1.0,
+        "CONUT THE ONE": 3.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0192",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY",
+        "STRAWBERRY",
+        "THE SHARING BOX"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 1.0,
+        "STRAWBERRY": 1.0,
+        "THE SHARING BOX": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0193",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "BLUEBERRIES , (P)",
+        "CHIMNEY THE ONE",
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "BLUEBERRIES , (P)": 2.0,
+        "CHIMNEY THE ONE": 1.0,
+        "CLASSIC CHIMNEY": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0194",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "PISTACHIO SAUCE ,(P)"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 3.0,
+        "PISTACHIO SAUCE ,(P)": 2.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0195",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CONUT TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CONUT TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0196",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BOSTON CHEESECAKE",
+        "CHIMNEY PISTACHIO",
+        "CHIMNEY THE ONE",
+        "CLASSIC CHIMNEY",
+        "CONUT PISTACHIO",
+        "HOT CHOCOLATE COMBO",
+        "OREO MILKSHAKE",
+        "TIRAMISU CHIMNEY"
+      ],
+      "item_quantities": {
+        "CHIMNEY BOSTON CHEESECAKE": 1.0,
+        "CHIMNEY PISTACHIO": 1.0,
+        "CHIMNEY THE ONE": 4.0,
+        "CLASSIC CHIMNEY": 1.0,
+        "CONUT PISTACHIO": 1.0,
+        "HOT CHOCOLATE COMBO": 3.0,
+        "OREO MILKSHAKE": 1.0,
+        "TIRAMISU CHIMNEY": 2.0
+      },
+      "num_items": 8
+    },
+    {
+      "customer_id": "Person_0197",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "MINI BERRY MIX",
+        "MINI TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "MINI BERRY MIX": 1.0,
+        "MINI TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0198",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CARAMEL FRAPPE",
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CARAMEL FRAPPE": 1.0,
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0199",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BOSTON CHEESECAKE",
+        "CHIMNEY THE ONE",
+        "MINI TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CHIMNEY BOSTON CHEESECAKE": 1.0,
+        "CHIMNEY THE ONE": 1.0,
+        "MINI TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0200",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CARAMEL FRAPPE",
+        "CHIMNEY BERRY MIX",
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CARAMEL FRAPPE": 2.0,
+        "CHIMNEY BERRY MIX": 1.0,
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0201",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT COMBO"
+      ],
+      "item_quantities": {
+        "CONUT COMBO": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0203",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CHIMNEY THE ORIGINAL",
+        "CHIMNEY TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CHIMNEY THE ORIGINAL": 1.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 2.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0204",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "LOTUS SPREAD CHIMNEY"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "LOTUS SPREAD CHIMNEY": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0205",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0206",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY PISTACHIO",
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE",
+        "CONUT THE ONE",
+        "THE SHARING BOX"
+      ],
+      "item_quantities": {
+        "CHIMNEY PISTACHIO": 1.0,
+        "CHIMNEY THE ONE": 2.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0,
+        "CONUT THE ONE": 1.0,
+        "THE SHARING BOX": 1.0
+      },
+      "num_items": 5
+    },
+    {
+      "customer_id": "Person_0207",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT THE ONE"
+      ],
+      "item_quantities": {
+        "CONUT THE ONE": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0208",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY",
+        "STRAWBERRY"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 1.0,
+        "STRAWBERRY": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0209",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CONUT BOSTON CHEESECAKE",
+        "CONUT PISTACHIO"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CONUT BOSTON CHEESECAKE": 1.0,
+        "CONUT PISTACHIO": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0210",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0211",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0212",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT BITES",
+        "PISTACHIO DIP.(P)",
+        "THE SHARING BOX"
+      ],
+      "item_quantities": {
+        "CONUT BITES": 1.0,
+        "PISTACHIO DIP.(P)": 1.0,
+        "THE SHARING BOX": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0213",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BERRY MIX",
+        "CHIMNEY THE ONE",
+        "MINI BERRY MIX"
+      ],
+      "item_quantities": {
+        "CHIMNEY BERRY MIX": 1.0,
+        "CHIMNEY THE ONE": 2.0,
+        "MINI BERRY MIX": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0214",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "THE SHARING BOX"
+      ],
+      "item_quantities": {
+        "THE SHARING BOX": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0215",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CARAMEL MACHIATO",
+        "CHIMNEY BERRY MIX",
+        "CONUT BITES"
+      ],
+      "item_quantities": {
+        "CARAMEL MACHIATO": 1.0,
+        "CHIMNEY BERRY MIX": 1.0,
+        "CONUT BITES": 2.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0216",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT BERRY MIX"
+      ],
+      "item_quantities": {
+        "CONUT BERRY MIX": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0217",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CHIMNEY THE ORIGINAL"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CHIMNEY THE ORIGINAL": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0218",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 3.0,
+        "CLASSIC CHIMNEY": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0219",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "AFFOGATO",
+        "BLUEBERRIES",
+        "CHIMNEY THE ONE",
+        "CLASSIC CHIMNEY",
+        "MINI THE ONE"
+      ],
+      "item_quantities": {
+        "AFFOGATO": 1.0,
+        "BLUEBERRIES": 1.0,
+        "CHIMNEY THE ONE": 1.0,
+        "CLASSIC CHIMNEY": 1.0,
+        "MINI THE ONE": 1.0
+      },
+      "num_items": 5
+    },
+    {
+      "customer_id": "Person_0220",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0221",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BERRY MIX"
+      ],
+      "item_quantities": {
+        "CHIMNEY BERRY MIX": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0222",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT THE ONE",
+        "CONUT TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CONUT THE ONE": 1.0,
+        "CONUT TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0223",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT THE ONE"
+      ],
+      "item_quantities": {
+        "CONUT THE ONE": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0224",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT THE ONE",
+        "RASPBERRY JAM , (P)"
+      ],
+      "item_quantities": {
+        "CONUT THE ONE": 1.0,
+        "RASPBERRY JAM , (P)": 2.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0225",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BOSTON CHEESECAKE",
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE",
+        "CONUT BOSTON CHEESECAKE",
+        "TIRAMISU CONUT"
+      ],
+      "item_quantities": {
+        "CHIMNEY BOSTON CHEESECAKE": 1.0,
+        "CHIMNEY THE ONE": 1.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0,
+        "CONUT BOSTON CHEESECAKE": 1.0,
+        "TIRAMISU CONUT": 1.0
+      },
+      "num_items": 5
+    },
+    {
+      "customer_id": "Person_0226",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "ADD ICE CREAM",
+        "CHIMNEY TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 1.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0227",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "ADD ICE CREAM",
+        "CHIMNEY TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 1.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0228",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CONUT PISTACHIO",
+        "CONUT TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0,
+        "CONUT PISTACHIO": 1.0,
+        "CONUT TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0229",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CLASSIC CHIMNEY": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0230",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "ADD ICE CREAM",
+        "CHERRY JAM DIP.(P)",
+        "CHIMNEY THE ONE",
+        "CONUT BERRY MIX",
+        "CONUT BITES",
+        "MINI BOSTON CHEESECAKE",
+        "STRAWBERRY MILKSHAKE"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 1.0,
+        "CHERRY JAM DIP.(P)": 1.0,
+        "CHIMNEY THE ONE": 2.0,
+        "CONUT BERRY MIX": 1.0,
+        "CONUT BITES": 1.0,
+        "MINI BOSTON CHEESECAKE": 1.0,
+        "STRAWBERRY MILKSHAKE": 2.0
+      },
+      "num_items": 7
+    },
+    {
+      "customer_id": "Person_0231",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0232",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY COMBO"
+      ],
+      "item_quantities": {
+        "CHIMNEY COMBO": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0233",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "CAFFE LATTE",
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CAFFE LATTE": 1.0,
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0234",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "THE SHARING BOX"
+      ],
+      "item_quantities": {
+        "THE SHARING BOX": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0235",
+      "branch": "Conut Jnah",
+      "order_type": "Delivery",
+      "items": [
+        "THE SHARING BOX"
+      ],
+      "item_quantities": {
+        "THE SHARING BOX": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0236",
+      "branch": "Main Street Coffee",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE",
+        "CONUT BERRY MIX",
+        "CONUT THE ORIGINAL",
+        "MINI THE ORIGINAL",
+        "SINGLE ESPRESSO"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 2.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0,
+        "CONUT BERRY MIX": 1.0,
+        "CONUT THE ORIGINAL": 1.0,
+        "MINI THE ORIGINAL": 1.0,
+        "SINGLE ESPRESSO": 3.0
+      },
+      "num_items": 6
+    },
+    {
+      "customer_id": "Person_0237",
+      "branch": "Main Street Coffee",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT BOSTON CHEESECAKE",
+        "CONUT THE ONE",
+        "DARK CHOCOLATE CHIPS, (P)"
+      ],
+      "item_quantities": {
+        "CONUT BOSTON CHEESECAKE": 1.0,
+        "CONUT THE ONE": 1.0,
+        "DARK CHOCOLATE CHIPS, (P)": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0239",
+      "branch": "Main Street Coffee",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "ADD ICE CREAM",
+        "CHIMNEY BOSTON CHEESECAKE",
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE",
+        "CONUT PISTACHIO",
+        "ICE CREAM BOWL"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 1.0,
+        "CHIMNEY BOSTON CHEESECAKE": 1.0,
+        "CHIMNEY THE ONE": 3.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 2.0,
+        "CONUT PISTACHIO": 1.0,
+        "ICE CREAM BOWL": 1.0
+      },
+      "num_items": 6
+    },
+    {
+      "customer_id": "Person_0240",
+      "branch": "Main Street Coffee",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "ADD ICE CREAM",
+        "ICE CREAM BOWL",
+        "WATER"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 3.0,
+        "ICE CREAM BOWL": 6.0,
+        "WATER": 3.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0241",
+      "branch": "Main Street Coffee",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "DOUBLE CHOCOLATE MILKSHAKE",
+        "HOT CHOCOLATE",
+        "VANILLA MILKSHAKE"
+      ],
+      "item_quantities": {
+        "DOUBLE CHOCOLATE MILKSHAKE": 1.0,
+        "HOT CHOCOLATE": 2.0,
+        "VANILLA MILKSHAKE": 1.0
+      },
+      "num_items": 3
+    },
+    {
+      "customer_id": "Person_0242",
+      "branch": "Main Street Coffee",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "CAFFE AMERICANO",
+        "CHIMNEY THE ONE",
+        "CONUT THE ONE",
+        "WATER"
+      ],
+      "item_quantities": {
+        "CAFFE AMERICANO": 1.0,
+        "CHIMNEY THE ONE": 3.0,
+        "CONUT THE ONE": 1.0,
+        "WATER": 3.0
+      },
+      "num_items": 4
+    },
+    {
+      "customer_id": "Person_0243",
+      "branch": "Main Street Coffee",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "ADD ICE CREAM",
+        "CHIMNEY THE ONE",
+        "CHIMNEY THE ORIGINAL",
+        "CLASSIC CHIMNEY",
+        "CONUT BERRY MIX",
+        "CONUT THE ONE",
+        "MINI THE ORIGINAL"
+      ],
+      "item_quantities": {
+        "ADD ICE CREAM": 1.0,
+        "CHIMNEY THE ONE": 1.0,
+        "CHIMNEY THE ORIGINAL": 1.0,
+        "CLASSIC CHIMNEY": 1.0,
+        "CONUT BERRY MIX": 1.0,
+        "CONUT THE ONE": 1.0,
+        "MINI THE ORIGINAL": 1.0
+      },
+      "num_items": 7
+    },
+    {
+      "customer_id": "Person_0244",
+      "branch": "Main Street Coffee",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0245",
+      "branch": "Main Street Coffee",
+      "order_type": "Dine-In / Live",
+      "items": [
+        "DOUBLE ESPRESSO",
+        "ICE CREAM BOWL",
+        "SINGLE ESPRESSO",
+        "WATER"
+      ],
+      "item_quantities": {
+        "DOUBLE ESPRESSO": 1.0,
+        "ICE CREAM BOWL": 1.0,
+        "SINGLE ESPRESSO": 10.0,
+        "WATER": 8.0
+      },
+      "num_items": 4
+    },
+    {
+      "customer_id": "Person_0246",
+      "branch": "Main Street Coffee",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BERRY MIX"
+      ],
+      "item_quantities": {
+        "CHIMNEY BERRY MIX": 1.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0133",
+      "branch": "Main Street Coffee",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY BERRY MIX",
+        "CHIMNEY THE ONE",
+        "CHIMNEY TRIPLE CHOCOLATE",
+        "CLASSIC CHIMNEY"
+      ],
+      "item_quantities": {
+        "CHIMNEY BERRY MIX": 1.0,
+        "CHIMNEY THE ONE": 2.0,
+        "CHIMNEY TRIPLE CHOCOLATE": 1.0,
+        "CLASSIC CHIMNEY": 2.0
+      },
+      "num_items": 4
+    },
+    {
+      "customer_id": "Person_0247",
+      "branch": "Main Street Coffee",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 2.0
+      },
+      "num_items": 1
+    },
+    {
+      "customer_id": "Person_0248",
+      "branch": "Main Street Coffee",
+      "order_type": "Delivery",
+      "items": [
+        "CONUT TRIPLE CHOCOLATE",
+        "MINI TRIPLE CHOCOLATE"
+      ],
+      "item_quantities": {
+        "CONUT TRIPLE CHOCOLATE": 1.0,
+        "MINI TRIPLE CHOCOLATE": 1.0
+      },
+      "num_items": 2
+    },
+    {
+      "customer_id": "Person_0249",
+      "branch": "Main Street Coffee",
+      "order_type": "Delivery",
+      "items": [
+        "CHIMNEY THE ONE"
+      ],
+      "item_quantities": {
+        "CHIMNEY THE ONE": 1.0
+      },
+      "num_items": 1
+    }
+  ],
+  "cancelled_orders": [
+    {
+      "customer_id": "Person_0129",
+      "branch": "Conut - Tyre",
+      "reason": "Fully cancelled order — all items netted to zero"
+    },
+    {
+      "customer_id": "Person_0133",
+      "branch": "Conut - Tyre",
+      "reason": "Fully cancelled order — all items netted to zero"
+    },
+    {
+      "customer_id": "Person_0018",
+      "branch": "Conut Jnah",
+      "reason": "Fully cancelled order — all items netted to zero"
+    },
+    {
+      "customer_id": "Person_0146",
+      "branch": "Conut Jnah",
+      "reason": "Fully cancelled order — all items netted to zero"
+    },
+    {
+      "customer_id": "Person_0156",
+      "branch": "Conut Jnah",
+      "reason": "Fully cancelled order — all items netted to zero"
+    },
+    {
+      "customer_id": "Person_0202",
+      "branch": "Conut Jnah",
+      "reason": "Fully cancelled order — all items netted to zero"
+    },
+    {
+      "customer_id": "Person_0238",
+      "branch": "Main Street Coffee",
+      "reason": "Fully cancelled order — all items netted to zero"
+    }
+  ]
+}
