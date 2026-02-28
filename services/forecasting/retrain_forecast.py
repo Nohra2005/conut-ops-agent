@@ -3,15 +3,9 @@ import os
 import sys
 
 def run_pipeline():
-    # Dynamic path resolution
-    # BASE_DIR is .../conut-ops-agent/pipeline
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # ROOT_DIR is .../conut-ops-agent
-    root_dir = os.path.normpath(os.path.join(current_dir, ".."))
-    
-    # Path to the forecasting scripts
-    forecast_dir = os.path.join(root_dir, "services", "forecasting")
+    # Since retrain.py is IN services/forecasting, 
+    # its directory is the same as the scripts it needs to run.
+    forecast_dir = os.path.dirname(os.path.abspath(__file__))
     
     # Define the scripts in order
     pipeline_scripts = [
@@ -20,15 +14,15 @@ def run_pipeline():
         "forecast_service.py"
     ]
     
-    print("="*40)
-    print("STARTING RETRAINING PIPELINE")
-    print(f"Target Directory: {forecast_dir}")
-    print("="*40)
+    print("="*30)
+    print("STARTING MODULAR RETRAINING PIPELINE")
+    print(f"Current working directory: {forecast_dir}")
+    print("="*30)
     
     for script in pipeline_scripts:
         script_path = os.path.join(forecast_dir, script)
         
-        # Check if script exists before running
+        # Verify file existence
         if not os.path.exists(script_path):
             print(f"\n!!! ERROR: Cannot find {script} at {script_path}")
             continue
@@ -49,10 +43,10 @@ def run_pipeline():
             print(f"Reason: {e}")
             return 
 
-    print("\n" + "="*40)
+    print("\n" + "="*30)
     print("PIPELINE SUCCESSFUL")
-    print("Forecasting model and assets updated.")
-    print("="*40)
+    print("MLflow tracking and local assets updated.")
+    print("="*30)
 
 if __name__ == "__main__":
     run_pipeline()
