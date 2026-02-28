@@ -9,15 +9,20 @@ app = FastAPI(
     version="2.0.0"
 )
 
+from fastapi.middleware.cors import CORSMiddleware
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+
 DATA_DIR   = os.path.dirname(os.path.abspath(__file__))
 forecaster = InventoryForecaster(DATA_DIR)
 
 
-class SingleDayRequest(BaseModel):
-    branch: str  # e.g. "Conut - Tyre"
-    item: str    # e.g. "FULL FAT MILK"
-    date: str    # e.g. "2026-03-12"
+from pydantic import BaseModel, Field
 
+class SingleDayRequest(BaseModel):
+    branch: str = Field(default="Conut - Tyre", example="Conut - Tyre")
+    item:   str = Field(default="FULL FAT MILK", example="FULL FAT MILK")
+    date:   str = Field(default="2026-03-12",    example="2026-03-12")
+    
 class DateRangeRequest(BaseModel):
     branch: str
     item: str

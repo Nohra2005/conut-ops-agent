@@ -9,6 +9,9 @@ app = FastAPI(
     version="1.0.0"
 )
 
+from fastapi.middleware.cors import CORSMiddleware
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+
 def _load_results():
     path = os.path.join(BASE_DIR, "combo_results.json")
     if not os.path.exists(path):
