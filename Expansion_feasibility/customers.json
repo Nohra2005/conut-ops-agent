@@ -1,0 +1,5392 @@
+[
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0662",
+    "address": null,
+    "phone": "27985524",
+    "first_order": "2025-12-31 19:04:",
+    "last_order": "2025-12-31 19:04:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0663",
+    "address": null,
+    "phone": "14060293",
+    "first_order": "2025-12-30 20:49:",
+    "last_order": "2025-12-30 20:49:",
+    "total_sales_scaled": 3836700.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0664",
+    "address": null,
+    "phone": "33346800",
+    "first_order": "2025-12-30 19:30:",
+    "last_order": "2025-12-30 19:30:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0665",
+    "address": null,
+    "phone": "72290349",
+    "first_order": "2025-12-29 21:10:",
+    "last_order": "2025-12-29 21:10:",
+    "total_sales_scaled": 2282910.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0666",
+    "address": null,
+    "phone": "44665743",
+    "first_order": "2025-12-24 13:33:",
+    "last_order": "2025-12-24 22:52:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0667",
+    "address": null,
+    "phone": "44665743",
+    "first_order": "2025-12-24 14:06:",
+    "last_order": "2025-12-24 14:06:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0668",
+    "address": null,
+    "phone": "74896910",
+    "first_order": "2025-12-21 19:19:",
+    "last_order": "2025-12-21 19:19:",
+    "total_sales_scaled": 3638250.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0669",
+    "address": null,
+    "phone": "85899441",
+    "first_order": "2025-12-20 19:43:",
+    "last_order": "2025-12-20 19:43:",
+    "total_sales_scaled": 4762799.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0670",
+    "address": null,
+    "phone": "71545444",
+    "first_order": "2025-12-20 21:30:",
+    "last_order": "2025-12-20 21:30:",
+    "total_sales_scaled": 4630500.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0671",
+    "address": null,
+    "phone": "71545444",
+    "first_order": "2025-12-20 21:14:",
+    "last_order": "2025-12-20 21:59:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0672",
+    "address": null,
+    "phone": "32830965",
+    "first_order": "2025-12-19 23:01:",
+    "last_order": "2025-12-19 23:01:",
+    "total_sales_scaled": 1323000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0673",
+    "address": null,
+    "phone": "20744666",
+    "first_order": "2025-12-16 12:40:",
+    "last_order": "2025-12-16 12:40:",
+    "total_sales_scaled": 3638249.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0674",
+    "address": null,
+    "phone": "09935387",
+    "first_order": "2025-12-14 18:58:",
+    "last_order": "2025-12-14 18:58:",
+    "total_sales_scaled": 4498199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0675",
+    "address": null,
+    "phone": "5842824",
+    "first_order": "2025-12-12 19:55:",
+    "last_order": "2025-12-12 19:55:",
+    "total_sales_scaled": 3375120.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0676",
+    "address": null,
+    "phone": "17248251",
+    "first_order": "2025-12-12 20:37:",
+    "last_order": "2025-12-12 20:37:",
+    "total_sales_scaled": 1786050.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0677",
+    "address": null,
+    "phone": "3534655494",
+    "first_order": "2025-12-11 21:59:",
+    "last_order": "2025-12-11 21:59:",
+    "total_sales_scaled": 6085799.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0678",
+    "address": null,
+    "phone": "71709991",
+    "first_order": "2025-12-11 22:16:",
+    "last_order": "2025-12-11 22:16:",
+    "total_sales_scaled": 3109049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0679",
+    "address": null,
+    "phone": "73816846",
+    "first_order": "2025-12-09 20:04:",
+    "last_order": "2025-12-09 20:04:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0680",
+    "address": null,
+    "phone": "02235697",
+    "first_order": "2025-12-06 18:25:",
+    "last_order": "2025-12-06 18:25:",
+    "total_sales_scaled": 5424300.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0681",
+    "address": null,
+    "phone": "25217525",
+    "first_order": "2025-12-05 23:03:",
+    "last_order": "2025-12-05 23:03:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0682",
+    "address": null,
+    "phone": "00743292",
+    "first_order": "2025-12-05 19:52:",
+    "last_order": "2025-12-05 19:52:",
+    "total_sales_scaled": 3572100.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0683",
+    "address": null,
+    "phone": "71296666",
+    "first_order": "2025-12-04 13:27:",
+    "last_order": "2025-12-04 13:27:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0684",
+    "address": null,
+    "phone": "76008350",
+    "first_order": "2025-12-03 21:24:",
+    "last_order": "2025-12-03 21:24:",
+    "total_sales_scaled": 7739550.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0685",
+    "address": null,
+    "phone": "58300335",
+    "first_order": "2025-12-03 19:36:",
+    "last_order": "2025-12-03 19:36:",
+    "total_sales_scaled": 3539759.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0686",
+    "address": null,
+    "phone": "4216894",
+    "first_order": "2025-11-29 21:07:",
+    "last_order": "2025-11-29 21:07:",
+    "total_sales_scaled": 1587600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0687",
+    "address": null,
+    "phone": "21044789",
+    "first_order": "2025-11-28 23:13:",
+    "last_order": "2025-11-28 23:13:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0688",
+    "address": null,
+    "phone": "17248251",
+    "first_order": "2025-11-28 20:53:",
+    "last_order": "2025-11-28 20:53:",
+    "total_sales_scaled": 1786050.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0689",
+    "address": null,
+    "phone": "85625753",
+    "first_order": "2025-11-26 17:03:",
+    "last_order": "2025-11-26 17:03:",
+    "total_sales_scaled": 5194980.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0690",
+    "address": null,
+    "phone": "26033230",
+    "first_order": "2025-11-26 20:35:",
+    "last_order": "2025-11-26 20:35:",
+    "total_sales_scaled": 1522920.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0691",
+    "address": null,
+    "phone": "32830965",
+    "first_order": "2025-11-25 22:38:",
+    "last_order": "2025-11-25 22:38:",
+    "total_sales_scaled": 1389150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0692",
+    "address": null,
+    "phone": "98215064",
+    "first_order": "2025-11-25 21:31:",
+    "last_order": "2025-11-25 21:31:",
+    "total_sales_scaled": 4399710.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0693",
+    "address": null,
+    "phone": "89090100",
+    "first_order": "2025-11-24 22:33:",
+    "last_order": "2025-11-24 23:19:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0694",
+    "address": null,
+    "phone": "16761847",
+    "first_order": "2025-11-24 21:59:",
+    "last_order": "2025-11-24 21:59:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0695",
+    "address": null,
+    "phone": "20744666",
+    "first_order": "2025-11-20 12:42:",
+    "last_order": "2025-11-20 12:42:",
+    "total_sales_scaled": 3109049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0696",
+    "address": null,
+    "phone": "23046184",
+    "first_order": "2025-11-19 16:58:",
+    "last_order": "2025-11-19 16:58:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0697",
+    "address": null,
+    "phone": "99261891",
+    "first_order": "2025-11-17 19:31:",
+    "last_order": "2025-11-17 19:31:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0698",
+    "address": null,
+    "phone": "41173934",
+    "first_order": "2025-11-17 20:30:",
+    "last_order": "2025-11-17 20:30:",
+    "total_sales_scaled": 2513700.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0699",
+    "address": null,
+    "phone": "83564208",
+    "first_order": "2025-11-13 15:10:",
+    "last_order": "2025-11-13 15:10:",
+    "total_sales_scaled": 2447549.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0700",
+    "address": null,
+    "phone": "73753001",
+    "first_order": "2025-11-11 16:13:",
+    "last_order": "2025-11-11 16:13:",
+    "total_sales_scaled": 2249099.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0701",
+    "address": null,
+    "phone": "16761847",
+    "first_order": "2025-11-10 23:41:",
+    "last_order": "2025-11-10 23:41:",
+    "total_sales_scaled": 1389150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0702",
+    "address": null,
+    "phone": "19721811",
+    "first_order": "2025-11-09 16:38:",
+    "last_order": "2025-11-09 16:38:",
+    "total_sales_scaled": 3042900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0703",
+    "address": null,
+    "phone": "43744701",
+    "first_order": "2025-11-09 19:49:",
+    "last_order": "2025-11-09 19:49:",
+    "total_sales_scaled": 1390620.01,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0704",
+    "address": null,
+    "phone": "20455611",
+    "first_order": "2025-11-07 23:34:",
+    "last_order": "2025-11-07 23:34:",
+    "total_sales_scaled": 2381400.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0705",
+    "address": null,
+    "phone": "00225579",
+    "first_order": "2025-11-02 18:50:",
+    "last_order": "2025-11-02 18:50:",
+    "total_sales_scaled": 2547510.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0706",
+    "address": null,
+    "phone": "41552166",
+    "first_order": "2025-10-31 19:21:",
+    "last_order": "2025-10-31 19:21:",
+    "total_sales_scaled": 2315250.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0707",
+    "address": null,
+    "phone": "33346800",
+    "first_order": "2025-10-30 21:57:",
+    "last_order": "2025-10-30 21:57:",
+    "total_sales_scaled": 1587600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0708",
+    "address": null,
+    "phone": "7467621",
+    "first_order": "2025-10-29 13:22:",
+    "last_order": "2025-10-29 13:22:",
+    "total_sales_scaled": 3373649.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0709",
+    "address": null,
+    "phone": "20216979",
+    "first_order": "2025-10-29 13:10:",
+    "last_order": "2025-10-29 13:10:",
+    "total_sales_scaled": 2282910.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0710",
+    "address": null,
+    "phone": "72965902",
+    "first_order": "2025-10-29 13:12:",
+    "last_order": "2025-10-29 13:12:",
+    "total_sales_scaled": 2249100.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0711",
+    "address": null,
+    "phone": "33346800",
+    "first_order": "2025-10-29 20:24:",
+    "last_order": "2025-10-29 20:24:",
+    "total_sales_scaled": 1587600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0712",
+    "address": null,
+    "phone": "20216979",
+    "first_order": "2025-10-29 13:06:",
+    "last_order": "2025-10-29 13:06:",
+    "total_sales_scaled": 1852199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0713",
+    "address": null,
+    "phone": "77167014",
+    "first_order": "2025-10-26 18:40:",
+    "last_order": "2025-10-26 18:40:",
+    "total_sales_scaled": 3836700.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0714",
+    "address": null,
+    "phone": "50899358",
+    "first_order": "2025-10-26 21:28:",
+    "last_order": "2025-10-26 21:28:",
+    "total_sales_scaled": 4035149.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0715",
+    "address": null,
+    "phone": "89163756",
+    "first_order": "2025-10-24 19:29:",
+    "last_order": "2025-10-24 19:29:",
+    "total_sales_scaled": 3307499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0716",
+    "address": null,
+    "phone": "28900287",
+    "first_order": "2025-10-23 17:27:",
+    "last_order": "2025-10-23 17:27:",
+    "total_sales_scaled": 1918349.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0717",
+    "address": null,
+    "phone": "72175354",
+    "first_order": "2025-10-23 22:13:",
+    "last_order": "2025-10-23 22:13:",
+    "total_sales_scaled": 2910600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0718",
+    "address": null,
+    "phone": "08386631",
+    "first_order": "2025-10-22 12:42:",
+    "last_order": "2025-10-22 12:42:",
+    "total_sales_scaled": 3275160.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0719",
+    "address": null,
+    "phone": "77971775",
+    "first_order": "2025-10-19 23:21:",
+    "last_order": "2025-10-19 23:21:",
+    "total_sales_scaled": 1852199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0720",
+    "address": null,
+    "phone": "17016608",
+    "first_order": "2025-10-19 17:30:",
+    "last_order": "2025-10-19 17:30:",
+    "total_sales_scaled": 4564350.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0721",
+    "address": null,
+    "phone": "80199488",
+    "first_order": "2025-10-19 21:02:",
+    "last_order": "2025-10-19 21:02:",
+    "total_sales_scaled": 1984500.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0722",
+    "address": null,
+    "phone": "37550375",
+    "first_order": "2025-10-16 23:12:",
+    "last_order": "2025-10-16 23:12:",
+    "total_sales_scaled": 859949.99,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0723",
+    "address": null,
+    "phone": "89975711",
+    "first_order": "2025-10-15 22:33:",
+    "last_order": "2025-10-15 22:33:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0724",
+    "address": null,
+    "phone": "30554885",
+    "first_order": "2025-10-14 21:46:",
+    "last_order": "2025-10-14 21:46:",
+    "total_sales_scaled": 1124550.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0725",
+    "address": null,
+    "phone": "10272614",
+    "first_order": "2025-10-14 19:48:",
+    "last_order": "2025-10-14 19:48:",
+    "total_sales_scaled": 4498200.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0726",
+    "address": null,
+    "phone": "93316373",
+    "first_order": "2025-10-13 23:03:",
+    "last_order": "2025-10-13 23:03:",
+    "total_sales_scaled": 4630500.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0727",
+    "address": null,
+    "phone": "51609177",
+    "first_order": "2025-10-11 13:20:",
+    "last_order": "2025-10-11 13:20:",
+    "total_sales_scaled": 2712150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0728",
+    "address": null,
+    "phone": "98270808",
+    "first_order": "2025-10-10 18:35:",
+    "last_order": "2025-10-10 18:35:",
+    "total_sales_scaled": 3969000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0729",
+    "address": null,
+    "phone": "69782922",
+    "first_order": "2025-10-10 22:20:",
+    "last_order": "2025-10-10 22:20:",
+    "total_sales_scaled": 2316720.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0730",
+    "address": null,
+    "phone": "16995866",
+    "first_order": "2025-10-10 18:22:",
+    "last_order": "2025-10-10 18:22:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0731",
+    "address": null,
+    "phone": "93465472",
+    "first_order": "2025-10-10 22:24:",
+    "last_order": "2025-10-10 23:39:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0732",
+    "address": null,
+    "phone": "16995866",
+    "first_order": "2025-10-09 23:05:",
+    "last_order": "2025-10-09 23:05:",
+    "total_sales_scaled": 1786050.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0733",
+    "address": null,
+    "phone": "26984858",
+    "first_order": "2025-10-08 21:27:",
+    "last_order": "2025-10-08 21:27:",
+    "total_sales_scaled": 2613660.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0734",
+    "address": null,
+    "phone": "33394522",
+    "first_order": "2025-10-08 17:17:",
+    "last_order": "2025-10-08 17:17:",
+    "total_sales_scaled": 2019780.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0735",
+    "address": null,
+    "phone": "88515879",
+    "first_order": "2025-10-06 22:42:",
+    "last_order": "2025-10-06 22:42:",
+    "total_sales_scaled": 1984499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0736",
+    "address": null,
+    "phone": "72175354",
+    "first_order": "2025-10-06 22:18:",
+    "last_order": "2025-10-06 22:18:",
+    "total_sales_scaled": 2315250.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0737",
+    "address": null,
+    "phone": "96846081",
+    "first_order": "2025-10-05 17:35:",
+    "last_order": "2025-10-05 17:35:",
+    "total_sales_scaled": 3109049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0738",
+    "address": null,
+    "phone": "06200342",
+    "first_order": "2025-10-04 20:09:",
+    "last_order": "2025-10-04 20:09:",
+    "total_sales_scaled": 2712150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0739",
+    "address": null,
+    "phone": "44204380",
+    "first_order": "2025-10-04 20:56:",
+    "last_order": "2025-10-04 20:56:",
+    "total_sales_scaled": 3307499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0740",
+    "address": null,
+    "phone": "19721811",
+    "first_order": "2025-10-04 21:26:",
+    "last_order": "2025-10-04 21:26:",
+    "total_sales_scaled": 1819860.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0741",
+    "address": null,
+    "phone": "57198386",
+    "first_order": "2025-10-04 17:39:",
+    "last_order": "2025-10-04 17:39:",
+    "total_sales_scaled": 5493390.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0742",
+    "address": null,
+    "phone": "38406665",
+    "first_order": "2025-10-03 23:29:",
+    "last_order": "2025-10-03 23:29:",
+    "total_sales_scaled": 1224510.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0743",
+    "address": null,
+    "phone": "80043973",
+    "first_order": "2025-10-03 22:45:",
+    "last_order": "2025-10-03 22:45:",
+    "total_sales_scaled": 4630500.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0744",
+    "address": null,
+    "phone": "59893347",
+    "first_order": "2025-10-01 21:33:",
+    "last_order": "2025-10-01 21:33:",
+    "total_sales_scaled": 959910.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0745",
+    "address": null,
+    "phone": "59893347",
+    "first_order": "2025-09-28 21:18:",
+    "last_order": "2025-09-28 21:18:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0746",
+    "address": null,
+    "phone": "21228160",
+    "first_order": "2025-09-23 15:43:",
+    "last_order": "2025-09-23 15:43:",
+    "total_sales_scaled": 3936660.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0747",
+    "address": null,
+    "phone": "41173934",
+    "first_order": "2025-09-22 22:10:",
+    "last_order": "2025-09-22 22:10:",
+    "total_sales_scaled": 4828950.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0748",
+    "address": null,
+    "phone": "64842294",
+    "first_order": "2025-09-21 23:52:",
+    "last_order": "2025-09-21 23:52:",
+    "total_sales_scaled": 4564349.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0749",
+    "address": null,
+    "phone": "05720259",
+    "first_order": "2025-09-21 21:32:",
+    "last_order": "2025-09-21 21:32:",
+    "total_sales_scaled": 2579850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut - Tyre",
+    "customer_name": "Person_0750",
+    "address": null,
+    "phone": "64842294",
+    "first_order": "2025-09-21 23:48:",
+    "last_order": "2025-09-21 23:53:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0751",
+    "address": null,
+    "phone": "09479851",
+    "first_order": "2025-11-30 22:17:",
+    "last_order": "2025-11-30 22:17:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0752",
+    "address": null,
+    "phone": "58328182",
+    "first_order": "2025-11-30 22:43:",
+    "last_order": "2025-11-30 22:43:",
+    "total_sales_scaled": 2579850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0753",
+    "address": null,
+    "phone": "68861533",
+    "first_order": "2025-11-30 17:54:",
+    "last_order": "2025-11-30 17:54:",
+    "total_sales_scaled": 2018310.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0754",
+    "address": null,
+    "phone": "55543987",
+    "first_order": "2025-12-01 18:25:",
+    "last_order": "2025-12-01 18:37:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0755",
+    "address": null,
+    "phone": "80157399",
+    "first_order": "2025-11-30 20:38:",
+    "last_order": "2025-11-30 20:38:",
+    "total_sales_scaled": 2381400.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0756",
+    "address": null,
+    "phone": "30561648",
+    "first_order": "2025-11-30 22:40:",
+    "last_order": "2025-11-30 22:40:",
+    "total_sales_scaled": 1124550.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0757",
+    "address": null,
+    "phone": "40858877",
+    "first_order": "2025-11-29 22:22:",
+    "last_order": "2025-11-29 22:22:",
+    "total_sales_scaled": 3307499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0758",
+    "address": null,
+    "phone": "04358112",
+    "first_order": "2025-11-29 21:19:",
+    "last_order": "2025-11-29 21:19:",
+    "total_sales_scaled": 3042900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0759",
+    "address": null,
+    "phone": "88013361",
+    "first_order": "2025-11-29 20:03:",
+    "last_order": "2025-11-29 20:03:",
+    "total_sales_scaled": 2315250.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0760",
+    "address": null,
+    "phone": "38612075",
+    "first_order": "2025-11-28 19:02:",
+    "last_order": "2025-11-28 19:02:",
+    "total_sales_scaled": 2315250.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0761",
+    "address": null,
+    "phone": "01102481",
+    "first_order": "2025-11-28 18:54:",
+    "last_order": "2025-11-28 18:54:",
+    "total_sales_scaled": 4465860.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0762",
+    "address": null,
+    "phone": "93466766",
+    "first_order": "2025-11-26 14:30:",
+    "last_order": "2025-11-26 14:30:",
+    "total_sales_scaled": 2282910.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0763",
+    "address": null,
+    "phone": "98215064",
+    "first_order": "2025-11-25 21:25:",
+    "last_order": "2025-11-25 21:25:",
+    "total_sales_scaled": 4399710.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0764",
+    "address": null,
+    "phone": "50618091",
+    "first_order": "2025-11-25 15:58:",
+    "last_order": "2025-11-25 15:58:",
+    "total_sales_scaled": 3969000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0765",
+    "address": null,
+    "phone": "90158144",
+    "first_order": "2025-11-22 19:41:",
+    "last_order": "2025-11-22 19:41:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0766",
+    "address": null,
+    "phone": "91476607",
+    "first_order": "2025-11-22 13:08:",
+    "last_order": "2025-11-24 15:28:",
+    "total_sales_scaled": 2910600.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0767",
+    "address": null,
+    "phone": "28326842",
+    "first_order": "2025-11-21 22:15:",
+    "last_order": "2025-11-21 22:15:",
+    "total_sales_scaled": 2712150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0768",
+    "address": null,
+    "phone": "45088210",
+    "first_order": "2025-11-20 21:54:",
+    "last_order": "2025-11-20 21:54:",
+    "total_sales_scaled": 2978220.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0769",
+    "address": null,
+    "phone": "09968814",
+    "first_order": "2025-11-19 22:33:",
+    "last_order": "2025-11-19 22:38:",
+    "total_sales_scaled": 12173069.9,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0770",
+    "address": null,
+    "phone": "35368222",
+    "first_order": "2025-11-19 11:58:",
+    "last_order": "2025-11-19 11:58:",
+    "total_sales_scaled": 2282910.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0771",
+    "address": null,
+    "phone": "39431290",
+    "first_order": "2025-11-18 21:44:",
+    "last_order": "2025-11-18 21:44:",
+    "total_sales_scaled": 2447550.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0772",
+    "address": null,
+    "phone": "87814141",
+    "first_order": "2025-11-18 14:02:",
+    "last_order": "2025-11-18 14:02:",
+    "total_sales_scaled": 1587600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0773",
+    "address": null,
+    "phone": "39755231",
+    "first_order": "2025-11-17 21:42:",
+    "last_order": "2025-11-17 21:42:",
+    "total_sales_scaled": 1323000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0774",
+    "address": null,
+    "phone": "49135775",
+    "first_order": "2025-11-17 15:24:",
+    "last_order": "2025-11-17 15:24:",
+    "total_sales_scaled": 6019650.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0775",
+    "address": null,
+    "phone": "94929955",
+    "first_order": "2025-11-16 21:24:",
+    "last_order": "2025-11-16 21:24:",
+    "total_sales_scaled": 1953630.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0776",
+    "address": null,
+    "phone": "62053364",
+    "first_order": "2025-11-15 22:44:",
+    "last_order": "2025-11-15 22:44:",
+    "total_sales_scaled": 1555260.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0777",
+    "address": null,
+    "phone": "5257775478",
+    "first_order": "2025-11-15 15:47:",
+    "last_order": "2025-11-15 15:47:",
+    "total_sales_scaled": 3241349.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0778",
+    "address": null,
+    "phone": "12914283",
+    "first_order": "2025-11-14 22:08:",
+    "last_order": "2025-11-14 22:08:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0779",
+    "address": null,
+    "phone": "41108099",
+    "first_order": "2025-11-13 22:53:",
+    "last_order": "2025-11-13 22:53:",
+    "total_sales_scaled": 2976750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0780",
+    "address": null,
+    "phone": "69308488",
+    "first_order": "2025-11-13 20:07:",
+    "last_order": "2025-11-13 20:07:",
+    "total_sales_scaled": 3307499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0781",
+    "address": null,
+    "phone": "72563942",
+    "first_order": "2025-11-12 21:53:",
+    "last_order": "2025-11-12 21:53:",
+    "total_sales_scaled": 2712149.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0782",
+    "address": null,
+    "phone": "78816580",
+    "first_order": "2025-11-12 20:15:",
+    "last_order": "2025-11-12 20:15:",
+    "total_sales_scaled": 3042900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0783",
+    "address": null,
+    "phone": "39282722",
+    "first_order": "2025-11-12 20:32:",
+    "last_order": "2025-11-12 20:32:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0784",
+    "address": null,
+    "phone": "99275037",
+    "first_order": "2025-11-12 20:43:",
+    "last_order": "2025-11-12 20:43:",
+    "total_sales_scaled": 2712150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0785",
+    "address": null,
+    "phone": "31453038",
+    "first_order": "2025-11-12 21:56:",
+    "last_order": "2025-11-12 21:56:",
+    "total_sales_scaled": 2878260.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0786",
+    "address": null,
+    "phone": "56770051",
+    "first_order": "2025-11-11 22:04:",
+    "last_order": "2025-11-11 22:04:",
+    "total_sales_scaled": 2976750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0787",
+    "address": null,
+    "phone": "84498926",
+    "first_order": "2025-11-11 16:00:",
+    "last_order": "2025-11-11 16:00:",
+    "total_sales_scaled": 2447550.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0788",
+    "address": null,
+    "phone": "65918463",
+    "first_order": "2025-11-11 20:42:",
+    "last_order": "2025-11-11 20:42:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0789",
+    "address": null,
+    "phone": "86557790",
+    "first_order": "2025-11-10 23:00:",
+    "last_order": "2025-11-10 23:00:",
+    "total_sales_scaled": 2085930.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0790",
+    "address": null,
+    "phone": "82723184",
+    "first_order": "2025-11-10 23:19:",
+    "last_order": "2025-11-10 23:19:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0791",
+    "address": null,
+    "phone": "32225913",
+    "first_order": "2025-11-10 19:56:",
+    "last_order": "2025-11-10 19:56:",
+    "total_sales_scaled": 2845920.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0792",
+    "address": null,
+    "phone": "65177739",
+    "first_order": "2025-11-09 18:51:",
+    "last_order": "2025-11-09 18:52:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0793",
+    "address": null,
+    "phone": "26030299",
+    "first_order": "2025-11-09 18:31:",
+    "last_order": "2025-11-09 18:31:",
+    "total_sales_scaled": 1952159.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0794",
+    "address": null,
+    "phone": "22809202",
+    "first_order": "2025-11-09 12:11:",
+    "last_order": "2025-11-22 12:28:",
+    "total_sales_scaled": 2249100.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0795",
+    "address": null,
+    "phone": "42869904",
+    "first_order": "2025-11-08 20:04:",
+    "last_order": "2025-11-08 20:09:",
+    "total_sales_scaled": 4696649.9,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0796",
+    "address": null,
+    "phone": "13797723",
+    "first_order": "2025-11-08 22:01:",
+    "last_order": "2025-11-08 22:01:",
+    "total_sales_scaled": 3804360.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0797",
+    "address": null,
+    "phone": "69292984",
+    "first_order": "2025-11-07 22:29:",
+    "last_order": "2025-11-07 22:29:",
+    "total_sales_scaled": 2282910.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0798",
+    "address": null,
+    "phone": "25799136",
+    "first_order": "2025-11-07 18:56:",
+    "last_order": "2025-11-07 18:56:",
+    "total_sales_scaled": 3109049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0799",
+    "address": null,
+    "phone": "62103886",
+    "first_order": "2025-11-06 13:35:",
+    "last_order": "2025-11-06 13:35:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0800",
+    "address": null,
+    "phone": "29127990",
+    "first_order": "2025-11-06 18:26:",
+    "last_order": "2025-11-06 18:26:",
+    "total_sales_scaled": 3439800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0801",
+    "address": null,
+    "phone": "88117298",
+    "first_order": "2025-11-04 18:11:",
+    "last_order": "2025-11-04 18:11:",
+    "total_sales_scaled": 2249099.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0802",
+    "address": null,
+    "phone": "06865086",
+    "first_order": "2025-11-04 20:36:",
+    "last_order": "2025-11-04 20:36:",
+    "total_sales_scaled": 2415210.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0803",
+    "address": null,
+    "phone": "37659916",
+    "first_order": "2025-11-04 21:20:",
+    "last_order": "2025-11-04 21:20:",
+    "total_sales_scaled": 2679810.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0804",
+    "address": null,
+    "phone": "24731498",
+    "first_order": "2025-11-04 19:28:",
+    "last_order": "2025-11-04 19:28:",
+    "total_sales_scaled": 3572099.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0805",
+    "address": null,
+    "phone": "64300981",
+    "first_order": "2025-11-03 13:31:",
+    "last_order": "2025-11-03 13:31:",
+    "total_sales_scaled": 2249100.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0806",
+    "address": null,
+    "phone": "80635651",
+    "first_order": "2025-11-01 20:00:",
+    "last_order": "2025-11-29 20:55:",
+    "total_sales_scaled": 4036620.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0807",
+    "address": null,
+    "phone": "26944869",
+    "first_order": "2025-11-01 13:54:",
+    "last_order": "2025-11-01 13:54:",
+    "total_sales_scaled": 1587600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0808",
+    "address": null,
+    "phone": "59463688",
+    "first_order": "2025-11-01 23:11:",
+    "last_order": "2025-11-01 23:11:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0809",
+    "address": null,
+    "phone": "72588744",
+    "first_order": "2025-11-01 22:31:",
+    "last_order": "2025-11-01 22:31:",
+    "total_sales_scaled": 1852199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0810",
+    "address": null,
+    "phone": "95621372",
+    "first_order": "2025-10-30 23:06:",
+    "last_order": "2025-10-30 23:06:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0811",
+    "address": null,
+    "phone": "13865890",
+    "first_order": "2025-10-30 21:59:",
+    "last_order": "2025-10-30 21:59:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0812",
+    "address": null,
+    "phone": "26012796",
+    "first_order": "2025-10-29 22:25:",
+    "last_order": "2025-10-29 22:25:",
+    "total_sales_scaled": 2579850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0813",
+    "address": null,
+    "phone": "11435190",
+    "first_order": "2025-10-29 12:21:",
+    "last_order": "2025-10-29 12:21:",
+    "total_sales_scaled": 2249099.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0814",
+    "address": null,
+    "phone": "66984902",
+    "first_order": "2025-10-29 22:35:",
+    "last_order": "2025-10-29 22:35:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0815",
+    "address": null,
+    "phone": "77038430",
+    "first_order": "2025-10-28 20:43:",
+    "last_order": "2025-10-28 20:43:",
+    "total_sales_scaled": 2182949.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0816",
+    "address": null,
+    "phone": "98839205",
+    "first_order": "2025-10-28 18:07:",
+    "last_order": "2025-10-28 18:07:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0817",
+    "address": null,
+    "phone": "30214656",
+    "first_order": "2025-10-26 23:15:",
+    "last_order": "2025-10-26 23:15:",
+    "total_sales_scaled": 2778300.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0818",
+    "address": null,
+    "phone": "69380118",
+    "first_order": "2025-10-26 16:56:",
+    "last_order": "2025-10-26 16:56:",
+    "total_sales_scaled": 3439799.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0819",
+    "address": null,
+    "phone": "48955439",
+    "first_order": "2025-10-26 13:09:",
+    "last_order": "2025-10-26 13:09:",
+    "total_sales_scaled": 3307499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0820",
+    "address": null,
+    "phone": "37690426",
+    "first_order": "2025-10-24 19:49:",
+    "last_order": "2025-10-24 19:49:",
+    "total_sales_scaled": 1852199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0821",
+    "address": null,
+    "phone": "81818451",
+    "first_order": "2025-10-24 20:44:",
+    "last_order": "2025-11-21 19:25:",
+    "total_sales_scaled": 5358150.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0822",
+    "address": null,
+    "phone": "84894769",
+    "first_order": "2025-10-24 15:28:",
+    "last_order": "2025-10-24 15:28:",
+    "total_sales_scaled": 2679810.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0823",
+    "address": null,
+    "phone": "73577907",
+    "first_order": "2025-10-24 20:35:",
+    "last_order": "2025-10-24 20:35:",
+    "total_sales_scaled": 2579850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0824",
+    "address": null,
+    "phone": "14163356",
+    "first_order": "2025-10-20 13:23:",
+    "last_order": "2025-10-20 13:23:",
+    "total_sales_scaled": 2381400.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0825",
+    "address": null,
+    "phone": "58804341",
+    "first_order": "2025-10-20 16:59:",
+    "last_order": "2025-10-20 16:59:",
+    "total_sales_scaled": 3638250.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0826",
+    "address": null,
+    "phone": "65182755",
+    "first_order": "2025-10-19 22:42:",
+    "last_order": "2025-10-19 22:42:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0827",
+    "address": null,
+    "phone": "39423733",
+    "first_order": "2025-10-19 17:14:",
+    "last_order": "2025-10-19 17:14:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0828",
+    "address": null,
+    "phone": "34333395",
+    "first_order": "2025-10-18 13:33:",
+    "last_order": "2025-10-18 13:33:",
+    "total_sales_scaled": 1984499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0829",
+    "address": null,
+    "phone": "21117908",
+    "first_order": "2025-10-17 23:28:",
+    "last_order": "2025-11-11 23:03:",
+    "total_sales_scaled": 4828950.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0830",
+    "address": null,
+    "phone": "07595794",
+    "first_order": "2025-10-16 16:07:",
+    "last_order": "2025-10-16 16:07:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0831",
+    "address": null,
+    "phone": "72846392",
+    "first_order": "2025-10-16 21:20:",
+    "last_order": "2025-10-16 21:20:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0832",
+    "address": null,
+    "phone": "08678085",
+    "first_order": "2025-10-15 14:25:",
+    "last_order": "2025-10-15 14:25:",
+    "total_sales_scaled": 1290660.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0833",
+    "address": null,
+    "phone": "62718750",
+    "first_order": "2025-10-15 23:00:",
+    "last_order": "2025-10-15 23:00:",
+    "total_sales_scaled": 2581320.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0834",
+    "address": null,
+    "phone": "03691559",
+    "first_order": "2025-10-15 23:10:",
+    "last_order": "2025-10-15 23:10:",
+    "total_sales_scaled": 3341310.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0835",
+    "address": null,
+    "phone": "42843479",
+    "first_order": "2025-10-15 20:10:",
+    "last_order": "2025-10-15 20:10:",
+    "total_sales_scaled": 4432049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0836",
+    "address": null,
+    "phone": "55276365",
+    "first_order": "2025-10-13 19:16:",
+    "last_order": "2025-10-13 19:16:",
+    "total_sales_scaled": 1786050.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0837",
+    "address": null,
+    "phone": "56472929",
+    "first_order": "2025-10-12 19:22:",
+    "last_order": "2025-10-12 19:24:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0838",
+    "address": null,
+    "phone": "31438663",
+    "first_order": "2025-10-11 21:55:",
+    "last_order": "2025-10-11 21:55:",
+    "total_sales_scaled": 7011899.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0839",
+    "address": null,
+    "phone": "22702672",
+    "first_order": "2025-10-11 23:09:",
+    "last_order": "2025-11-21 23:10:",
+    "total_sales_scaled": 7805700.0,
+    "num_orders": 4
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0840",
+    "address": null,
+    "phone": "88574489",
+    "first_order": "2025-10-11 20:58:",
+    "last_order": "2025-10-11 21:03:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0841",
+    "address": null,
+    "phone": "06120347",
+    "first_order": "2025-10-11 19:45:",
+    "last_order": "2025-10-11 19:45:",
+    "total_sales_scaled": 4630499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0842",
+    "address": null,
+    "phone": "17545588",
+    "first_order": "2025-10-10 13:26:",
+    "last_order": "2025-10-10 13:26:",
+    "total_sales_scaled": 1489110.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0843",
+    "address": null,
+    "phone": "45061593",
+    "first_order": "2025-10-10 17:23:",
+    "last_order": "2025-10-10 17:23:",
+    "total_sales_scaled": 4068960.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0844",
+    "address": null,
+    "phone": "99824558",
+    "first_order": "2025-10-09 23:19:",
+    "last_order": "2025-10-09 23:19:",
+    "total_sales_scaled": 2382870.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0845",
+    "address": null,
+    "phone": "77169472",
+    "first_order": "2025-10-07 18:20:",
+    "last_order": "2025-10-07 18:20:",
+    "total_sales_scaled": 2316720.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0846",
+    "address": null,
+    "phone": "25699611",
+    "first_order": "2025-10-07 18:30:",
+    "last_order": "2025-10-28 19:03:",
+    "total_sales_scaled": 8202600.0,
+    "num_orders": 4
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0847",
+    "address": null,
+    "phone": "25355449",
+    "first_order": "2025-10-07 18:36:",
+    "last_order": "2025-10-07 18:36:",
+    "total_sales_scaled": 3042900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0848",
+    "address": null,
+    "phone": "64759876",
+    "first_order": "2025-10-07 19:23:",
+    "last_order": "2025-11-10 21:46:",
+    "total_sales_scaled": 6151949.9,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0849",
+    "address": null,
+    "phone": "22023413",
+    "first_order": "2025-10-05 19:40:",
+    "last_order": "2025-10-05 23:36:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0850",
+    "address": null,
+    "phone": "26111780",
+    "first_order": "2025-10-04 18:44:",
+    "last_order": "2025-11-01 21:06:",
+    "total_sales_scaled": 4708409.9,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0851",
+    "address": null,
+    "phone": "06811492",
+    "first_order": "2025-10-04 19:07:",
+    "last_order": "2025-10-04 19:07:",
+    "total_sales_scaled": 1918349.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0852",
+    "address": null,
+    "phone": "16433472",
+    "first_order": "2025-10-03 15:28:",
+    "last_order": "2025-10-03 15:28:",
+    "total_sales_scaled": 3241349.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0853",
+    "address": null,
+    "phone": "28200557",
+    "first_order": "2025-10-03 17:23:",
+    "last_order": "2025-10-03 17:23:",
+    "total_sales_scaled": 2910600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0854",
+    "address": null,
+    "phone": "78487282",
+    "first_order": "2025-10-03 22:25:",
+    "last_order": "2025-10-03 22:25:",
+    "total_sales_scaled": 1587600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0855",
+    "address": null,
+    "phone": "99796884",
+    "first_order": "2025-10-02 20:57:",
+    "last_order": "2025-10-03 23:35:",
+    "total_sales_scaled": 3836699.9,
+    "num_orders": 6
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0856",
+    "address": null,
+    "phone": "57831745",
+    "first_order": "2025-10-02 22:37:",
+    "last_order": "2025-10-02 22:37:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0857",
+    "address": null,
+    "phone": "64240082",
+    "first_order": "2025-10-01 18:01:",
+    "last_order": "2025-10-05 22:33:",
+    "total_sales_scaled": 4035150.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0858",
+    "address": null,
+    "phone": "54780774",
+    "first_order": "2025-09-29 20:49:",
+    "last_order": "2025-09-29 20:49:",
+    "total_sales_scaled": 926100.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0859",
+    "address": null,
+    "phone": "06493085",
+    "first_order": "2025-09-29 20:26:",
+    "last_order": "2025-10-02 20:23:",
+    "total_sales_scaled": 3770549.9,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0860",
+    "address": null,
+    "phone": "36866326",
+    "first_order": "2025-09-29 19:03:",
+    "last_order": "2025-09-29 19:03:",
+    "total_sales_scaled": 1587600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0861",
+    "address": null,
+    "phone": "63416389",
+    "first_order": "2025-09-28 21:04:",
+    "last_order": "2025-09-28 21:04:",
+    "total_sales_scaled": 3042900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0862",
+    "address": null,
+    "phone": "44846312",
+    "first_order": "2025-09-27 15:52:",
+    "last_order": "2025-09-27 15:52:",
+    "total_sales_scaled": 859949.99,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0863",
+    "address": null,
+    "phone": "24179749",
+    "first_order": "2025-09-25 18:26:",
+    "last_order": "2025-09-25 18:27:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0864",
+    "address": null,
+    "phone": "73502080",
+    "first_order": "2025-09-25 18:59:",
+    "last_order": "2025-09-25 19:06:",
+    "total_sales_scaled": 5159700.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0865",
+    "address": null,
+    "phone": "21442703",
+    "first_order": "2025-09-22 20:58:",
+    "last_order": "2025-09-22 20:58:",
+    "total_sales_scaled": 2812110.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0866",
+    "address": null,
+    "phone": "12073564",
+    "first_order": "2025-09-22 20:31:",
+    "last_order": "2025-09-22 20:31:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0867",
+    "address": null,
+    "phone": "75705120",
+    "first_order": "2025-09-22 18:56:",
+    "last_order": "2025-11-17 16:59:",
+    "total_sales_scaled": 4762799.9,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0868",
+    "address": null,
+    "phone": "46187234",
+    "first_order": "2025-09-21 19:33:",
+    "last_order": "2025-09-21 19:33:",
+    "total_sales_scaled": 1786050.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0869",
+    "address": null,
+    "phone": "05720259",
+    "first_order": "2025-09-21 21:14:",
+    "last_order": "2025-09-21 21:15:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0870",
+    "address": null,
+    "phone": "60136730",
+    "first_order": "2025-09-20 13:21:",
+    "last_order": "2025-09-21 12:07:",
+    "total_sales_scaled": 3572099.9,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0871",
+    "address": null,
+    "phone": "37183764",
+    "first_order": "2025-09-20 22:44:",
+    "last_order": "2025-09-20 22:44:",
+    "total_sales_scaled": 1852199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0872",
+    "address": null,
+    "phone": "52088147",
+    "first_order": "2025-09-20 22:28:",
+    "last_order": "2025-09-20 22:28:",
+    "total_sales_scaled": 2910600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0873",
+    "address": null,
+    "phone": "43503136",
+    "first_order": "2025-09-19 23:29:",
+    "last_order": "2025-09-19 23:29:",
+    "total_sales_scaled": 3342780.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0874",
+    "address": null,
+    "phone": "50249163",
+    "first_order": "2025-09-19 21:03:",
+    "last_order": "2025-09-19 21:06:",
+    "total_sales_scaled": 2910600.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0875",
+    "address": null,
+    "phone": "00979251",
+    "first_order": "2025-09-19 14:48:",
+    "last_order": "2025-09-19 14:48:",
+    "total_sales_scaled": 5953500.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0876",
+    "address": null,
+    "phone": "32719500",
+    "first_order": "2025-09-19 23:34:",
+    "last_order": "2025-09-19 23:34:",
+    "total_sales_scaled": 4630499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0877",
+    "address": null,
+    "phone": "52812735",
+    "first_order": "2025-09-18 21:39:",
+    "last_order": "2025-09-18 21:44:",
+    "total_sales_scaled": 2381399.9,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0878",
+    "address": null,
+    "phone": "85730652",
+    "first_order": "2025-09-17 19:39:",
+    "last_order": "2025-10-09 19:41:",
+    "total_sales_scaled": 7774829.9,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0879",
+    "address": null,
+    "phone": "40778487",
+    "first_order": "2025-09-17 18:23:",
+    "last_order": "2025-09-17 18:23:",
+    "total_sales_scaled": 3836699.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0880",
+    "address": null,
+    "phone": "39285574",
+    "first_order": "2025-09-16 20:25:",
+    "last_order": "2025-09-16 20:44:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0881",
+    "address": null,
+    "phone": "98218274",
+    "first_order": "2025-09-15 19:51:",
+    "last_order": "2025-09-15 19:51:",
+    "total_sales_scaled": 2646000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0882",
+    "address": null,
+    "phone": "48570862",
+    "first_order": "2025-09-14 20:52:",
+    "last_order": "2025-09-14 20:52:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0883",
+    "address": null,
+    "phone": "09593518",
+    "first_order": "2025-09-14 17:22:",
+    "last_order": "2025-09-29 16:56:",
+    "total_sales_scaled": 5490450.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0884",
+    "address": null,
+    "phone": "63878294",
+    "first_order": "2025-09-14 17:55:",
+    "last_order": "2025-09-14 17:55:",
+    "total_sales_scaled": 5556600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0885",
+    "address": null,
+    "phone": "56511810",
+    "first_order": "2025-09-13 20:28:",
+    "last_order": "2025-09-13 20:28:",
+    "total_sales_scaled": 2381400.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0886",
+    "address": null,
+    "phone": "22031731",
+    "first_order": "2025-09-13 16:55:",
+    "last_order": "2025-09-13 16:55:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0887",
+    "address": null,
+    "phone": "09678994",
+    "first_order": "2025-09-12 16:26:",
+    "last_order": "2025-09-12 16:26:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0888",
+    "address": null,
+    "phone": "05391037",
+    "first_order": "2025-09-12 22:26:",
+    "last_order": "2025-09-12 22:26:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0889",
+    "address": null,
+    "phone": "17058650",
+    "first_order": "2025-09-12 20:25:",
+    "last_order": "2025-09-12 20:25:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0890",
+    "address": null,
+    "phone": "94801413",
+    "first_order": "2025-09-11 19:25:",
+    "last_order": "2025-09-11 19:25:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0891",
+    "address": null,
+    "phone": "81138633",
+    "first_order": "2025-09-11 22:40:",
+    "last_order": "2025-09-11 22:40:",
+    "total_sales_scaled": 2116799.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0892",
+    "address": null,
+    "phone": "83928861",
+    "first_order": "2025-09-10 21:19:",
+    "last_order": "2025-09-10 21:19:",
+    "total_sales_scaled": 2679810.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0893",
+    "address": null,
+    "phone": "95761228",
+    "first_order": "2025-09-10 13:43:",
+    "last_order": "2025-09-10 13:43:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0894",
+    "address": null,
+    "phone": "68528975",
+    "first_order": "2025-09-10 15:28:",
+    "last_order": "2025-09-10 15:28:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0895",
+    "address": null,
+    "phone": "58556659",
+    "first_order": "2025-09-10 14:38:",
+    "last_order": "2025-09-10 14:38:",
+    "total_sales_scaled": 1290660.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0896",
+    "address": null,
+    "phone": "39836845",
+    "first_order": "2025-09-09 22:14:",
+    "last_order": "2025-09-09 22:14:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0897",
+    "address": null,
+    "phone": "77600490",
+    "first_order": "2025-09-08 22:22:",
+    "last_order": "2025-09-08 22:27:",
+    "total_sales_scaled": 5358149.9,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0898",
+    "address": null,
+    "phone": "82404335",
+    "first_order": "2025-09-08 17:31:",
+    "last_order": "2025-09-08 17:31:",
+    "total_sales_scaled": 3042900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0899",
+    "address": null,
+    "phone": "04888992",
+    "first_order": "2025-09-07 17:59:",
+    "last_order": "2025-09-07 17:59:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0900",
+    "address": null,
+    "phone": "10752245",
+    "first_order": "2025-09-07 16:48:",
+    "last_order": "2025-09-07 16:48:",
+    "total_sales_scaled": 2282910.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0901",
+    "address": null,
+    "phone": "93344196",
+    "first_order": "2025-09-06 12:48:",
+    "last_order": "2025-09-06 12:48:",
+    "total_sales_scaled": 3572099.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0902",
+    "address": null,
+    "phone": "9315727",
+    "first_order": "2025-09-08 21:11:",
+    "last_order": "2025-09-08 23:44:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0903",
+    "address": null,
+    "phone": "9315727",
+    "first_order": "2025-11-25 20:56:",
+    "last_order": "2025-11-25 20:58:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0904",
+    "address": null,
+    "phone": "91940961",
+    "first_order": "2025-09-05 14:08:",
+    "last_order": "2025-09-05 14:08:",
+    "total_sales_scaled": 4233600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0905",
+    "address": null,
+    "phone": "05566139",
+    "first_order": "2025-09-05 17:20:",
+    "last_order": "2025-09-05 17:20:",
+    "total_sales_scaled": 926100.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0906",
+    "address": null,
+    "phone": "06048058",
+    "first_order": "2025-09-04 22:39:",
+    "last_order": "2025-09-04 22:39:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0907",
+    "address": null,
+    "phone": "92583206",
+    "first_order": "2025-09-04 20:24:",
+    "last_order": "2025-09-04 20:24:",
+    "total_sales_scaled": 4598160.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0908",
+    "address": null,
+    "phone": "79981364",
+    "first_order": "2025-09-03 21:27:",
+    "last_order": "2025-09-03 21:27:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0909",
+    "address": null,
+    "phone": "62251790",
+    "first_order": "2025-09-03 18:46:",
+    "last_order": "2025-09-03 18:46:",
+    "total_sales_scaled": 1819859.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0910",
+    "address": null,
+    "phone": "86416862",
+    "first_order": "2025-09-03 17:57:",
+    "last_order": "2025-09-03 17:57:",
+    "total_sales_scaled": 2415209.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0911",
+    "address": null,
+    "phone": "27837693",
+    "first_order": "2025-09-03 12:48:",
+    "last_order": "2025-09-03 12:48:",
+    "total_sales_scaled": 2282910.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0912",
+    "address": null,
+    "phone": "89833146",
+    "first_order": "2025-09-02 17:05:",
+    "last_order": "2025-09-02 17:05:",
+    "total_sales_scaled": 3572099.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0913",
+    "address": null,
+    "phone": "59116655",
+    "first_order": "2025-09-01 18:41:",
+    "last_order": "2025-09-01 18:41:",
+    "total_sales_scaled": 2282910.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0914",
+    "address": null,
+    "phone": "35590425",
+    "first_order": "2025-09-01 17:55:",
+    "last_order": "2025-09-01 17:55:",
+    "total_sales_scaled": 3836699.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0915",
+    "address": null,
+    "phone": "97927033",
+    "first_order": "2025-08-31 21:07:",
+    "last_order": "2025-08-31 21:07:",
+    "total_sales_scaled": 2182949.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0916",
+    "address": null,
+    "phone": "52110392",
+    "first_order": "2025-08-31 20:52:",
+    "last_order": "2025-08-31 20:52:",
+    "total_sales_scaled": 4365900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0917",
+    "address": null,
+    "phone": "40514770",
+    "first_order": "2025-08-30 19:40:",
+    "last_order": "2025-08-30 19:40:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0918",
+    "address": null,
+    "phone": "53833884",
+    "first_order": "2025-08-30 20:43:",
+    "last_order": "2025-11-29 21:33:",
+    "total_sales_scaled": 9824009.9,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0919",
+    "address": null,
+    "phone": "87920698",
+    "first_order": "2025-08-30 19:19:",
+    "last_order": "2025-08-30 19:19:",
+    "total_sales_scaled": 1555260.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0920",
+    "address": null,
+    "phone": "04204394",
+    "first_order": "2025-08-30 21:21:",
+    "last_order": "2025-09-08 23:46:",
+    "total_sales_scaled": 3307499.9,
+    "num_orders": 4
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0921",
+    "address": null,
+    "phone": "07016451",
+    "first_order": "2025-08-29 20:16:",
+    "last_order": "2025-08-29 20:16:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0922",
+    "address": null,
+    "phone": "04636815",
+    "first_order": "2025-08-29 22:45:",
+    "last_order": "2025-08-29 22:45:",
+    "total_sales_scaled": 1786050.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0923",
+    "address": null,
+    "phone": "79812387",
+    "first_order": "2025-08-29 22:11:",
+    "last_order": "2025-08-29 22:11:",
+    "total_sales_scaled": 3373649.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0924",
+    "address": null,
+    "phone": "80038457",
+    "first_order": "2025-08-29 20:41:",
+    "last_order": "2025-08-29 20:41:",
+    "total_sales_scaled": 3010560.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0925",
+    "address": null,
+    "phone": "62055543",
+    "first_order": "2025-08-28 22:20:",
+    "last_order": "2025-08-28 23:27:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0926",
+    "address": null,
+    "phone": "84046084",
+    "first_order": "2025-08-28 21:30:",
+    "last_order": "2025-09-08 22:45:",
+    "total_sales_scaled": 3505949.9,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0927",
+    "address": null,
+    "phone": "32562168",
+    "first_order": "2025-08-27 20:31:",
+    "last_order": "2025-08-27 20:31:",
+    "total_sales_scaled": 1422960.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0928",
+    "address": null,
+    "phone": "93639264",
+    "first_order": "2025-08-27 19:07:",
+    "last_order": "2025-08-27 19:07:",
+    "total_sales_scaled": 3042900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0929",
+    "address": null,
+    "phone": "95782329",
+    "first_order": "2025-08-26 22:34:",
+    "last_order": "2025-08-26 22:34:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0930",
+    "address": null,
+    "phone": "83248262",
+    "first_order": "2025-08-26 17:56:",
+    "last_order": "2025-09-04 15:52:",
+    "total_sales_scaled": 4233600.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0931",
+    "address": null,
+    "phone": "39285574",
+    "first_order": "2025-08-25 22:38:",
+    "last_order": "2025-08-25 22:38:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0932",
+    "address": null,
+    "phone": "92518812",
+    "first_order": "2025-08-25 22:56:",
+    "last_order": "2025-08-25 22:57:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0933",
+    "address": null,
+    "phone": "52056647",
+    "first_order": "2025-08-25 20:26:",
+    "last_order": "2025-08-25 20:26:",
+    "total_sales_scaled": 1521450.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0934",
+    "address": null,
+    "phone": "42312209",
+    "first_order": "2025-08-25 22:43:",
+    "last_order": "2025-08-25 22:43:",
+    "total_sales_scaled": 3439800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0935",
+    "address": null,
+    "phone": "94999393",
+    "first_order": "2025-08-25 21:22:",
+    "last_order": "2025-08-25 21:22:",
+    "total_sales_scaled": 2447550.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0421",
+    "address": "[k,fd 1",
+    "phone": "30517289",
+    "first_order": "2025-08-25 14:21:",
+    "last_order": "2025-10-28 16:39:",
+    "total_sales_scaled": 5424300.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0936",
+    "address": null,
+    "phone": "75267722",
+    "first_order": "2025-08-25 12:52:",
+    "last_order": "2025-09-26 15:23:",
+    "total_sales_scaled": 3505949.9,
+    "num_orders": 4
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0937",
+    "address": null,
+    "phone": "33060463",
+    "first_order": "2025-08-22 23:09:",
+    "last_order": "2025-08-22 23:13:",
+    "total_sales_scaled": 2713620.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0938",
+    "address": null,
+    "phone": "33127975",
+    "first_order": "2025-08-21 14:10:",
+    "last_order": "2025-08-21 14:10:",
+    "total_sales_scaled": 3836699.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0939",
+    "address": null,
+    "phone": "73660965",
+    "first_order": "2025-08-21 20:07:",
+    "last_order": "2025-08-21 20:07:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut",
+    "customer_name": "Person_0940",
+    "address": null,
+    "phone": "69998808",
+    "first_order": "2025-08-20 23:31:",
+    "last_order": "2025-08-20 23:31:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0941",
+    "address": null,
+    "phone": "17703886",
+    "first_order": "2025-12-30 20:52:",
+    "last_order": "2025-12-30 20:52:",
+    "total_sales_scaled": 5193510.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0942",
+    "address": null,
+    "phone": "08680347",
+    "first_order": "2025-12-29 19:30:",
+    "last_order": "2025-12-29 19:30:",
+    "total_sales_scaled": 3373649.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0943",
+    "address": null,
+    "phone": "64472649",
+    "first_order": "2025-12-29 20:28:",
+    "last_order": "2025-12-29 20:28:",
+    "total_sales_scaled": 3342780.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0944",
+    "address": null,
+    "phone": "08277181",
+    "first_order": "2025-12-28 20:37:",
+    "last_order": "2025-12-28 20:37:",
+    "total_sales_scaled": 3969000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0945",
+    "address": null,
+    "phone": "29826657",
+    "first_order": "2025-12-27 18:02:",
+    "last_order": "2025-12-27 18:02:",
+    "total_sales_scaled": 4499670.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0946",
+    "address": null,
+    "phone": "02793714",
+    "first_order": "2025-12-27 19:47:",
+    "last_order": "2025-12-27 19:47:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0947",
+    "address": null,
+    "phone": "52111751",
+    "first_order": "2025-12-27 20:49:",
+    "last_order": "2025-12-27 20:49:",
+    "total_sales_scaled": 2646000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0948",
+    "address": null,
+    "phone": "84498926",
+    "first_order": "2025-12-27 21:02:",
+    "last_order": "2025-12-27 21:02:",
+    "total_sales_scaled": 3241350.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0949",
+    "address": null,
+    "phone": "86892686",
+    "first_order": "2025-12-27 20:26:",
+    "last_order": "2025-12-27 20:26:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0950",
+    "address": null,
+    "phone": "02592222",
+    "first_order": "2025-12-27 17:25:",
+    "last_order": "2025-12-27 17:25:",
+    "total_sales_scaled": 3307499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0951",
+    "address": null,
+    "phone": "06447421",
+    "first_order": "2025-12-26 17:19:",
+    "last_order": "2025-12-26 17:19:",
+    "total_sales_scaled": 2979690.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0952",
+    "address": null,
+    "phone": "23094077",
+    "first_order": "2025-12-26 16:01:",
+    "last_order": "2025-12-26 16:01:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0953",
+    "address": null,
+    "phone": "78097339",
+    "first_order": "2025-12-26 20:01:",
+    "last_order": "2025-12-26 20:01:",
+    "total_sales_scaled": 2216760.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0954",
+    "address": null,
+    "phone": "7767199",
+    "first_order": "2025-12-25 19:15:",
+    "last_order": "2025-12-25 19:15:",
+    "total_sales_scaled": 1323000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0955",
+    "address": null,
+    "phone": "03849830",
+    "first_order": "2025-12-25 23:32:",
+    "last_order": "2025-12-25 23:32:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0956",
+    "address": null,
+    "phone": "22050209",
+    "first_order": "2025-12-25 18:44:",
+    "last_order": "2025-12-25 18:44:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0957",
+    "address": null,
+    "phone": "94510162",
+    "first_order": "2025-12-25 15:59:",
+    "last_order": "2025-12-25 15:59:",
+    "total_sales_scaled": 3042900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0958",
+    "address": null,
+    "phone": "24999827",
+    "first_order": "2025-12-25 14:56:",
+    "last_order": "2025-12-25 14:56:",
+    "total_sales_scaled": 1587600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0959",
+    "address": null,
+    "phone": "95014556",
+    "first_order": "2025-12-25 21:17:",
+    "last_order": "2025-12-25 21:17:",
+    "total_sales_scaled": 4564349.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0960",
+    "address": null,
+    "phone": "16814721",
+    "first_order": "2025-12-25 20:48:",
+    "last_order": "2025-12-25 20:48:",
+    "total_sales_scaled": 2745960.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0961",
+    "address": null,
+    "phone": "45868339",
+    "first_order": "2025-12-24 20:18:",
+    "last_order": "2025-12-24 20:18:",
+    "total_sales_scaled": 2978220.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0955",
+    "address": null,
+    "phone": "01981794",
+    "first_order": "2025-12-24 23:41:",
+    "last_order": "2025-12-24 23:41:",
+    "total_sales_scaled": 2910599.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0962",
+    "address": null,
+    "phone": "69548995",
+    "first_order": "2025-12-24 21:39:",
+    "last_order": "2025-12-24 21:39:",
+    "total_sales_scaled": 2216760.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0963",
+    "address": null,
+    "phone": "29978772",
+    "first_order": "2025-12-24 13:39:",
+    "last_order": "2025-12-24 13:39:",
+    "total_sales_scaled": 1918349.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0964",
+    "address": null,
+    "phone": "93430107",
+    "first_order": "2025-12-23 22:11:",
+    "last_order": "2025-12-23 22:11:",
+    "total_sales_scaled": 3605910.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0965",
+    "address": null,
+    "phone": "13966055",
+    "first_order": "2025-12-23 21:35:",
+    "last_order": "2025-12-23 21:35:",
+    "total_sales_scaled": 1786050.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0966",
+    "address": null,
+    "phone": "80038457",
+    "first_order": "2025-12-23 22:37:",
+    "last_order": "2025-12-23 22:37:",
+    "total_sales_scaled": 2712150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0967",
+    "address": null,
+    "phone": "83034414",
+    "first_order": "2025-12-23 22:07:",
+    "last_order": "2025-12-23 22:07:",
+    "total_sales_scaled": 2712150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0968",
+    "address": null,
+    "phone": "48850155",
+    "first_order": "2025-12-23 23:29:",
+    "last_order": "2025-12-23 23:29:",
+    "total_sales_scaled": 3638249.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0969",
+    "address": null,
+    "phone": "69902355",
+    "first_order": "2025-12-22 21:09:",
+    "last_order": "2025-12-22 21:09:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0970",
+    "address": null,
+    "phone": "77027278",
+    "first_order": "2025-12-22 20:51:",
+    "last_order": "2025-12-22 20:51:",
+    "total_sales_scaled": 2282910.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0971",
+    "address": null,
+    "phone": "57608495",
+    "first_order": "2025-12-22 20:45:",
+    "last_order": "2025-12-22 20:45:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0972",
+    "address": null,
+    "phone": "88039551",
+    "first_order": "2025-12-23 14:33:",
+    "last_order": "2025-12-23 16:34:",
+    "total_sales_scaled": 1985970.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0973",
+    "address": null,
+    "phone": "24056829",
+    "first_order": "2025-12-22 21:06:",
+    "last_order": "2025-12-22 21:06:",
+    "total_sales_scaled": 3175199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0974",
+    "address": null,
+    "phone": "96291450",
+    "first_order": "2025-12-21 23:51:",
+    "last_order": "2025-12-21 23:51:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0975",
+    "address": null,
+    "phone": "461735743",
+    "first_order": "2025-12-21 18:09:",
+    "last_order": "2025-12-21 18:09:",
+    "total_sales_scaled": 2249099.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0976",
+    "address": null,
+    "phone": "84215031",
+    "first_order": "2025-12-21 15:39:",
+    "last_order": "2025-12-21 15:39:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0977",
+    "address": null,
+    "phone": "78078235",
+    "first_order": "2025-12-21 20:23:",
+    "last_order": "2025-12-21 20:23:",
+    "total_sales_scaled": 2910600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0978",
+    "address": null,
+    "phone": "78452182",
+    "first_order": "2025-12-21 22:33:",
+    "last_order": "2025-12-29 21:19:",
+    "total_sales_scaled": 8170260.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0979",
+    "address": null,
+    "phone": "30768104",
+    "first_order": "2025-12-21 17:47:",
+    "last_order": "2025-12-21 17:47:",
+    "total_sales_scaled": 2844450.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0980",
+    "address": null,
+    "phone": "09157018",
+    "first_order": "2025-12-20 21:54:",
+    "last_order": "2025-12-20 21:54:",
+    "total_sales_scaled": 2381400.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0981",
+    "address": null,
+    "phone": "40943533",
+    "first_order": "2025-12-20 20:28:",
+    "last_order": "2025-12-20 20:28:",
+    "total_sales_scaled": 1587600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0982",
+    "address": null,
+    "phone": "44857142",
+    "first_order": "2025-12-20 21:33:",
+    "last_order": "2025-12-20 21:33:",
+    "total_sales_scaled": 19977300.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0983",
+    "address": null,
+    "phone": "24109881",
+    "first_order": "2025-12-20 22:50:",
+    "last_order": "2025-12-20 22:50:",
+    "total_sales_scaled": 3042900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0984",
+    "address": null,
+    "phone": "38585424",
+    "first_order": "2025-12-20 22:36:",
+    "last_order": "2025-12-20 22:36:",
+    "total_sales_scaled": 3241349.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0985",
+    "address": null,
+    "phone": "93214958",
+    "first_order": "2025-12-19 22:04:",
+    "last_order": "2025-12-19 22:04:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0986",
+    "address": null,
+    "phone": "70207016",
+    "first_order": "2025-12-19 14:11:",
+    "last_order": "2025-12-19 14:11:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0987",
+    "address": null,
+    "phone": "01662997",
+    "first_order": "2025-12-19 20:55:",
+    "last_order": "2025-12-19 20:55:",
+    "total_sales_scaled": 3638249.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0988",
+    "address": null,
+    "phone": "95453817",
+    "first_order": "2025-12-19 18:42:",
+    "last_order": "2025-12-19 18:42:",
+    "total_sales_scaled": 6419490.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0989",
+    "address": null,
+    "phone": "92171747",
+    "first_order": "2025-12-19 21:09:",
+    "last_order": "2025-12-19 21:09:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0990",
+    "address": null,
+    "phone": "73329456",
+    "first_order": "2025-12-18 23:37:",
+    "last_order": "2025-12-18 23:37:",
+    "total_sales_scaled": 2349060.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0991",
+    "address": null,
+    "phone": "25577017",
+    "first_order": "2025-12-17 16:34:",
+    "last_order": "2025-12-17 16:34:",
+    "total_sales_scaled": 4035150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0992",
+    "address": null,
+    "phone": "15772459",
+    "first_order": "2025-12-17 17:18:",
+    "last_order": "2025-12-17 17:18:",
+    "total_sales_scaled": 3211950.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0766",
+    "address": null,
+    "phone": "91476607",
+    "first_order": "2025-12-17 15:50:",
+    "last_order": "2025-12-17 15:50:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0993",
+    "address": null,
+    "phone": "92816158",
+    "first_order": "2025-12-16 21:24:",
+    "last_order": "2025-12-16 21:24:",
+    "total_sales_scaled": 2150609.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0994",
+    "address": null,
+    "phone": "14876963",
+    "first_order": "2025-12-16 19:13:",
+    "last_order": "2025-12-16 19:13:",
+    "total_sales_scaled": 2579850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0995",
+    "address": null,
+    "phone": "93827615",
+    "first_order": "2025-12-16 19:36:",
+    "last_order": "2025-12-16 19:36:",
+    "total_sales_scaled": 3109049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0765",
+    "address": null,
+    "phone": "90158144",
+    "first_order": "2025-12-16 20:58:",
+    "last_order": "2025-12-16 20:58:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0996",
+    "address": null,
+    "phone": "39669583",
+    "first_order": "2025-12-16 22:45:",
+    "last_order": "2025-12-16 22:45:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0997",
+    "address": null,
+    "phone": "21971997",
+    "first_order": "2025-12-16 21:30:",
+    "last_order": "2025-12-16 21:32:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0998",
+    "address": null,
+    "phone": "85730652",
+    "first_order": "2025-12-16 19:24:",
+    "last_order": "2025-12-16 19:24:",
+    "total_sales_scaled": 2182949.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0999",
+    "address": null,
+    "phone": "58172461",
+    "first_order": "2025-12-16 14:03:",
+    "last_order": "2025-12-16 14:03:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1000",
+    "address": null,
+    "phone": "91965701",
+    "first_order": "2025-12-15 18:04:",
+    "last_order": "2025-12-15 18:04:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1001",
+    "address": null,
+    "phone": "32902278",
+    "first_order": "2025-12-15 21:15:",
+    "last_order": "2025-12-15 21:15:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1002",
+    "address": null,
+    "phone": "46997335",
+    "first_order": "2025-12-14 21:20:",
+    "last_order": "2025-12-14 21:20:",
+    "total_sales_scaled": 1984500.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1003",
+    "address": null,
+    "phone": "49465190",
+    "first_order": "2025-12-14 20:12:",
+    "last_order": "2025-12-14 20:12:",
+    "total_sales_scaled": 3109050.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1004",
+    "address": null,
+    "phone": "98624058",
+    "first_order": "2025-12-14 15:42:",
+    "last_order": "2025-12-14 15:42:",
+    "total_sales_scaled": 3308970.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1005",
+    "address": null,
+    "phone": "09935387",
+    "first_order": "2025-12-14 18:44:",
+    "last_order": "2025-12-14 18:46:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1006",
+    "address": null,
+    "phone": "00851403",
+    "first_order": "2025-12-14 18:37:",
+    "last_order": "2025-12-14 18:37:",
+    "total_sales_scaled": 2844450.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1007",
+    "address": null,
+    "phone": "69656666",
+    "first_order": "2025-12-14 18:30:",
+    "last_order": "2025-12-14 18:30:",
+    "total_sales_scaled": 2150609.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1008",
+    "address": null,
+    "phone": "39285574",
+    "first_order": "2025-12-14 13:18:",
+    "last_order": "2025-12-14 13:18:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1009",
+    "address": null,
+    "phone": "83272386",
+    "first_order": "2025-12-14 23:33:",
+    "last_order": "2025-12-14 23:33:",
+    "total_sales_scaled": 5225850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1010",
+    "address": null,
+    "phone": "56242201",
+    "first_order": "2025-12-13 17:41:",
+    "last_order": "2025-12-13 17:41:",
+    "total_sales_scaled": 3307499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1011",
+    "address": null,
+    "phone": "02762126",
+    "first_order": "2025-12-13 21:48:",
+    "last_order": "2025-12-13 21:48:",
+    "total_sales_scaled": 2712150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1012",
+    "address": null,
+    "phone": "79692786",
+    "first_order": "2025-12-13 18:24:",
+    "last_order": "2025-12-13 18:24:",
+    "total_sales_scaled": 2976750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1013",
+    "address": null,
+    "phone": "87653269",
+    "first_order": "2025-12-13 20:53:",
+    "last_order": "2025-12-13 20:53:",
+    "total_sales_scaled": 2315250.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1014",
+    "address": null,
+    "phone": "09738468",
+    "first_order": "2025-12-12 18:17:",
+    "last_order": "2025-12-12 18:17:",
+    "total_sales_scaled": 3109049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1015",
+    "address": null,
+    "phone": "95009751",
+    "first_order": "2025-12-12 22:32:",
+    "last_order": "2025-12-12 22:32:",
+    "total_sales_scaled": 5291999.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1016",
+    "address": null,
+    "phone": "97128478",
+    "first_order": "2025-12-12 20:57:",
+    "last_order": "2025-12-12 20:57:",
+    "total_sales_scaled": 2712150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1017",
+    "address": null,
+    "phone": "18913718",
+    "first_order": "2025-12-12 18:55:",
+    "last_order": "2025-12-12 18:55:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1018",
+    "address": null,
+    "phone": "94905807",
+    "first_order": "2025-12-12 17:47:",
+    "last_order": "2025-12-12 17:47:",
+    "total_sales_scaled": 3109049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1019",
+    "address": null,
+    "phone": "78795654",
+    "first_order": "2025-12-12 16:39:",
+    "last_order": "2025-12-12 16:39:",
+    "total_sales_scaled": 2679810.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1020",
+    "address": null,
+    "phone": "42094940",
+    "first_order": "2025-12-11 22:20:",
+    "last_order": "2025-12-24 19:18:",
+    "total_sales_scaled": 7939469.9,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1021",
+    "address": null,
+    "phone": "79290490",
+    "first_order": "2025-12-11 18:28:",
+    "last_order": "2025-12-11 18:28:",
+    "total_sales_scaled": 2745960.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1022",
+    "address": null,
+    "phone": "47128144",
+    "first_order": "2025-12-11 23:45:",
+    "last_order": "2025-12-11 23:45:",
+    "total_sales_scaled": 1852199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1023",
+    "address": null,
+    "phone": "29444019",
+    "first_order": "2025-12-11 18:35:",
+    "last_order": "2025-12-11 18:35:",
+    "total_sales_scaled": 3439800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1024",
+    "address": null,
+    "phone": "29275243",
+    "first_order": "2025-12-10 20:56:",
+    "last_order": "2025-12-10 20:56:",
+    "total_sales_scaled": 4299749.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1025",
+    "address": null,
+    "phone": "72805129",
+    "first_order": "2025-12-10 22:08:",
+    "last_order": "2025-12-10 22:08:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1026",
+    "address": null,
+    "phone": "27663723",
+    "first_order": "2025-12-10 15:11:",
+    "last_order": "2025-12-10 15:11:",
+    "total_sales_scaled": 2381400.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1027",
+    "address": null,
+    "phone": "95041027",
+    "first_order": "2025-12-10 19:20:",
+    "last_order": "2025-12-10 19:20:",
+    "total_sales_scaled": 7641059.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1028",
+    "address": null,
+    "phone": "67478366",
+    "first_order": "2025-12-10 22:19:",
+    "last_order": "2025-12-10 22:19:",
+    "total_sales_scaled": 2315250.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1029",
+    "address": null,
+    "phone": "74286047",
+    "first_order": "2025-12-10 22:13:",
+    "last_order": "2025-12-10 22:13:",
+    "total_sales_scaled": 6450360.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1030",
+    "address": null,
+    "phone": "65801856",
+    "first_order": "2025-12-10 21:21:",
+    "last_order": "2025-12-10 21:21:",
+    "total_sales_scaled": 3770550.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1031",
+    "address": null,
+    "phone": "94544149",
+    "first_order": "2025-12-09 19:52:",
+    "last_order": "2025-12-10 21:06:",
+    "total_sales_scaled": 6019649.9,
+    "num_orders": 5
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1032",
+    "address": null,
+    "phone": "67393852",
+    "first_order": "2025-12-09 13:13:",
+    "last_order": "2025-12-09 13:13:",
+    "total_sales_scaled": 2249099.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1033",
+    "address": null,
+    "phone": "58001061",
+    "first_order": "2025-12-09 23:27:",
+    "last_order": "2025-12-09 23:27:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1034",
+    "address": null,
+    "phone": "81753443",
+    "first_order": "2025-12-09 20:46:",
+    "last_order": "2025-12-09 20:51:",
+    "total_sales_scaled": 1124550.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1035",
+    "address": null,
+    "phone": "00910939",
+    "first_order": "2025-12-09 17:19:",
+    "last_order": "2025-12-09 17:19:",
+    "total_sales_scaled": 1455299.99,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1036",
+    "address": null,
+    "phone": "11192692",
+    "first_order": "2025-12-09 22:55:",
+    "last_order": "2025-12-09 22:55:",
+    "total_sales_scaled": 2249100.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1037",
+    "address": null,
+    "phone": "12447174",
+    "first_order": "2025-12-09 17:10:",
+    "last_order": "2025-12-09 17:10:",
+    "total_sales_scaled": 3209010.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1038",
+    "address": null,
+    "phone": "65421406",
+    "first_order": "2025-12-09 20:13:",
+    "last_order": "2025-12-09 20:13:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1039",
+    "address": null,
+    "phone": "65044271",
+    "first_order": "2025-12-09 18:13:",
+    "last_order": "2025-12-12 22:22:",
+    "total_sales_scaled": 2084460.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1040",
+    "address": null,
+    "phone": "73962712",
+    "first_order": "2025-12-08 20:35:",
+    "last_order": "2025-12-08 20:35:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1041",
+    "address": null,
+    "phone": "86391741",
+    "first_order": "2025-12-08 21:11:",
+    "last_order": "2025-12-08 21:11:",
+    "total_sales_scaled": 2745960.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0821",
+    "address": null,
+    "phone": "01194707",
+    "first_order": "2025-12-08 19:00:",
+    "last_order": "2025-12-08 19:00:",
+    "total_sales_scaled": 3904320.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1042",
+    "address": null,
+    "phone": "20064256",
+    "first_order": "2025-12-08 18:00:",
+    "last_order": "2025-12-21 23:21:",
+    "total_sales_scaled": 3307500.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1043",
+    "address": null,
+    "phone": "90877661",
+    "first_order": "2025-12-08 21:51:",
+    "last_order": "2025-12-08 21:51:",
+    "total_sales_scaled": 2349060.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1044",
+    "address": null,
+    "phone": "83067198",
+    "first_order": "2025-12-07 22:31:",
+    "last_order": "2025-12-07 22:31:",
+    "total_sales_scaled": 1852199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1045",
+    "address": null,
+    "phone": "55460158",
+    "first_order": "2025-12-07 19:01:",
+    "last_order": "2025-12-07 19:01:",
+    "total_sales_scaled": 2249100.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1046",
+    "address": null,
+    "phone": "51743280",
+    "first_order": "2025-12-06 19:24:",
+    "last_order": "2025-12-06 19:24:",
+    "total_sales_scaled": 3770549.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1047",
+    "address": null,
+    "phone": "63461571",
+    "first_order": "2025-12-06 18:51:",
+    "last_order": "2025-12-06 18:51:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1048",
+    "address": null,
+    "phone": "73203093",
+    "first_order": "2025-12-06 17:44:",
+    "last_order": "2025-12-06 17:44:",
+    "total_sales_scaled": 2712150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1049",
+    "address": null,
+    "phone": "76184787",
+    "first_order": "2025-12-06 12:33:",
+    "last_order": "2025-12-06 12:47:",
+    "total_sales_scaled": 4167450.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1050",
+    "address": null,
+    "phone": "00505061",
+    "first_order": "2025-12-06 21:43:",
+    "last_order": "2025-12-06 21:43:",
+    "total_sales_scaled": 2778300.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0839",
+    "address": null,
+    "phone": "22702672",
+    "first_order": "2025-12-05 20:04:",
+    "last_order": "2025-12-06 00:26:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1051",
+    "address": null,
+    "phone": "38782931",
+    "first_order": "2025-12-05 19:30:",
+    "last_order": "2025-12-05 19:30:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1052",
+    "address": null,
+    "phone": "02707903",
+    "first_order": "2025-12-05 22:44:",
+    "last_order": "2025-12-05 22:44:",
+    "total_sales_scaled": 3705870.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1053",
+    "address": null,
+    "phone": "20204179",
+    "first_order": "2025-12-05 19:28:",
+    "last_order": "2025-12-05 19:28:",
+    "total_sales_scaled": 3109049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1054",
+    "address": null,
+    "phone": "29111799",
+    "first_order": "2025-12-05 23:03:",
+    "last_order": "2025-12-05 23:03:",
+    "total_sales_scaled": 2384340.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1055",
+    "address": null,
+    "phone": "31365651",
+    "first_order": "2025-12-05 18:24:",
+    "last_order": "2025-12-05 18:24:",
+    "total_sales_scaled": 4432049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1056",
+    "address": null,
+    "phone": "98253092",
+    "first_order": "2025-12-05 18:20:",
+    "last_order": "2025-12-05 18:20:",
+    "total_sales_scaled": 2712150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1057",
+    "address": null,
+    "phone": "51142625",
+    "first_order": "2025-12-05 20:46:",
+    "last_order": "2025-12-05 20:46:",
+    "total_sales_scaled": 3042900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1058",
+    "address": null,
+    "phone": "82739021",
+    "first_order": "2025-12-05 17:30:",
+    "last_order": "2025-12-05 17:30:",
+    "total_sales_scaled": 4233600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1059",
+    "address": null,
+    "phone": "96207100",
+    "first_order": "2025-12-05 12:43:",
+    "last_order": "2025-12-05 12:43:",
+    "total_sales_scaled": 1852199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1060",
+    "address": null,
+    "phone": "21946723",
+    "first_order": "2025-12-05 22:33:",
+    "last_order": "2025-12-05 22:33:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1061",
+    "address": null,
+    "phone": "24876329",
+    "first_order": "2025-12-05 18:30:",
+    "last_order": "2025-12-05 18:30:",
+    "total_sales_scaled": 2381400.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1062",
+    "address": null,
+    "phone": "09279145",
+    "first_order": "2025-12-04 23:55:",
+    "last_order": "2025-12-04 23:55:",
+    "total_sales_scaled": 4002810.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1063",
+    "address": null,
+    "phone": "60833181",
+    "first_order": "2025-12-04 20:32:",
+    "last_order": "2025-12-04 20:32:",
+    "total_sales_scaled": 3373649.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1064",
+    "address": null,
+    "phone": "95883734",
+    "first_order": "2025-12-04 20:13:",
+    "last_order": "2025-12-04 20:13:",
+    "total_sales_scaled": 1587600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1065",
+    "address": null,
+    "phone": "03127722",
+    "first_order": "2025-12-04 15:38:",
+    "last_order": "2025-12-04 15:38:",
+    "total_sales_scaled": 3012029.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1066",
+    "address": null,
+    "phone": "71296666",
+    "first_order": "2025-12-05 01:12:",
+    "last_order": "2025-12-05 01:12:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1067",
+    "address": null,
+    "phone": "00543645",
+    "first_order": "2025-12-04 22:07:",
+    "last_order": "2025-12-21 20:11:",
+    "total_sales_scaled": 2249100.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1068",
+    "address": null,
+    "phone": "97010822",
+    "first_order": "2025-12-03 19:53:",
+    "last_order": "2025-12-03 19:53:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1069",
+    "address": null,
+    "phone": "07811379",
+    "first_order": "2025-12-03 19:39:",
+    "last_order": "2025-12-03 19:39:",
+    "total_sales_scaled": 3672060.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1070",
+    "address": null,
+    "phone": "95635315",
+    "first_order": "2025-12-03 20:55:",
+    "last_order": "2025-12-03 20:55:",
+    "total_sales_scaled": 2481360.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1071",
+    "address": null,
+    "phone": "31363631",
+    "first_order": "2025-12-03 19:09:",
+    "last_order": "2025-12-03 19:09:",
+    "total_sales_scaled": 1323000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1072",
+    "address": null,
+    "phone": "79706239",
+    "first_order": "2025-12-03 11:52:",
+    "last_order": "2025-12-03 11:52:",
+    "total_sales_scaled": 2447550.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1073",
+    "address": null,
+    "phone": "72652735",
+    "first_order": "2025-12-03 18:08:",
+    "last_order": "2025-12-03 18:08:",
+    "total_sales_scaled": 2944410.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1074",
+    "address": null,
+    "phone": "43520904",
+    "first_order": "2025-12-03 19:41:",
+    "last_order": "2025-12-03 19:41:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1075",
+    "address": null,
+    "phone": "21776253",
+    "first_order": "2025-12-03 15:18:",
+    "last_order": "2025-12-03 15:18:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1076",
+    "address": null,
+    "phone": "49292983",
+    "first_order": "2025-12-03 20:35:",
+    "last_order": "2025-12-03 20:35:",
+    "total_sales_scaled": 4333560.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1077",
+    "address": null,
+    "phone": "16873977",
+    "first_order": "2025-12-03 21:24:",
+    "last_order": "2025-12-03 21:24:",
+    "total_sales_scaled": 3109049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1078",
+    "address": null,
+    "phone": "40633569",
+    "first_order": "2025-12-02 19:33:",
+    "last_order": "2025-12-02 19:33:",
+    "total_sales_scaled": 1323000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1079",
+    "address": null,
+    "phone": "39290600",
+    "first_order": "2025-12-02 20:05:",
+    "last_order": "2025-12-02 20:05:",
+    "total_sales_scaled": 5161170.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1080",
+    "address": null,
+    "phone": "78068671",
+    "first_order": "2025-12-02 19:56:",
+    "last_order": "2025-12-02 19:56:",
+    "total_sales_scaled": 1719900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1081",
+    "address": null,
+    "phone": "77318063",
+    "first_order": "2025-12-02 20:14:",
+    "last_order": "2025-12-02 20:14:",
+    "total_sales_scaled": 2910600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1082",
+    "address": null,
+    "phone": "25431074",
+    "first_order": "2025-12-02 19:10:",
+    "last_order": "2025-12-02 19:10:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1083",
+    "address": null,
+    "phone": "27990772",
+    "first_order": "2025-12-02 18:14:",
+    "last_order": "2025-12-02 18:14:",
+    "total_sales_scaled": 2249100.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1084",
+    "address": null,
+    "phone": "62570165",
+    "first_order": "2025-12-02 16:50:",
+    "last_order": "2025-12-02 16:50:",
+    "total_sales_scaled": 5159699.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1085",
+    "address": null,
+    "phone": "80464989",
+    "first_order": "2025-12-02 23:13:",
+    "last_order": "2025-12-02 23:13:",
+    "total_sales_scaled": 1290660.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1086",
+    "address": null,
+    "phone": "31950850",
+    "first_order": "2025-12-02 13:23:",
+    "last_order": "2025-12-02 13:23:",
+    "total_sales_scaled": 2249100.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1087",
+    "address": null,
+    "phone": "16579055",
+    "first_order": "2025-12-02 17:29:",
+    "last_order": "2025-12-02 17:29:",
+    "total_sales_scaled": 2182950.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1088",
+    "address": null,
+    "phone": "28183253",
+    "first_order": "2025-12-02 16:08:",
+    "last_order": "2025-12-02 16:08:",
+    "total_sales_scaled": 5755050.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1089",
+    "address": null,
+    "phone": "81793355",
+    "first_order": "2025-12-02 21:41:",
+    "last_order": "2025-12-02 21:41:",
+    "total_sales_scaled": 4630499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1090",
+    "address": null,
+    "phone": "48640155",
+    "first_order": "2025-12-02 22:13:",
+    "last_order": "2025-12-02 22:13:",
+    "total_sales_scaled": 2315250.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0880",
+    "address": null,
+    "phone": "77881788",
+    "first_order": "2025-12-02 20:18:",
+    "last_order": "2025-12-02 20:18:",
+    "total_sales_scaled": 2447550.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1091",
+    "address": null,
+    "phone": "47951371",
+    "first_order": "2025-12-02 21:56:",
+    "last_order": "2025-12-02 21:56:",
+    "total_sales_scaled": 1323000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1092",
+    "address": null,
+    "phone": "16241124",
+    "first_order": "2025-12-02 20:28:",
+    "last_order": "2025-12-02 20:28:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1093",
+    "address": null,
+    "phone": "12723804",
+    "first_order": "2025-12-01 20:16:",
+    "last_order": "2025-12-16 19:00:",
+    "total_sales_scaled": 6879600.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1094",
+    "address": null,
+    "phone": "68275670",
+    "first_order": "2025-12-01 20:34:",
+    "last_order": "2025-12-01 20:34:",
+    "total_sales_scaled": 1389150.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0754",
+    "address": null,
+    "phone": "55543987",
+    "first_order": "2025-12-01 18:38:",
+    "last_order": "2025-12-01 18:38:",
+    "total_sales_scaled": 1521450.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1095",
+    "address": null,
+    "phone": "83248262",
+    "first_order": "2025-12-01 19:17:",
+    "last_order": "2025-12-01 19:17:",
+    "total_sales_scaled": 3241349.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1096",
+    "address": null,
+    "phone": "43103856",
+    "first_order": "2025-12-01 22:31:",
+    "last_order": "2025-12-01 22:31:",
+    "total_sales_scaled": 3675000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1097",
+    "address": null,
+    "phone": "95579887",
+    "first_order": "2025-11-30 20:25:",
+    "last_order": "2025-11-30 20:25:",
+    "total_sales_scaled": 5225850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1098",
+    "address": null,
+    "phone": "74924243",
+    "first_order": "2025-11-29 21:18:",
+    "last_order": "2025-11-29 21:18:",
+    "total_sales_scaled": 2249100.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1037",
+    "address": null,
+    "phone": "75402547",
+    "first_order": "2025-11-29 21:04:",
+    "last_order": "2025-11-29 21:04:",
+    "total_sales_scaled": 2416680.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1099",
+    "address": null,
+    "phone": "29284222",
+    "first_order": "2025-11-28 19:58:",
+    "last_order": "2025-11-28 19:58:",
+    "total_sales_scaled": 2679810.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0907",
+    "address": null,
+    "phone": "23105927",
+    "first_order": "2025-11-27 15:13:",
+    "last_order": "2025-11-27 15:13:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1100",
+    "address": null,
+    "phone": "45238055",
+    "first_order": "2025-11-26 17:55:",
+    "last_order": "2025-11-26 17:55:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1101",
+    "address": null,
+    "phone": "25782841",
+    "first_order": "2025-11-24 20:42:",
+    "last_order": "2025-11-24 20:42:",
+    "total_sales_scaled": 4233600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1102",
+    "address": null,
+    "phone": "06727520",
+    "first_order": "2025-11-22 15:29:",
+    "last_order": "2025-11-22 15:32:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0767",
+    "address": null,
+    "phone": "28326842",
+    "first_order": "2025-11-22 21:36:",
+    "last_order": "2025-11-22 21:36:",
+    "total_sales_scaled": 4630500.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1103",
+    "address": null,
+    "phone": "88547492",
+    "first_order": "2025-11-21 21:05:",
+    "last_order": "2025-11-21 21:05:",
+    "total_sales_scaled": 3076710.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1104",
+    "address": null,
+    "phone": "97517028",
+    "first_order": "2025-11-19 13:24:",
+    "last_order": "2025-11-19 13:24:",
+    "total_sales_scaled": 2679810.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1105",
+    "address": null,
+    "phone": "14069375",
+    "first_order": "2025-11-16 19:37:",
+    "last_order": "2025-11-16 19:37:",
+    "total_sales_scaled": 3505949.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1106",
+    "address": null,
+    "phone": "15093983",
+    "first_order": "2025-11-13 12:37:",
+    "last_order": "2025-11-13 12:37:",
+    "total_sales_scaled": 3505950.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1107",
+    "address": null,
+    "phone": "43018718",
+    "first_order": "2025-11-13 20:55:",
+    "last_order": "2025-11-13 20:55:",
+    "total_sales_scaled": 6019650.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1108",
+    "address": null,
+    "phone": "63759980",
+    "first_order": "2025-11-12 21:48:",
+    "last_order": "2025-11-12 21:48:",
+    "total_sales_scaled": 2579850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1109",
+    "address": null,
+    "phone": "56265650",
+    "first_order": "2025-11-11 19:24:",
+    "last_order": "2025-11-11 19:24:",
+    "total_sales_scaled": 4432049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1110",
+    "address": null,
+    "phone": "45547813",
+    "first_order": "2025-11-10 20:51:",
+    "last_order": "2025-11-10 20:51:",
+    "total_sales_scaled": 3109049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1111",
+    "address": null,
+    "phone": "76742662",
+    "first_order": "2025-11-10 21:04:",
+    "last_order": "2025-11-10 21:04:",
+    "total_sales_scaled": 2976750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0792",
+    "address": null,
+    "phone": "65177739",
+    "first_order": "2025-11-09 19:10:",
+    "last_order": "2025-11-09 19:10:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1112",
+    "address": null,
+    "phone": "99123478",
+    "first_order": "2025-11-09 17:30:",
+    "last_order": "2025-11-10 09:18:",
+    "total_sales_scaled": 2976750.0,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1113",
+    "address": null,
+    "phone": "51961064",
+    "first_order": "2025-11-08 17:36:",
+    "last_order": "2025-11-08 17:36:",
+    "total_sales_scaled": 2349060.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1050",
+    "address": null,
+    "phone": "62879232",
+    "first_order": "2025-11-08 20:20:",
+    "last_order": "2025-11-08 20:20:",
+    "total_sales_scaled": 2613660.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1114",
+    "address": null,
+    "phone": "64870494",
+    "first_order": "2025-11-07 20:47:",
+    "last_order": "2025-11-07 20:47:",
+    "total_sales_scaled": 3902850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1115",
+    "address": null,
+    "phone": "78730024",
+    "first_order": "2025-11-07 21:51:",
+    "last_order": "2025-11-07 21:51:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1116",
+    "address": null,
+    "phone": "47146273",
+    "first_order": "2025-11-06 21:42:",
+    "last_order": "2025-11-06 21:42:",
+    "total_sales_scaled": 2712149.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1117",
+    "address": null,
+    "phone": "01471959",
+    "first_order": "2025-11-06 19:47:",
+    "last_order": "2025-11-06 19:47:",
+    "total_sales_scaled": 3307499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1118",
+    "address": null,
+    "phone": "79647158",
+    "first_order": "2025-11-03 17:00:",
+    "last_order": "2025-11-03 17:00:",
+    "total_sales_scaled": 4498199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0854",
+    "address": null,
+    "phone": "78487282",
+    "first_order": "2025-11-02 21:23:",
+    "last_order": "2025-12-06 16:31:",
+    "total_sales_scaled": 3307500.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1119",
+    "address": null,
+    "phone": "90429025",
+    "first_order": "2025-11-02 20:03:",
+    "last_order": "2025-11-02 20:03:",
+    "total_sales_scaled": 3109049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1120",
+    "address": null,
+    "phone": "72520456",
+    "first_order": "2025-10-31 12:14:",
+    "last_order": "2025-10-31 12:14:",
+    "total_sales_scaled": 1323000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1121",
+    "address": null,
+    "phone": "50448183",
+    "first_order": "2025-10-31 16:41:",
+    "last_order": "2025-10-31 21:13:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0974",
+    "address": null,
+    "phone": "21928554",
+    "first_order": "2025-10-31 12:35:",
+    "last_order": "2025-10-31 12:35:",
+    "total_sales_scaled": 1852199.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1122",
+    "address": null,
+    "phone": "45189520",
+    "first_order": "2025-10-28 19:38:",
+    "last_order": "2025-10-28 19:38:",
+    "total_sales_scaled": 2116799.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1123",
+    "address": null,
+    "phone": "28457652",
+    "first_order": "2025-10-28 21:53:",
+    "last_order": "2025-10-28 21:53:",
+    "total_sales_scaled": 4299750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1124",
+    "address": null,
+    "phone": "13283389",
+    "first_order": "2025-10-11 19:52:",
+    "last_order": "2025-10-11 19:52:",
+    "total_sales_scaled": 1886010.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0873",
+    "address": null,
+    "phone": "43503136",
+    "first_order": "2025-10-07 19:29:",
+    "last_order": "2025-10-07 19:29:",
+    "total_sales_scaled": 3209009.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1125",
+    "address": null,
+    "phone": "88816711",
+    "first_order": "2025-10-03 16:05:",
+    "last_order": "2025-10-10 17:05:",
+    "total_sales_scaled": 2249099.9,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1126",
+    "address": null,
+    "phone": "20754527",
+    "first_order": "2025-09-30 21:55:",
+    "last_order": "2025-09-30 21:55:",
+    "total_sales_scaled": 2182949.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0863",
+    "address": null,
+    "phone": "24179749",
+    "first_order": "2025-09-25 18:29:",
+    "last_order": "2025-09-25 18:29:",
+    "total_sales_scaled": 1256850.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1127",
+    "address": null,
+    "phone": "98524013",
+    "first_order": "2025-09-17 12:12:",
+    "last_order": "2025-09-17 12:12:",
+    "total_sales_scaled": 827610.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1128",
+    "address": null,
+    "phone": "22342321",
+    "first_order": "2025-09-14 21:00:",
+    "last_order": "2025-09-14 21:00:",
+    "total_sales_scaled": 2316720.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1129",
+    "address": null,
+    "phone": "61107603",
+    "first_order": "2025-08-29 20:34:",
+    "last_order": "2025-12-12 20:58:",
+    "total_sales_scaled": 7541100.0,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1130",
+    "address": null,
+    "phone": "10890714",
+    "first_order": "2025-10-17 21:30:",
+    "last_order": "2025-10-17 21:30:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0837",
+    "address": null,
+    "phone": "56472929",
+    "first_order": "2025-10-07 19:43:",
+    "last_order": "2025-11-20 18:49:",
+    "total_sales_scaled": 9492524.9,
+    "num_orders": 5
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1131",
+    "address": null,
+    "phone": "01401193",
+    "first_order": "2025-09-24 14:27:",
+    "last_order": "2025-09-24 14:27:",
+    "total_sales_scaled": 2050649.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1132",
+    "address": null,
+    "phone": "93250124",
+    "first_order": "2025-09-07 15:59:",
+    "last_order": "2025-09-07 15:59:",
+    "total_sales_scaled": 6384210.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1133",
+    "address": null,
+    "phone": "95528938",
+    "first_order": "2025-09-01 17:13:",
+    "last_order": "2025-09-01 17:13:",
+    "total_sales_scaled": 3373649.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1134",
+    "address": null,
+    "phone": "91190833",
+    "first_order": "2025-08-31 13:05:",
+    "last_order": "2025-08-31 22:08:",
+    "total_sales_scaled": 0.0,
+    "num_orders": 4
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1135",
+    "address": null,
+    "phone": "42801387",
+    "first_order": "2025-08-20 21:37:",
+    "last_order": "2025-08-20 21:37:",
+    "total_sales_scaled": 4432049.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1136",
+    "address": null,
+    "phone": "59271256",
+    "first_order": "2025-10-22 16:01:",
+    "last_order": "2025-10-22 16:01:",
+    "total_sales_scaled": 1984499.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1137",
+    "address": null,
+    "phone": "63836151",
+    "first_order": "2025-10-16 16:59:",
+    "last_order": "2025-10-16 16:59:",
+    "total_sales_scaled": 4564349.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1138",
+    "address": null,
+    "phone": "71827548",
+    "first_order": "2025-10-13 17:47:",
+    "last_order": "2025-10-13 17:47:",
+    "total_sales_scaled": 1587600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0840",
+    "address": null,
+    "phone": "88574489",
+    "first_order": "2025-10-11 21:06:",
+    "last_order": "2025-10-11 21:06:",
+    "total_sales_scaled": 4365900.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1139",
+    "address": null,
+    "phone": "01571647",
+    "first_order": "2025-10-08 16:23:",
+    "last_order": "2025-10-08 16:23:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1140",
+    "address": null,
+    "phone": "94738646",
+    "first_order": "2025-09-14 14:43:",
+    "last_order": "2025-09-14 14:43:",
+    "total_sales_scaled": 2812110.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1141",
+    "address": null,
+    "phone": "31752071",
+    "first_order": "2025-09-04 21:01:",
+    "last_order": "2025-09-04 21:01:",
+    "total_sales_scaled": 2910600.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1142",
+    "address": null,
+    "phone": "67811266",
+    "first_order": "2025-10-18 20:30:",
+    "last_order": "2025-10-18 20:30:",
+    "total_sales_scaled": 1653750.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1143",
+    "address": null,
+    "phone": "91215353",
+    "first_order": "2025-10-05 20:43:",
+    "last_order": "2025-10-05 20:43:",
+    "total_sales_scaled": 3902849.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_0849",
+    "address": null,
+    "phone": "22023413",
+    "first_order": "2025-10-05 20:06:",
+    "last_order": "2025-10-05 20:06:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1144",
+    "address": null,
+    "phone": "96136749",
+    "first_order": "2025-08-25 21:32:",
+    "last_order": "2025-08-25 21:32:",
+    "total_sales_scaled": 4365899.9,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1145",
+    "address": null,
+    "phone": "94657967",
+    "first_order": "2025-09-24 19:18:",
+    "last_order": "2025-12-11 20:10:",
+    "total_sales_scaled": 6085799.9,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1146",
+    "address": null,
+    "phone": "84271147",
+    "first_order": "2025-09-15 14:34:",
+    "last_order": "2025-09-15 14:34:",
+    "total_sales_scaled": 2116800.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1147",
+    "address": null,
+    "phone": "73201017",
+    "first_order": "2025-09-05 14:38:",
+    "last_order": "2025-09-06 09:47:",
+    "total_sales_scaled": 1918349.9,
+    "num_orders": 3
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1148",
+    "address": null,
+    "phone": "02695249",
+    "first_order": "2025-08-27 18:19:",
+    "last_order": "2025-08-29 20:41:",
+    "total_sales_scaled": 3307499.9,
+    "num_orders": 2
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1149",
+    "address": null,
+    "phone": "91187734",
+    "first_order": "2025-10-21 21:30:",
+    "last_order": "2025-10-21 21:30:",
+    "total_sales_scaled": 2646000.0,
+    "num_orders": 1
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1150",
+    "address": null,
+    "phone": "77848588",
+    "first_order": "2025-10-16 15:12:",
+    "last_order": "2025-10-16 15:12:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1151",
+    "address": null,
+    "phone": "00616756",
+    "first_order": "2025-10-05 19:57:",
+    "last_order": "2025-10-05 19:57:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1152",
+    "address": null,
+    "phone": "77002842",
+    "first_order": "2025-09-14 16:03:",
+    "last_order": "2025-09-14 16:03:",
+    "total_sales_scaled": null,
+    "num_orders": 0
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1153",
+    "address": null,
+    "phone": "76246719",
+    "first_order": "2025-09-09 21:31:",
+    "last_order": "2025-09-09 21:31:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1154",
+    "address": null,
+    "phone": "78897782",
+    "first_order": "2025-09-09 17:12:",
+    "last_order": "2025-12-12 19:15:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1155",
+    "address": null,
+    "phone": "80647969",
+    "first_order": "2025-09-07 19:20:",
+    "last_order": "2025-09-07 19:20:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1156",
+    "address": null,
+    "phone": "54500902",
+    "first_order": "2025-09-06 12:26:",
+    "last_order": "2025-09-06 12:26:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1157",
+    "address": null,
+    "phone": "55905616",
+    "first_order": "2025-10-18 12:25:",
+    "last_order": "2025-10-18 12:25:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1158",
+    "address": null,
+    "phone": "55650333",
+    "first_order": "2025-10-13 18:10:",
+    "last_order": "2025-10-13 18:10:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1159",
+    "address": null,
+    "phone": "49114152",
+    "first_order": "2025-10-15 21:35:",
+    "last_order": "2025-10-15 21:37:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1160",
+    "address": null,
+    "phone": "08507698",
+    "first_order": "2025-10-01 21:53:",
+    "last_order": "2025-11-05 21:28:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1161",
+    "address": null,
+    "phone": "64079056",
+    "first_order": "2025-09-21 18:11:",
+    "last_order": "2025-09-21 18:11:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1162",
+    "address": null,
+    "phone": "96591713",
+    "first_order": "2025-09-21 18:07:",
+    "last_order": "2025-10-05 17:54:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1163",
+    "address": null,
+    "phone": "57852945",
+    "first_order": "2025-09-12 18:25:",
+    "last_order": "2025-09-12 18:25:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1164",
+    "address": null,
+    "phone": "63718344",
+    "first_order": "2025-08-24 21:18:",
+    "last_order": "2025-08-24 21:18:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1165",
+    "address": null,
+    "phone": "04963919",
+    "first_order": "2025-08-22 20:57:",
+    "last_order": "2025-09-02 17:42:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Conut Jnah",
+    "customer_name": "Person_1166",
+    "address": null,
+    "phone": "9315727",
+    "first_order": "2025-09-08 20:09:",
+    "last_order": "2025-09-08 20:09:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1167",
+    "address": null,
+    "phone": "19541987",
+    "first_order": "2025-12-14 17:33:",
+    "last_order": "2025-12-14 17:33:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1168",
+    "address": null,
+    "phone": "63514846",
+    "first_order": "2025-11-21 22:43:",
+    "last_order": "2025-11-21 22:43:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1169",
+    "address": null,
+    "phone": "85366498",
+    "first_order": "2025-11-15 21:51:",
+    "last_order": "2025-11-15 21:51:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1170",
+    "address": null,
+    "phone": "78208297",
+    "first_order": "2025-11-13 17:22:",
+    "last_order": "2025-11-14 17:26:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1171",
+    "address": null,
+    "phone": "37489690",
+    "first_order": "2025-11-09 16:27:",
+    "last_order": "2025-11-09 16:27:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1172",
+    "address": null,
+    "phone": "83572324",
+    "first_order": "2025-11-06 20:01:",
+    "last_order": "2025-12-21 23:16:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1173",
+    "address": null,
+    "phone": "66513644",
+    "first_order": "2025-11-06 18:33:",
+    "last_order": "2025-11-06 18:33:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1174",
+    "address": null,
+    "phone": "24936312",
+    "first_order": "2025-11-02 20:12:",
+    "last_order": "2025-11-17 21:51:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1175",
+    "address": null,
+    "phone": "30347786",
+    "first_order": "2025-11-28 22:29:",
+    "last_order": "2025-11-28 22:29:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1180",
+    "address": "Koubba , Batroun",
+    "phone": "60324204",
+    "first_order": "2025-10-08 23:28:",
+    "last_order": "2025-10-08 23:28:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1176",
+    "address": null,
+    "phone": "83572324",
+    "first_order": "2025-10-07 18:53:",
+    "last_order": "2025-12-28 18:25:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1177",
+    "address": null,
+    "phone": "48207001",
+    "first_order": "2025-10-05 17:50:",
+    "last_order": "2025-10-05 17:50:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1178",
+    "address": null,
+    "phone": "59416516",
+    "first_order": "2025-09-28 21:16:",
+    "last_order": "2025-09-28 21:16:",
+    "total_sales_scaled": null,
+    "num_orders": null
+  },
+  {
+    "branch": "Main Street Coffee",
+    "customer_name": "Person_1179",
+    "address": null,
+    "phone": "9315727",
+    "first_order": "2025-11-15 21:52:",
+    "last_order": "2025-11-15 21:52:",
+    "total_sales_scaled": null,
+    "num_orders": 0
+  }
+]
