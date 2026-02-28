@@ -1,0 +1,7 @@
+{
+  "cv_folds": 4,
+  "cv_mae_mean": 0.02139,
+  "cv_mae_std": 0.00564,
+  "trained_at": "2026-02-28T17:49:55.370433",
+  "best_params": null
+}
