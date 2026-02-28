@@ -1,0 +1,145 @@
+[
+  {
+    "branch": "Conut",
+    "all_time_high": 1351165728.11,
+    "ath_month": "November",
+    "current_month": {
+      "month": "December",
+      "year": 2025,
+      "total_scaled": 67887513.35
+    },
+    "monthly_sales": [
+      {
+        "month": "August",
+        "year": 2025,
+        "total_scaled": 554074782.88
+      },
+      {
+        "month": "September",
+        "year": 2025,
+        "total_scaled": 784385377.11
+      },
+      {
+        "month": "October",
+        "year": 2025,
+        "total_scaled": 1137352241.41
+      },
+      {
+        "month": "November",
+        "year": 2025,
+        "total_scaled": 1351165728.11
+      },
+      {
+        "month": "December",
+        "year": 2025,
+        "total_scaled": 67887513.35
+      }
+    ]
+  },
+  {
+    "branch": "Conut - Tyre",
+    "all_time_high": 2100816729.45,
+    "ath_month": "October",
+    "current_month": {
+      "month": "December",
+      "year": 2025,
+      "total_scaled": 1024205946.3
+    },
+    "monthly_sales": [
+      {
+        "month": "August",
+        "year": 2025,
+        "total_scaled": 477535459.07
+      },
+      {
+        "month": "September",
+        "year": 2025,
+        "total_scaled": 444800810.51
+      },
+      {
+        "month": "October",
+        "year": 2025,
+        "total_scaled": 2100816729.45
+      },
+      {
+        "month": "November",
+        "year": 2025,
+        "total_scaled": 1129526810.42
+      },
+      {
+        "month": "December",
+        "year": 2025,
+        "total_scaled": 1024205946.3
+      }
+    ]
+  },
+  {
+    "branch": "Conut Jnah",
+    "all_time_high": 2878191130.49,
+    "ath_month": "December",
+    "current_month": {
+      "month": "December",
+      "year": 2025,
+      "total_scaled": 2878191130.49
+    },
+    "monthly_sales": [
+      {
+        "month": "August",
+        "year": 2025,
+        "total_scaled": 363540268.13
+      },
+      {
+        "month": "September",
+        "year": 2025,
+        "total_scaled": 714037266.45
+      },
+      {
+        "month": "October",
+        "year": 2025,
+        "total_scaled": 785925564.58
+      },
+      {
+        "month": "November",
+        "year": 2025,
+        "total_scaled": 947652050.58
+      },
+      {
+        "month": "December",
+        "year": 2025,
+        "total_scaled": 2878191130.49
+      }
+    ]
+  },
+  {
+    "branch": "Main Street Coffee",
+    "all_time_high": 3074216293.59,
+    "ath_month": "December",
+    "current_month": {
+      "month": "December",
+      "year": 2025,
+      "total_scaled": 3074216293.59
+    },
+    "monthly_sales": [
+      {
+        "month": "September",
+        "year": 2025,
+        "total_scaled": 145842540.35
+      },
+      {
+        "month": "October",
+        "year": 2025,
+        "total_scaled": 920588160.21
+      },
+      {
+        "month": "November",
+        "year": 2025,
+        "total_scaled": 1171534376.2
+      },
+      {
+        "month": "December",
+        "year": 2025,
+        "total_scaled": 3074216293.59
+      }
+    ]
+  }
+]
